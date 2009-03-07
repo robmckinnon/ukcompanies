@@ -1,22 +1,30 @@
 class CompaniesController < ApplicationController
 
+  before_filter :ensure_current_url, :only => :show
 
-
-  
-  # fuzzy match
   def search
-     @query  =  params[:q]
-     #@nice_name = name.gsub(/_|-/,' ').titleize
-     @companies = Company.find_all_by_company_name(@query)
-     redirect_to companies_url(@companies.first) if @companies.size == 1
+    @query  =  params[:q]
+    @companies = Company.find_all_by_company_name(@query)
+
+    if @companies.empty?
+      @companies = [Company.find_this(@query)]
+    end
+    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id if @companies.size == 1
   end
-      
-  # exact match
+
   def show
-    #name  =  params[:path].first if params[:path].instance_of?(Array) 
-    #@nice_name = name.gsub(/_|-/,' ').titleize
-    @company = Company.find(:first)    
   end
 
+  private
 
+    def ensure_current_url
+      begin
+        unless params[:id].include? '+'
+          @company = Company.find_this(params[:id])
+          redirect_to @company, :status => :moved_permanently if @company.has_better_id?
+        end
+      rescue
+        render_not_found
+      end
+    end
 end
