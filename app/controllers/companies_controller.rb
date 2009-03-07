@@ -19,10 +19,10 @@ class CompaniesController < ApplicationController
   def show
     respond_to do |format|
       format.html
-      format.xml { render :xml => @company.to_xml }
+      format.xml { render :xml => @company.to_more_xml }
     end
   end
-  
+
   def companies_house
     p params
     if @company.companies_house_url.blank?
