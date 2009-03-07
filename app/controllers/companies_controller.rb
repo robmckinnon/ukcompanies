@@ -13,8 +13,8 @@ class CompaniesController < ApplicationController
       
   # exact match
   def show
-    name  =  params[:path].first if params[:path].instance_of?(Array) 
-    @nice_name = name.gsub(/_|-/,' ').titleize
+    #name  =  params[:path].first if params[:path].instance_of?(Array) 
+    #@nice_name = name.gsub(/_|-/,' ').titleize
     @company = Company.find(:first)    
   end
 
