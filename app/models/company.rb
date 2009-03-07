@@ -8,7 +8,11 @@ class Company < ActiveRecord::Base
   def companies_house_url
     @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
   end
-
+  
+  def companies_house_data
+    @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
+  end
+  
   class << self
     def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
