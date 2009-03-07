@@ -29,6 +29,11 @@ module CompaniesHouse
     answer
   end
 
+  def self.url_for_number(number)
+    connection=CompaniesHouseConnection.new
+    connection.urlForNumber(number)  
+  end
+
   class CompaniesHouseConnection
     attr_reader :sessionId
     def initialize
@@ -49,6 +54,13 @@ module CompaniesHouse
       redirect=result['location']
       path="/#{sessionId}/#{redirect}"
       @connection.get(path)
+    end
+    def urlForNumber(number)
+      path="/#{sessionId}/companysearch"
+      result=@connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
+      redirect=result['location']
+      path="/#{sessionId}/#{redirect}"
+      path=~/compdetails/ ? "http://#{Server}#{path}" : nil
     end
     def queryACompany(link)
       path="/#{sessionId}/#{link}"
