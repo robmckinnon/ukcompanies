@@ -6,6 +6,9 @@ class CompaniesController < ApplicationController
     @query  =  params[:q]
     @companies = Company.find_all_by_company_name(@query)
 
+    if @companies.empty?
+      @companies = [Company.find_this(@query)]
+    end
     redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id if @companies.size == 1
   end
 
