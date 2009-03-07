@@ -60,7 +60,7 @@ module CompaniesHouse
       result=@connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
       redirect=result['location']
       path="/#{sessionId}/#{redirect}"
-      "http://#{Server}#{path}"
+      path=~/compdetails/ ? "http://#{Server}#{path}" : nil
     end
     def queryACompany(link)
       path="/#{sessionId}/#{link}"
