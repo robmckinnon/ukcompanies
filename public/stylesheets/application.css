@@ -14,13 +14,21 @@ div#header {
 
 div#profile {
   padding-left: 20px;
-  width: 500px;
 }
 
 
 #profile .address {
-  float: left;
+}
+
+#profile .companies-direct-link
+{
+    
+}
+
+#profile .panel {
   padding-left: 10px;
+
+  float: left;
 }
 
 #profile .logo {

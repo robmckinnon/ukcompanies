@@ -1,17 +1,21 @@
 <div id="profile">
 <h1><%= @company.name %></h1>
 <%= image_tag 'placeholder.gif', :class => 'logo'  %>
-<p class="address">
-  <%= @company.address.gsub(',','<br />')%>
-</p>
 
-<% unless @company.companies_house_url.blank? %>
-<p>More about <%= link_to @company.name, @company.companies_house_url %> on <%= link_to 'Companies House', 'http://www.companieshouse.gov.uk' %>
-<% end %>
+<div class="panel">
+    <p class="address">
+      <%= @company.address.gsub(',','<br />')%>
+    </p>
 
-<p class="number">
-  <%= @company.company_number %>
-</p>
+    <p class="number">
+      <%= @company.company_number %>
+    </p>
+
+
+    <% unless @company.companies_house_url.blank? %>
+       <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, @company.companies_house_url %> on <%= link_to 'Companies House', 'http://www.companieshouse.gov.uk' %></p>
+    <% end %>
+</div>
 <br style="clear: both" />
 </div>
 
