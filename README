@@ -3,6 +3,8 @@
 
 ==Installing
 
+sudo gem install unicode
+
 # clone on github
 
 git remote add rob git://github.com/robmckinnon/ukcompanies.git -t master
