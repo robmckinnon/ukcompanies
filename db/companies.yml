@@ -191,3 +191,231 @@
     created_at: 2009-03-07 15:34:18
   attributes_cache: {}
 
+- !ruby/object:Company 
+  attributes: 
+    name: ATOS ORIGIN IT SERVICES UK LIMITED
+    company_number: "01245534"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:36:59
+    url: 
+    id: "21"
+    address: 4 Triton Sq, Regents Pl, London NW1 3HG
+    created_at: 2009-03-07 15:36:59
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ATTENDA LIMITED
+    company_number: 03276974
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:37:09
+    url: 
+    id: "22"
+    address: One London Road, Staines, Middlesex, TW18 4EX
+    created_at: 2009-03-07 15:37:09
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Avaya
+    company_number: NL03414510
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:37:29
+    url: 
+    id: "23"
+    address: Prospect Ho, 2 Athenaeum Rd, London N20 9YU
+    created_at: 2009-03-07 15:37:29
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BABY PRODUCTS ASSOCIATION
+    company_number: NL17506306
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:37:51
+    url: 
+    id: "24"
+    address: THE COACH HO VICARAGE RD PITSTONE LEIGHTON BUZZARD LU7 9EY
+    created_at: 2009-03-07 15:37:51
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BAKER TILLEY
+    company_number: NL17497277
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:38:11
+    url: 
+    id: "25"
+    address: PARK HOSTATION SQCOVENTRYCV1 2NS
+    created_at: 2009-03-07 15:38:11
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BALLYMORE PROPERTIES
+    company_number: IE152387
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:38:45
+    url: 
+    id: "26"
+    address: FONTHILL HOUSE, OLD LUCAN ROAD, PALMERSTOWN,
+    created_at: 2009-03-07 15:38:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BANCTEC LTD
+    company_number: IE03080E
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:38:58
+    url: 
+    id: "27"
+    address: CURRAN HOUSE, 9/12, FLEET STREET,, DUBLIN 2,
+    created_at: 2009-03-07 15:38:58
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: bbc
+    company_number: NL16749627
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:40:09
+    url: 
+    id: "28"
+    address: 75-77 WHITE ABBEY RD BRADFORDBD8 8DR
+    created_at: 2009-03-07 15:40:09
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BDO STOY HAYWARD
+    company_number: NL18709799
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:40:19
+    url: 
+    id: "29"
+    address: WILLOUGHBY HO439 RICHMOND RDNEAR RICHMOND BRIDGE TWICKENHAMTW1 2HA
+    created_at: 2009-03-07 15:40:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BEECHES MANAGEMENT CENTRE
+    company_number: NL17611115
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:40:50
+    url: 
+    id: "30"
+    address: 12 HAMPTON MANOR DRBELFAST BT7 3EN
+    created_at: 2009-03-07 15:40:50
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BELFAST CITY COUNCIL
+    company_number: NL17592812
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:41:08
+    url: 
+    id: "31"
+    address: LEGAL SERVICES DEPTCITY HALL BELFAST BT1 5GS
+    created_at: 2009-03-07 15:41:08
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BELFAST HARBOUR COMMISSIONERS
+    company_number: NL16908917
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:41:14
+    url: 
+    id: "32"
+    address: DUFFERIN RDBELFAST BT3 9AA
+    created_at: 2009-03-07 15:41:14
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BELLWAY HOMES
+    company_number: NL18089219
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:41:22
+    url: 
+    id: "33"
+    address: BELLWAY HO RAINSFORD RDCM1 2PZ
+    created_at: 2009-03-07 15:41:22
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BGL RIEBER LIMITED
+    company_number: 02158715
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:42:29
+    url: 
+    id: "34"
+    address: Unit 6 Lancaster Pk Ind, Est Bowerhill, Melksham, Wilts SN12 6TT
+    created_at: 2009-03-07 15:42:29
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BIOINDUSTRY ASSOCIATION
+    company_number: 01889626
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:43:11
+    url: 
+    id: "35"
+    address: 14/15 Belgrave Square, London, SW1X 8PS
+    created_at: 2009-03-07 15:43:11
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Blake Lapthorn Tarlo Lyons
+    company_number: NL90053053
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:43:24
+    url: 
+    id: "36"
+    address: SEACOURT TOWER WEST WAYOXFORDOX2 0FB
+    created_at: 2009-03-07 15:43:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BP LPG UK
+    company_number: NL17882094
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:44:26
+    url: 
+    id: "37"
+    address: THE RIDE PLYMOUTHPL9 7JT
+    created_at: 2009-03-07 15:44:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRISTOL CITY COUNCIL
+    company_number: NL18646789
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:44:54
+    url: 
+    id: "38"
+    address: HILLFIELDS PARK YOUTH CENTRE THICKET AVENUEBRISTOL BS16 4EH
+    created_at: 2009-03-07 15:44:54
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Bristol-Myers Squibb
+    company_number: NL04381597
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:45:14
+    url: 
+    id: "39"
+    address: Uxbridge Business Pk, Sanderson Rd, Uxbridge, Middx UB8 1DH
+    created_at: 2009-03-07 15:45:14
+  attributes_cache: {}
+
