@@ -1,0 +1,6 @@
+class CompaniesController < ApplicationController
+
+
+
+
+end

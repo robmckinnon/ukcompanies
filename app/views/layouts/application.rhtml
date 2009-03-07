@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Compani.es - The alternative Open Companies House"/>
+		<meta name="keywords" content="twitter,search,realtime"/>
+		<title>Comapani.es Open House</title>
+		<%=   stylesheet_link_tag("application") %>
+	
+	    <style>
+		    body {
+		    	margin: 0px;
+		    	padding: 0px;
+		    	font-family: verdana;
+		    	font-size: 12px;
+		    }
+ 
+			div#layout { /* exploder 5.5+ */
+				width: expression((document.body.clientWidth > 790 ? document.body.clientWidth : 790) + "px");
+				height: expression((document.body.clientHeight > 490 ? document.body.clientHeight : 490) + "px");
+			}
+ 
+			div#container,
+			div#container div.container-top,
+			div#container div.container-bottom {
+				width: 790px;
+			}
+ 
+			div#container,
+			div#container div.container-right,
+			div#container div.container-left {
+				height: 390px;
+			}
+ 
+			/* colors */
+			div#container {
+				background: #FFFFFF;
+			}
+ 
+			div#container div.container-top {
+			}
+ 
+			div#container div.container-right {
+			}
+ 
+			div#container div.container-bottom {
+        
+			}
+ 
+			div#container div.container-left {
+			}
+ 
+			div#container div.container-top-right {
+			}
+ 
+			div#container div.container-bottom-right {
+			}
+ 
+			div#container div.container-bottom-left {
+			}
+ 
+			div#container div.container-top-left {
+			}
+		</style>
+ 
+	
+	
+	</head>
+	<body>
+        <div id="layout">
+        			<div id="container">
+                         <%= yield %>
+        			</div>
+        		</div>
+
+	</body>
+</html>

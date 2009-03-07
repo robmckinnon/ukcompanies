@@ -1,0 +1,21 @@
+==About
+
+
+==Installing
+
+sudo gem install unicode
+
+# clone on github
+
+git remote add rob git://github.com/robmckinnon/ukcompanies.git -t master
+git fetch rob master
+git submodule init
+git submodule update
+
+
+# update/add your database.yml
+rake db:migrate
+
+
+
+Notes: Plugins are submodules..
