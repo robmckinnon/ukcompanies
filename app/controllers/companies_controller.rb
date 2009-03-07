@@ -13,7 +13,11 @@ class CompaniesController < ApplicationController
         @companies = []
       end
     end
-    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format] if @companies.size == 1
+    if params[:format] == 'xml'
+      render :xml => @companies.first.to_more_xml if @companies.size == 1
+    else
+      redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format] if @companies.size == 1
+    end
   end
 
   def show
