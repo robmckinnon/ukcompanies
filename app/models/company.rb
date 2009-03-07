@@ -6,7 +6,7 @@ class Company < ActiveRecord::Base
   has_many :ogc_suppliers
 
   class << self
-    def find_by_company_name name
+    def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
     end
 
@@ -17,5 +17,6 @@ class Company < ActiveRecord::Base
       end
       company
     end
+
   end
 end
