@@ -1,45 +1,45 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="description" content="Compani.es - The alternative Open Companies House"/>
-		<meta name="keywords" content="twitter,search,realtime"/>
-		<title>Compani.es Open House</title>
-		<%= stylesheet_link_tag("application") %>
-		<%= javascript_include_tag("jquery-1.3.2.min", "application") %>
-	    <%= yield :head %>
-	</head>
-	<body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Compani.es - The alternative Open Companies House"/>
+    <meta name="keywords" content="twitter,search,realtime"/>
+    <title>Compani.es Open House</title>
+    <%= stylesheet_link_tag("application") %>
+    <%= javascript_include_tag("jquery-1.3.2.min", "application") %>
+      <%= yield :head %>
+  </head>
+  <body>
         <div id="layout">
-		          <div id="header" >	
-					      <%= link_to(image_tag('coh.png'), '/') %>
-					      <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
-					    </div>
+              <div id="header" >
+                <%= link_to(image_tag('coh.png'), '/') %>
+                <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
+              </div>
 
-			  			<div id="container">
+              <div id="container">
 
                          <%= yield %>
-                         
+
                          <div id="footer">
                          <div id="rsproduct"  style="padding-top: 150px;">
-                         <div style="float: left; padding: 10px">       
+                         <div style="float: left; padding: 10px">
                            <%= image_tag('logo/rs_bigger.png') %>
                          </div>
                          <div >
                          <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the Rewired State Hackday.<br /> See <%= link_to('Rewired State','http://rewiredstate.org/') %> for details of the event.<br />
                          <span style="font-size: 10px">
-														Credits:
-														<a href="http://twitter.com/delineator">@delineator</a>
-														<a href="http://effectif.com">Graham Ashton</a>
-														<a href="http://twitter.com/jamespjh">@jamespjh</a>
-														<a href="http://twitter.com/martinbtt">@martinbtt</a>
-														<a href="http://twitter.com/metade">@metade</a>
-												 </span>    
+                            Credits:
+                            <a href="http://twitter.com/delineator">@delineator</a>
+                            <a href="http://twitter.com/grahamashton">@grahamashton</a>
+                            <a href="http://twitter.com/jamespjh">@jamespjh</a>
+                            <a href="http://twitter.com/martinbtt">@martinbtt</a>
+                            <a href="http://twitter.com/metade">@metade</a>
+                         </span>
                              </p>
                          </div>
                          </div>
-        			</div>
-        		</div>
+              </div>
+            </div>
 
-	</body>
+  </body>
 </html>
