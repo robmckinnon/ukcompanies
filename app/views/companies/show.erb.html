@@ -1,5 +1,9 @@
 <div id="profile">
-<h1><%= @nice_name %></h1>
-<%= image_tag 'placeholder.gif' %>
+<h1><%= @company.name %></h1>
+<%= image_tag 'placeholder.gif', :class => 'logo'  %>
+<p class="address">
+  <%= @company.address.gsub(',','<br />')%>
+</p>
+<p>
 </div>
 
