@@ -4,6 +4,11 @@
 <p class="address">
   <%= @company.address.gsub(',','<br />')%>
 </p>
+
+<% unless @company.companies_house_url.blank? %>
+<p>More about <%= link_to @company.name, @company.companies_house_url %> on <%= link_to 'Companies House', 'http://www.companieshouse.gov.uk' %>
+<% end %>
+
 <p class="number">
   <%= @company.company_number %>
 </p>
