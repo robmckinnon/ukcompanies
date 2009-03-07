@@ -16,3 +16,6 @@
 [submodule "vendor/plugins/friendly_id"]
 	path = vendor/plugins/friendly_id
 	url = git://github.com/norman/friendly_id.git
+[submodule "vendor/plugins/ar_fixtures"]
+	path = vendor/plugins/ar_fixtures
+	url = git://github.com/topfunky/ar_fixtures.git
