@@ -1,6 +1,6 @@
 class CompaniesController < ApplicationController
 
-  before_filter :ensure_current_url, :only => :show
+  before_filter :ensure_current_url, :only => [:show, :companies_house]
 
   def search
     @query = params[:q]
@@ -20,6 +20,15 @@ class CompaniesController < ApplicationController
     respond_to do |format|
       format.html
       format.xml { render :xml => @company.to_xml }
+    end
+  end
+  
+  def companies_house
+    p params
+    if @company.companies_house_url.blank?
+      redirect_to company_path(@company)
+    else
+      redirect_to @company.companies_house_url
     end
   end
 
