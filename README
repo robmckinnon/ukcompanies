@@ -13,4 +13,9 @@ git submodule init
 git submodule update
 
 
-Plugins are submodules..
+# update/add your database.yml
+rake db:migrate
+
+
+
+Notes: Plugins are submodules..
