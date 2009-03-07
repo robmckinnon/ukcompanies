@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090307121056) do
+ActiveRecord::Schema.define(:version => 20090307142721) do
 
   create_table "companies", :force => true do |t|
     t.string   "name"
@@ -24,6 +24,25 @@ ActiveRecord::Schema.define(:version => 20090307121056) do
   add_index "companies", ["company_number"], :name => "index_companies_on_company_number"
   add_index "companies", ["name"], :name => "index_companies_on_name"
   add_index "companies", ["url"], :name => "index_companies_on_url"
+
+  create_table "lobbyist_clients", :force => true do |t|
+    t.string   "name"
+    t.integer  "company_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "lobbyist_clients", ["company_id"], :name => "index_lobbyist_clients_on_company_id"
+
+  create_table "ogc_suppliers", :force => true do |t|
+    t.string   "name"
+    t.integer  "ogc_id"
+    t.integer  "company_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "ogc_suppliers", ["company_id"], :name => "index_ogc_suppliers_on_company_id"
 
   create_table "slugs", :force => true do |t|
     t.string   "name"
