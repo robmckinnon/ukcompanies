@@ -1,4 +1,4 @@
-require 'companies_house'
+require '../lib/companies_house'
 require 'pp'
 include CompaniesHouse
 describe Connection do
@@ -17,8 +17,11 @@ describe CompaniesHouse do
     res=CompaniesHouse.search_by_number('06603291')
     pp res.data
   end
-  it 'should give a url' do
-    res=CompaniesHouse.url_for_number('06603291')
+  it 'should give a url when comp exists' do
+    CompaniesHouse.url_for_number('06603291').should match /compdetails/
+  end
+  it 'should not give a url when no comp exists' do
+    CompaniesHouse.url_for_number('wfwfw').should be_nil
   end
 end
 
