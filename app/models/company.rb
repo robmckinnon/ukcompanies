@@ -4,6 +4,10 @@ class Company < ActiveRecord::Base
 
   has_many :lobbyist_clients
   has_many :ogc_suppliers
+  
+  def companies_house_url
+    @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
+  end
 
   class << self
     def find_all_by_company_name name

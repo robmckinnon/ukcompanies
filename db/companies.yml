@@ -983,3 +983,1803 @@
     created_at: 2009-03-07 16:12:02
   attributes_cache: {}
 
+- !ruby/object:Company 
+  attributes: 
+    name: DETICA LIMITED
+    company_number: "01337451"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:12:38
+    url: 
+    id: "87"
+    address: Surrey Research Park, Guildford, Surrey GU2 7YP
+    created_at: 2009-03-07 16:12:38
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DEVON COUNTY COUNCIL
+    company_number: NL17594810
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:13:07
+    url: 
+    id: "88"
+    address: TRUSHAM RD MARSH BARTONEXETEREX2 8AR
+    created_at: 2009-03-07 16:13:07
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DOTTED EYES
+    company_number: NL17220801
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:14:19
+    url: 
+    id: "89"
+    address: 1C PLYMOUTH RD BARNT GREEN BIRMINGHAMB45 8JE
+    created_at: 2009-03-07 16:14:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DRIVERS JONAS
+    company_number: NL17479653
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:14:42
+    url: 
+    id: "90"
+    address: DUKES HO 8-10 WELLINGTON STSLOUGHSL1 1XZ
+    created_at: 2009-03-07 16:14:42
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: E-COURIER (UK) LTD
+    company_number: 04891908
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:15:12
+    url: 
+    id: "91"
+    address: Cityside House, 40 Adler Street, London, E1 1EE
+    created_at: 2009-03-07 16:15:12
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EAGA PLC
+    company_number: 03858865
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:15:35
+    url: 
+    id: "92"
+    address: Eaga Hse Archbold Terr, Jesmond, Newcastle-upon-tyne, NE2 1DB
+    created_at: 2009-03-07 16:15:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EAGLE STAR ESTATES LIMITED
+    company_number: "02511642"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:15:40
+    url: 
+    id: "93"
+    address: Uk Life Centre, Station Road, Swindon, Wiltshire SN1 1EL
+    created_at: 2009-03-07 16:15:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EARLS COURT LIMITED
+    company_number: 00557278
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:15:45
+    url: 
+    id: "94"
+    address: 40 Broadway, London, SW1H 0BU
+    created_at: 2009-03-07 16:15:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EAST MIDLANDS DEVELOPMENT AGENCY
+    company_number: NL17595128
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:16:02
+    url: 
+    id: "95"
+    address: Unit A2 Apex CourtCity Link NOTTINGHAM NG2 4LA
+    created_at: 2009-03-07 16:16:02
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Eden Springs
+    company_number: NL03462726
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:16:44
+    url: 
+    id: "96"
+    address: test address
+    created_at: 2009-03-07 16:16:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ELAN LIMITED
+    company_number: 02150188
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:17:29
+    url: 
+    id: "97"
+    address: C/o Whitney Hintz, 36 Queens Grove, London, NW8 6HN
+    created_at: 2009-03-07 16:17:29
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ELECTROLUX FOODSERVICE
+    company_number: NL18385606
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:17:33
+    url: 
+    id: "98"
+    address: BORDESLEY GREEN RD BIRMINGHAMB9 4UA
+    created_at: 2009-03-07 16:17:33
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EMPLOYERS FORUM ON AGE
+    company_number: NL18532655
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:18:03
+    url: 
+    id: "99"
+    address: ASTRAL HO1268 LONDON RDLONDONSW16 4ER
+    created_at: 2009-03-07 16:18:03
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ENERGY SAVING TRUST
+    company_number: NL17787806
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:18:15
+    url: 
+    id: "100"
+    address: ALBION HOUSE OXFORD STREET CARDIFF CF15 7TR
+    created_at: 2009-03-07 16:18:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ENTEC UK LTD
+    company_number: IE04095E
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:18:50
+    url: 
+    id: "101"
+    address: CARRICK HOUSE, DUNDRUM CENTRE, DUBLIN 14,
+    created_at: 2009-03-07 16:18:50
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ENTERPRISE RENT-A-CAR
+    company_number: NL16758180
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:18:58
+    url: 
+    id: "102"
+    address: 53 WEST WAYOXFORDOX2 0JE
+    created_at: 2009-03-07 16:18:58
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ETS
+    company_number: NL16907528
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:05
+    url: 
+    id: "103"
+    address: ALVERTON STLONDONSE8 5NH
+    created_at: 2009-03-07 16:20:05
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EUROCLAD
+    company_number: NL18630939
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:15
+    url: 
+    id: "104"
+    address: BILPORT LA WEDNESBURYWS10 0NT
+    created_at: 2009-03-07 16:20:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EUROPEAN ATV SAFETY INSTITUTE
+    company_number: 05108945
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:20
+    url: 
+    id: "105"
+    address: C/o John And Co, 60 Lansdowne Place, Hove, East Sussex BN3 1FG
+    created_at: 2009-03-07 16:20:20
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EUROTEK OFFICE FURNITURE LIMITED
+    company_number: 02086413
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:33
+    url: 
+    id: "106"
+    address: Units Da/db, Southern Cross Trading Est, Bognor Regis, PO22 9SB
+    created_at: 2009-03-07 16:20:33
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EVERSHEDS
+    company_number: NL17047955
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:39
+    url: 
+    id: "107"
+    address: HOLLAND COURTTHE CLO NORWICH NR1 4DX
+    created_at: 2009-03-07 16:20:39
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: EXPOTEL
+    company_number: NL16703296
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:20:59
+    url: 
+    id: "108"
+    address: 22/24 NEW MARKET STLEEDS LS1 6DG
+    created_at: 2009-03-07 16:20:59
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FEDERATION OF AWARDING BODIES
+    company_number: "04355606"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:21:47
+    url: 
+    id: "109"
+    address: Wessex House, 80 Park Street, Camberley, Surrey GU15 3PT
+    created_at: 2009-03-07 16:21:47
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FOOD STANDARDS AGENCY
+    company_number: NL90020421
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:23:05
+    url: 
+    id: "110"
+    address: AVIATION HO
+    created_at: 2009-03-07 16:23:05
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FORMARA LIMITED
+    company_number: 01114482
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:23:17
+    url: 
+    id: "111"
+    address: SIR ROBERT PEEL HOUSE, 344/348 HIGH ROAD, ILFORD, ESSEX IG1 1QP
+    created_at: 2009-03-07 16:23:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FORTIS
+    company_number: NL17418948
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:23:31
+    url: 
+    id: "112"
+    address: 7 BLENHEIM TERRACE LEEDS LS2 9HZ
+    created_at: 2009-03-07 16:23:31
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FOSTER REFRIGERATOR
+    company_number: NL18245648
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:23:44
+    url: 
+    id: "113"
+    address: SOUTHGATE WAYORTON SOUTHGATE PETERBOROUGHPE2 6YN
+    created_at: 2009-03-07 16:23:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: FUJITSU SERVICES
+    company_number: NL18529556
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:24:17
+    url: 
+    id: "114"
+    address: WALLACE HO EDINBURGH EH12 9DJ
+    created_at: 2009-03-07 16:24:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: GEORGE HAMMOND PLC
+    company_number: 00690947
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:25:26
+    url: 
+    id: "115"
+    address: C/o Reeves And Neylan, 37 St Margaret's St, Canterbury, CT1 2TU
+    created_at: 2009-03-07 16:25:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: George Wimpey
+    company_number: NL03413285
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:25:33
+    url: 
+    id: "116"
+    address: test address
+    created_at: 2009-03-07 16:25:33
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: GML LIMITED
+    company_number: "05165210"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:26:22
+    url: 
+    id: "117"
+    address: 9 Cemetery Road, Dronfield, Derbyshire, S18 1XX
+    created_at: 2009-03-07 16:26:22
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: GOODMAN INTERNATIONAL
+    company_number: NL16629084
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:26:44
+    url: 
+    id: "118"
+    address: 109 NEW RD LONDONE1 1HJ
+    created_at: 2009-03-07 16:26:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: GREENWAY LAND LLP
+    company_number: OC312771
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:28:06
+    url: 
+    id: "119"
+    address: Challoner House, 19 Clerkenwell Close, London, EC1R 0RR
+    created_at: 2009-03-07 16:28:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: GRESHAM OFFICE FURNITURE LIMITED
+    company_number: 01284733
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:28:15
+    url: 
+    id: "120"
+    address: Platinum Park, Lynstock Way Horwich, Bolton, BL6 4SA
+    created_at: 2009-03-07 16:28:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HALLIWELLS LLP
+    company_number: OC307980
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:29:57
+    url: 
+    id: "121"
+    address: 3 Hardman Square, Soinningfields, Manchester, M3 3EB
+    created_at: 2009-03-07 16:29:57
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HARTNELL TAYLOR COOK
+    company_number: NL17769946
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:30:43
+    url: 
+    id: "122"
+    address: HOLMBUSH CENTREUPPER SHOREHAM ROAD SHOREHAM-BY-SEA BN43 6TD
+    created_at: 2009-03-07 16:30:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HAYS INFORMATION TECHNOLOGY
+    company_number: NL18776654
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:31:21
+    url: 
+    id: "123"
+    address: 16 UPPER FITZWILLIAM STREET DUBLIN
+    created_at: 2009-03-07 16:31:21
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HEALTHY DIRECT
+    company_number: NL03434768
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:32:15
+    url: 
+    id: "124"
+    address: ST GEORGES PLACE ST. PETER PORTGUERNSEYGY1 2BH
+    created_at: 2009-03-07 16:32:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HERBERT SMITH LLP
+    company_number: OC310989
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:33:03
+    url: 
+    id: "125"
+    address: Exchange House, Primrose Street, London, EC2A 2HS
+    created_at: 2009-03-07 16:33:03
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HERMAN MILLER LIMITED
+    company_number: 01097772
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:33:11
+    url: 
+    id: "126"
+    address: Methuen Park, Chippenham, Wiltshire, SN14 0GF
+    created_at: 2009-03-07 16:33:11
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HIGHBRIDGE
+    company_number: NL17880062
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:33:37
+    url: 
+    id: "127"
+    address: HIGHBRIDGE HOUSE SPEAN BRIDGEPH34 4EX
+    created_at: 2009-03-07 16:33:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HISTORIC HOUSES ASSOCIATION
+    company_number: "02001057"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:33:58
+    url: 
+    id: "128"
+    address: 2 Chester Street, London, SW1X 7BB
+    created_at: 2009-03-07 16:33:58
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Hobart UK
+    company_number: NL03029672
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:34:15
+    url: 
+    id: "129"
+    address: 99 Gresham Street, London, EC2V 7NG
+    created_at: 2009-03-07 16:34:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: HUDSON GLOBAL RESOURCES LTD
+    company_number: NL17351970
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:35:01
+    url: 
+    id: "130"
+    address: 9 HOPE STEDINBURGH EH2 4EL
+    created_at: 2009-03-07 16:35:01
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ICOMERA UK LIMITED
+    company_number: 06089258
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:35:43
+    url: 
+    id: "131"
+    address: Westcott Barn Witheridge, Tiverton, Devon, EX16 8NX
+    created_at: 2009-03-07 16:35:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ILX GROUP PLC
+    company_number: 03525870
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:36:11
+    url: 
+    id: "132"
+    address: One London Wall, London, EC2Y 5AB
+    created_at: 2009-03-07 16:36:11
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: IMPRESS PRINT SERVICES LTD
+    company_number: 03363098
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:36:24
+    url: 
+    id: "133"
+    address: 10 Thornsett Road, London, SW18 4EN
+    created_at: 2009-03-07 16:36:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INCHCAPE SHIPPING SERVICES (UK) LTD
+    company_number: 00196654
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:36:43
+    url: 
+    id: "134"
+    address: Unit 6/7, Lakeside Business Village, Fleming Road Chafford
+    created_at: 2009-03-07 16:36:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INNOGISTIC SOFTWARE PLC
+    company_number: 02752009
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:38:14
+    url: 
+    id: "135"
+    address: 2nd Floor, 25 Marsh Street, Bristol, BS1 4AQ
+    created_at: 2009-03-07 16:38:14
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Institute Of Directors
+    company_number: NL02176446
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:38:40
+    url: 
+    id: "136"
+    address: 29 ABERCROMBY PL EDINBURGH EH3 6QE
+    created_at: 2009-03-07 16:38:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INSTITUTE OF PUBLIC HEALTH
+    company_number: NL17834847
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:39:02
+    url: 
+    id: "137"
+    address: ROBINSON WAY CAMBRIDGE CB2 0SR
+    created_at: 2009-03-07 16:39:02
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INTERGEN
+    company_number: SC166088
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:39:29
+    url: 
+    id: "138"
+    address: Beaverbank Office Pk, 5 Logie Mill, Edinburgh Midlothian EH7 4HH
+    created_at: 2009-03-07 16:39:29
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INTERNET WATCH FOUNDATION
+    company_number: "03426366"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:40:19
+    url: 
+    id: "139"
+    address: Eastview 5 Coles Lane, Oakington, Cambridge, Cambs CB24 3BA
+    created_at: 2009-03-07 16:40:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INVESTLAND GROUP PLC
+    company_number: 03826235
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:40:51
+    url: 
+    id: "140"
+    address: 1 Oakwood Parade, London, N14 4HY
+    created_at: 2009-03-07 16:40:51
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: INVESTREAM LIMITED
+    company_number: "04415277"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:41:18
+    url: 
+    id: "141"
+    address: Devonshire Ho, 1 Devonshire St London W1W 5DR
+    created_at: 2009-03-07 16:41:18
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: IRON MOUNTAIN
+    company_number: NL16867347
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:41:28
+    url: 
+    id: "142"
+    address: 320 WESTERN RD LONDONSW19 2QA
+    created_at: 2009-03-07 16:41:28
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ISLE OF MAN GOVERNMENT
+    company_number: NL17547662
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:41:35
+    url: 
+    id: "143"
+    address: DEPARTMENT OF INDUSTRY ILLIUM DONECIRCULAR RDDOUGLAS
+    created_at: 2009-03-07 16:41:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: JLA LIMITED
+    company_number: 01094178
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:42:35
+    url: 
+    id: "144"
+    address: Meadowcroft La, Ripponden, Sowerby Bridge West Yorkshire HX6 4AJ
+    created_at: 2009-03-07 16:42:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: JMCL CONSULTING LTD
+    company_number: 02701395
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:42:40
+    url: 
+    id: "145"
+    address: Reedham House, 31 King Street West, Manchester M3 2PJ
+    created_at: 2009-03-07 16:42:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: John Lewis Partnership
+    company_number: NL03676208
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:42:50
+    url: 
+    id: "146"
+    address: test address
+    created_at: 2009-03-07 16:42:50
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: JOHN LEWIS PLC
+    company_number: "00233462"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:42:54
+    url: 
+    id: "147"
+    address: 171 Victoria St, London SW1E 5NN
+    created_at: 2009-03-07 16:42:54
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: JUBILEE ACTION
+    company_number: "02735643"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:43:13
+    url: 
+    id: "148"
+    address: Jubilee Action, 96 High Street, Guildford, Surrey GU1 3HE
+    created_at: 2009-03-07 16:43:13
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: JUST RETIREMENT (HOLDINGS) PLC
+    company_number: 05078978
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:43:17
+    url: 
+    id: "149"
+    address: Vale House, Roebuck Close Bancroft Road, Reigate, Surrey RH2 7RU
+    created_at: 2009-03-07 16:43:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: KAPLAN FINANCIAL LIMITED
+    company_number: 01028790
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:43:30
+    url: 
+    id: "150"
+    address: 7th Fl, 100 Cannon St, London, EC4N 6EU
+    created_at: 2009-03-07 16:43:30
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: KETTLE
+    company_number: NL18573586
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:43:54
+    url: 
+    id: "151"
+    address: CRAFTWARE CERAMICS 101-105 TONG MOOR RDBOLTONBL2 2DL
+    created_at: 2009-03-07 16:43:54
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: KIER GROUP PLC
+    company_number: 02708030
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:44:02
+    url: 
+    id: "152"
+    address: Tempsford Hall, Sandy Bedfordshire SG19 2BD
+    created_at: 2009-03-07 16:44:02
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: KINGSPAN LIMITED
+    company_number: IE040188
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:44:33
+    url: 
+    id: "153"
+    address: DUBLIN ROAD KINGSCOURT CO CAVAN
+    created_at: 2009-03-07 16:44:33
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: KYP SYSTEMS PLC
+    company_number: 04906001
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:45:10
+    url: 
+    id: "154"
+    address: 22 Old Bond Street, London, W1S 4PY
+    created_at: 2009-03-07 16:45:10
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LABCOLD LIMITED
+    company_number: "00271055"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:45:17
+    url: 
+    id: "155"
+    address: Unit F, The Loddon Cntr Wade Rd, Basingstoke, Hants RG24 8FL
+    created_at: 2009-03-07 16:45:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LAGAN TECHNOLOGIES LIMITED
+    company_number: NI028773
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:45:24
+    url: 
+    id: "156"
+    address: Marlborough House, 30 Victoria St, Belfast BT1 3GS
+    created_at: 2009-03-07 16:45:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LAMBERT SMITH HAMPTON
+    company_number: NL17544921
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:45:37
+    url: 
+    id: "157"
+    address: 2 BELL COURT LEAPALE LANEGUILDFORD GU1 4LY
+    created_at: 2009-03-07 16:45:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LANTRA
+    company_number: 02823181
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:46:05
+    url: 
+    id: "158"
+    address: Lantra House, Stoneleigh Park, Coventry, Warwickshire CV8 2LG
+    created_at: 2009-03-07 16:46:05
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LEASEPLAN UK LTD
+    company_number: NL16660226
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:46:50
+    url: 
+    id: "159"
+    address: PEMBRAKE HOPEMBROKE RD RUISLIP
+    created_at: 2009-03-07 16:46:50
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LEEDS CITY COUNCIL
+    company_number: NL18316313
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:46:58
+    url: 
+    id: "160"
+    address: WARDENS RESIDENCE33 REGINALD TERRLEEDS LS7 3EZ
+    created_at: 2009-03-07 16:46:58
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LEXON GROUP
+    company_number: NL03274500
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:47:28
+    url: 
+    id: "161"
+    address: RUSH DRPEN Y FAN IND ESTCRUMLINNP11 3AA
+    created_at: 2009-03-07 16:47:28
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: "LIFEBLOOD: THE THROMBOSIS CHARITY"
+    company_number: "04354472"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:47:55
+    url: 
+    id: "162"
+    address: Couch Bright King & Co, 91 Gower Street, London, WC1E 6AB
+    created_at: 2009-03-07 16:47:55
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LINCOLNSHIRE COUNTY COUNCIL
+    company_number: NL17568162
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:48:38
+    url: 
+    id: "163"
+    address: ECONOMIC DEVELOPMENT UNITCITY HALLBEAUMONT FEE LINCOLN LN1 1DJ
+    created_at: 2009-03-07 16:48:38
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LINKLATERS
+    company_number: NL16606805
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:48:56
+    url: 
+    id: "164"
+    address: 1 SILK STLONDONEC2Y 8HQ
+    created_at: 2009-03-07 16:48:56
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LOCAL GOVERNMENT INFORMATION UNIT
+    company_number: NL16769891
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:49:40
+    url: 
+    id: "165"
+    address: 1-5 BATH STLONDONEC1V 9QQ
+    created_at: 2009-03-07 16:49:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LONDON BOROUGH OF HOUNSLOW
+    company_number: NL16815637
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:50:36
+    url: 
+    id: "166"
+    address: 13 HANWORTH RD FELTHAM TW13 5AF
+    created_at: 2009-03-07 16:50:36
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: LONDON CHAMBER OF COMMERCE
+    company_number: NL18417658
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:50:41
+    url: 
+    id: "167"
+    address: 13A THE BDWY CRAWLEY RH10 1DX
+    created_at: 2009-03-07 16:50:41
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: MACMILLAN CANCER SUPPORT
+    company_number: NL17515469
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:52:19
+    url: 
+    id: "168"
+    address: CROWN CHAMBERS S STANDOVER SP10 2BN
+    created_at: 2009-03-07 16:52:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Marie Curie Cancer Care
+    company_number: NL00147645
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:53:15
+    url: 
+    id: "169"
+    address: test address
+    created_at: 2009-03-07 16:53:15
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: MAYBOURNE HOTELS LIMITED
+    company_number: 03669284
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:55:24
+    url: 
+    id: "170"
+    address: 30 Old Burlington Street, London, W1S 3AR
+    created_at: 2009-03-07 16:55:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: MENZIES AVIATION PLC
+    company_number: 02961404
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:56:23
+    url: 
+    id: "171"
+    address: Aviation Hse, 923 Southern Perimeter Rd, London Heathrow Airport
+    created_at: 2009-03-07 16:56:23
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Michael Page International
+    company_number: NL03957477
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:57:06
+    url: 
+    id: "172"
+    address: test address
+    created_at: 2009-03-07 16:57:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: MIDLAND RESOURCES
+    company_number: NL16557798
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:57:30
+    url: 
+    id: "173"
+    address: SPRINGIELD HOATWOOD LA REDDITCHB96 6PT
+    created_at: 2009-03-07 16:57:30
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NATIONAL HOUSE BUILDING COUNCIL
+    company_number: AC001526
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:00:43
+    url: 
+    id: "174"
+    address: "-"
+    created_at: 2009-03-07 17:00:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NATIONAL OSTEOPOROSIS SOCIETY
+    company_number: NL17102527
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:01:25
+    url: 
+    id: "175"
+    address: P O Box 10 Radstock Bath Avon BA3 3YB
+    created_at: 2009-03-07 17:01:25
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NATIONAL RHEUMATOID ARTHRITIS SOCIETY
+    company_number: NL17428885
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:01:30
+    url: 
+    id: "176"
+    address: 11 COLLEGE AVE MAIDENHEADSL6 6AR
+    created_at: 2009-03-07 17:01:30
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NATIONWIDE BUILDING SOCIETY
+    company_number: NL18680810
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:02:04
+    url: 
+    id: "177"
+    address: 67 ST. ANDREWS STCAMBRIDGE CB2 3AX
+    created_at: 2009-03-07 17:02:04
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NESTLE UK
+    company_number: NL16721164
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:03:09
+    url: 
+    id: "178"
+    address: NESTLE GROCERY DIVISIONCARLISLECA5 7NH
+    created_at: 2009-03-07 17:03:09
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NETSTORE PLC
+    company_number: 03449409
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:03:22
+    url: 
+    id: "179"
+    address: 1 Transcentral, Bennet Road, Reading, Berkshire RG2 0QX
+    created_at: 2009-03-07 17:03:22
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NHS HEALTH SCOTLAND
+    company_number: NL04492899
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:04:28
+    url: 
+    id: "180"
+    address: Woodburn Ho
+    created_at: 2009-03-07 17:04:28
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NORFOLK COUNTY COUNCIL
+    company_number: NL18429401
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:05:04
+    url: 
+    id: "181"
+    address: OLD BUCKENHAM VILLAGE HALL ABBEY RD OLD BECKENHAMATTLEBOROUGHNR17 1PU
+    created_at: 2009-03-07 17:05:04
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NORTHGATE INFORMATION SOLUTIONS UK LIMITED
+    company_number: IE903392
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:05:46
+    url: 
+    id: "182"
+    address: UNIT 14 WESTERN PARKWAY BUSINESS CENRE - - -
+    created_at: 2009-03-07 17:05:46
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NORWICH CITY COUNCIL
+    company_number: NL17019899
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:06:10
+    url: 
+    id: "183"
+    address: City Hall, Norwich Norfolk NR2 1NH
+    created_at: 2009-03-07 17:06:10
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NOTTING HILL HOUSING TRUST
+    company_number: NL18706158
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:06:20
+    url: 
+    id: "184"
+    address: THE CHARITY SHOP 211 BROMPTON RD LONDONSW3 2EJ
+    created_at: 2009-03-07 17:06:20
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NOTTINGHAM CITY COUNCIL
+    company_number: NL17565899
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:06:26
+    url: 
+    id: "185"
+    address: PUBLIC RELATIONS OFFICEEXCHANGE BUILDING NOTTINGHAMNG1 2HU
+    created_at: 2009-03-07 17:06:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NUCLEAR INDUSTRY ASSOCIATION
+    company_number: 02804518
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:06:55
+    url: 
+    id: "186"
+    address: Carlton House 3rd Floor, 22a St James's Square, London, SW1Y 4JH
+    created_at: 2009-03-07 17:06:55
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: NUFFIELD HOSPITALS
+    company_number: 00576970
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:07:00
+    url: 
+    id: "187"
+    address: Nuffield Ho, 1-4 The Crescent, Surbiton Surrey KT6 4BN
+    created_at: 2009-03-07 17:07:00
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: OCTAVIA HOUSING AND CARE
+    company_number: IP13991R
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:07:31
+    url: 
+    id: "188"
+    address: Beaumont Ho, 103 Fernhead Rd, London W9 3EB
+    created_at: 2009-03-07 17:07:31
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: OLD WARREN PARTNERSHIP
+    company_number: NI051999
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:07:37
+    url: 
+    id: "189"
+    address: 79 GLEBE WALK OLD WARREN ESTATELISBURN BT28 1PZ
+    created_at: 2009-03-07 17:07:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PAFILIA PROPERTY DEVELOPERS
+    company_number: NL16887952
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:08:58
+    url: 
+    id: "190"
+    address: 11 KNOCKTARNA GRANGE COLERAINE BT52 1HN
+    created_at: 2009-03-07 17:08:58
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PAGEONE COMMUNICATIONS LIMITED
+    company_number: "04560277"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:09:07
+    url: 
+    id: "191"
+    address: 2 Brentside Executive Cntr, Great West Rd, Brentford, TW8 9DA
+    created_at: 2009-03-07 17:09:07
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Parsons Brinckerhoff
+    company_number: NL03000260
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:10:16
+    url: 
+    id: "192"
+    address: test address
+    created_at: 2009-03-07 17:10:16
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PARSONS BRINCKERHOFF LTD
+    company_number: "02554514"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:10:27
+    url: 
+    id: "193"
+    address: Amber Ct, William Armstrong Dr, Newcastle-Upon-Tyne NE4 7YQ
+    created_at: 2009-03-07 17:10:27
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PASSENGER FOCUS
+    company_number: NL17594980
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:10:35
+    url: 
+    id: "194"
+    address: 9TH FLOORRAIL HOSTORE ST MANCHESTERM1 2RP
+    created_at: 2009-03-07 17:10:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PERSIMMON HOMES
+    company_number: NL18181173
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:11:27
+    url: 
+    id: "195"
+    address: 7 MOOR PARK RD KINGSKERSWELL NEWTON ABBOTTQ12 5GA
+    created_at: 2009-03-07 17:11:27
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PICK EVERARD
+    company_number: NL16520098
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:11:56
+    url: 
+    id: "196"
+    address: WEAVER HO9 LOOMS LABURY ST EDMUNDS IP33 1HE
+    created_at: 2009-03-07 17:11:56
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PINEWOOD SHEPPERTON PLC
+    company_number: 03889552
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:12:02
+    url: 
+    id: "197"
+    address: Pinewood Road, Iver, Buchinghamshire, SL0 0NH
+    created_at: 2009-03-07 17:12:02
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PINSENT MASONS LLP
+    company_number: OC333653
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:12:07
+    url: 
+    id: "198"
+    address: CITYPOINT
+    created_at: 2009-03-07 17:12:07
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PORT OF LONDON AUTHORITY
+    company_number: NL16707794
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:12:36
+    url: 
+    id: "199"
+    address: International Ho, World Trade Centre, London E1 9UN
+    created_at: 2009-03-07 17:12:36
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PREMIER LEAGUE
+    company_number: NL16598319
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:13:03
+    url: 
+    id: "200"
+    address: 17 COMMERCE WAYLETCHWORTHSG6 3DN
+    created_at: 2009-03-07 17:13:03
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PREMIER PAPER
+    company_number: NL18326758
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:13:13
+    url: 
+    id: "201"
+    address: UNIT 31 IMEX BUSINESS PARK KINGS RD TYSELEYBIRMINGHAMB11 2AG
+    created_at: 2009-03-07 17:13:13
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PREMIER PARTNERSHIP
+    company_number: NL16447156
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:13:19
+    url: 
+    id: "202"
+    address: PREMIER HO CAROLINA COURT LAKE SIDEDONCASTER DN4 5RA
+    created_at: 2009-03-07 17:13:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PREMIER WASTE MANAGEMENT
+    company_number: NL17312392
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:13:26
+    url: 
+    id: "203"
+    address: COXHOE QUARRYCOXHOEDURHAMDH1 5UQ
+    created_at: 2009-03-07 17:13:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PRISONERS ABROAD
+    company_number: 04333963
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:13:57
+    url: 
+    id: "204"
+    address: 89-93 Fonthill Road, London, N4 3JH
+    created_at: 2009-03-07 17:13:57
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: PROPERTY DEVELOPMENT OPTIONS LIMITED
+    company_number: 05593451
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:14:34
+    url: 
+    id: "205"
+    address: Melita South Strand, East Preston, West Sussex, BN16 1PN
+    created_at: 2009-03-07 17:14:34
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: QUADRANT CONSULTANTS LTD
+    company_number: "02241123"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:15:37
+    url: 
+    id: "206"
+    address: 35 Endell Street, London, WC2H 9BA
+    created_at: 2009-03-07 17:15:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: QUARRIERS
+    company_number: NL18450483
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:15:43
+    url: 
+    id: "207"
+    address: 317 NORTH WOODSIDE RDGLASGOW G20 6ND
+    created_at: 2009-03-07 17:15:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: RATIONAL UK LIMITED
+    company_number: "02576032"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:16:49
+    url: 
+    id: "208"
+    address: Titan Ct, Unit 4, Laporteway, Luton Bedfordshire LU4 8EF
+    created_at: 2009-03-07 17:16:49
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: REDWEB
+    company_number: NL18339537
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:17:40
+    url: 
+    id: "209"
+    address: QUAY HOTHE QUAYPOOLE BH15 1HA
+    created_at: 2009-03-07 17:17:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Rescare
+    company_number: NL04468597
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:18:06
+    url: 
+    id: "210"
+    address: 31 BUXTON ROAD STOCKPORT SK2 6LS
+    created_at: 2009-03-07 17:18:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: RICHARD EDWARD LIMITED
+    company_number: "01470732"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:18:49
+    url: 
+    id: "211"
+    address: 151 Nathan Way, Plumstead, London SE28 0AB
+    created_at: 2009-03-07 17:18:49
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: RM PLC
+    company_number: 01749877
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:19:09
+    url: 
+    id: "212"
+    address: New Mill Ho, 183 Milton Pk, Abingdon Oxfordshire OX14 4SE
+    created_at: 2009-03-07 17:19:09
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ROBERT HALF INTERNATIONAL
+    company_number: NL17668205
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:19:24
+    url: 
+    id: "213"
+    address: GATE HOUSE 201-203 WEST GEORGE STREETG2 2LW
+    created_at: 2009-03-07 17:19:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ROCHE PRODUCTS LIMITED
+    company_number: "00100674"
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:19:51
+    url: 
+    id: "214"
+    address: 6 Falcon Way, Shire Park, Welwyn Garden City, AL7 1TW
+    created_at: 2009-03-07 17:19:51
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: RUGBY FOOTBALL UNION
+    company_number: NL16524687
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:21:54
+    url: 
+    id: "215"
+    address: TAUNTON SCHOOL STAPLEGROVE RDTAUNTON TA2 6AD
+    created_at: 2009-03-07 17:21:54
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SAICA PACKAGING UK LIMITED
+    company_number: 01218445
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:22:32
+    url: 
+    id: "216"
+    address: Road 3 Instl Est, Winsford Cheshire CW7 3RJ
+    created_at: 2009-03-07 17:22:32
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SAINSBURYS
+    company_number: NL03252623
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:22:40
+    url: 
+    id: "217"
+    address: MARBLE ARCH TOWER55 BRYANSTON ST LONDONW1H 7AA
+    created_at: 2009-03-07 17:22:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SALISBURY DISTRICT COUNCIL
+    company_number: NL17066753
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:22:49
+    url: 
+    id: "218"
+    address: COUNCIL HO BOURNE HILL SALISBURY SP1 3UZ
+    created_at: 2009-03-07 17:22:49
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SCOTTISH WATER
+    company_number: NL17129418
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:23:37
+    url: 
+    id: "219"
+    address: RIVERSIDE HOUSEDUNDEEDD2 1XY
+    created_at: 2009-03-07 17:23:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SCOTTISHPOWER
+    company_number: NL17909231
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:24:02
+    url: 
+    id: "220"
+    address: ALEX MOORHOUSE WAY NEW COSTESSEY NORWICH NR5 0JT
+    created_at: 2009-03-07 17:24:02
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SECURITY INDUSTRY AUTHORITY
+    company_number: NL18067325
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:24:17
+    url: 
+    id: "221"
+    address: P.O.BOX 9NEWCASTLE-UPON-TYNE NE82 6YX
+    created_at: 2009-03-07 17:24:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SHAFTESBURY PLC
+    company_number: 01999238
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:24:52
+    url: 
+    id: "222"
+    address: Pegasus House, 37-43 Sackville Street, London W1S 3DL
+    created_at: 2009-03-07 17:24:52
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SKILLS FOR LOGISTICS
+    company_number: 04841436
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:26:17
+    url: 
+    id: "223"
+    address: 14 Warren Yd, Warren Farm Office Village, Stratford Road Milton
+    created_at: 2009-03-07 17:26:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SMARTSOURCING PLC
+    company_number: 04359421
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:26:37
+    url: 
+    id: "224"
+    address: Tanglewood, 90-92 Vicarage Hill, South Benfleet, Essex SS7 1PE
+    created_at: 2009-03-07 17:26:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SOUTHERN WATER
+    company_number: NL17959803
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:27:43
+    url: 
+    id: "225"
+    address: GUILDBORNE HOCHATSWORTH RD WORTHINGBN11 1LD
+    created_at: 2009-03-07 17:27:43
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SWITCH COMMUNICATIONS LTD
+    company_number: 01953623
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:31:34
+    url: 
+    id: "226"
+    address: 50 Old St, London
+    created_at: 2009-03-07 17:31:34
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SYNETRIX LIMITED
+    company_number: 03466197
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:31:42
+    url: 
+    id: "227"
+    address: Keele Innovation Cntr, Keele Pk, Newcastle, Staffs ST5 5BN
+    created_at: 2009-03-07 17:31:42
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: SYSTEMS CONSULTANTS SERVICES LIMITED
+    company_number: 02707469
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:31:52
+    url: 
+    id: "228"
+    address: The Ct Hse, Northfield End, Henley On Thames, Oxon RG9 2JN
+    created_at: 2009-03-07 17:31:52
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Target Living
+    company_number: NL04201363
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:32:18
+    url: 
+    id: "229"
+    address: 2nd Floor Studio, 6 Burnsall Street, London, SW3 3ST
+    created_at: 2009-03-07 17:32:18
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TATA CONSULTANCY SERVICES
+    company_number: IE904466
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:32:25
+    url: 
+    id: "230"
+    address: ALEXANDRA HOUSE, THE SWEEPSTAKES, BALLSBRIDGE, DUBLIN 4
+    created_at: 2009-03-07 17:32:25
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TAX INCENTIVISED SAVINGS ASSOCIATION
+    company_number: 03548792
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:32:38
+    url: 
+    id: "231"
+    address: Cleveland Business Cntr, 1 Watson St, Middlesbrough, TS1 2RQ
+    created_at: 2009-03-07 17:32:38
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TCS
+    company_number: NL04532442
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:33:06
+    url: 
+    id: "232"
+    address: Nirmal Building, 9th Floor, Nariman Point, Mumbai 400 021
+    created_at: 2009-03-07 17:33:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TEACH FIRST
+    company_number: 04478840
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:33:12
+    url: 
+    id: "233"
+    address: 14 Heron Quay, Canary Wharf, London, E14 4JB
+    created_at: 2009-03-07 17:33:12
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TECHNOLOGY LAW ALLIANCE LIMITED
+    company_number: 04609448
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:33:18
+    url: 
+    id: "234"
+    address: 2nd Floor, 3 Brindley Place, Birmingham, West Midlands B1 2JB
+    created_at: 2009-03-07 17:33:18
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TECHNOPHOBIA LIMITED
+    company_number: 03063669
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:33:30
+    url: 
+    id: "235"
+    address: The Workstation, 15 Paternoster Row, Sheffield, S Yorks S1 2BX
+    created_at: 2009-03-07 17:33:30
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: TESSELLA SUPPORT SERVICES PLC
+    company_number: 01466429
+    wikipedia_url: 
+    updated_at: 2009-03-07 17:34:00
+    url: 
+    id: "236"
+    address: 3 Vineyard Chambers, Abingdon, Oxfordshire OX14 3PX
+    created_at: 2009-03-07 17:34:00
+  attributes_cache: {}
+
