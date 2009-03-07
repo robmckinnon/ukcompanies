@@ -22,6 +22,13 @@ module CompaniesHouse
     end
   end
   
+  def self.search_by_number(number)
+    connection=CompaniesHouseConnection.new
+    answer=Company.new
+    answer.parse(connection.searchByNumber(number))  
+    answer
+  end
+
   class CompaniesHouseConnection
     attr_reader :sessionId
     def initialize
@@ -32,6 +39,13 @@ module CompaniesHouse
     def searchByName(name)
       path="/#{sessionId}/companysearch"
       result=@connection.post(path,'cname'=>name,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
+      redirect=result['location']
+      path="/#{sessionId}/#{redirect}"
+      @connection.get(path)
+    end
+    def searchByNumber(number)
+      path="/#{sessionId}/companysearch"
+      result=@connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
       redirect=result['location']
       path="/#{sessionId}/#{redirect}"
       @connection.get(path)
@@ -51,7 +65,8 @@ module CompaniesHouse
       @doc=Hpricot(answer.body)
       @companies={}
       @doc.search("//tr[@class='resC']").each do |row|
-        result=Company.new(row,@connection)
+        result=Company.new
+        result.fromSearch(row,@connection)
         @companies[result.name]=result  
       end
     end
@@ -60,8 +75,12 @@ module CompaniesHouse
   end
   
   class Company
-    attr_reader :id,:name,:status,:action,:link,:nameReturn,:business
-    def initialize(row,connection)
+    attr_reader :id,:name,:status,:action,:link,:nameReturn,:business,:data
+
+    def initialize
+    end
+
+    def fromSearch(row,connection)
       result=OpenStruct.new
       @connection=connection
       @id=row.search("td[1]/a").inner_html
@@ -72,8 +91,13 @@ module CompaniesHouse
     end
 
     def parseLink
+      html=@connection.queryACompany(@link)
+      parse(html)
+    end
+
+    def parse(res)
+      html=Hpricot(res.body)
       @data={}
-      html=Hpricot(@connection.queryACompany(@link).body)
       headers=html.search('td[@class="yellowCreamTable]/strong').each do |val|
         data_maybe=val.next_node
         data_maybe=data_maybe.next_node while (data_maybe.to_s==":" or data_maybe.to_s=="<br />")
