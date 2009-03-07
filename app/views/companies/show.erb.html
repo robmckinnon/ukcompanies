@@ -10,9 +10,16 @@
     <p class="number">
       Company No. <%= @company.company_number %>
     </p>
-
+  
 
     <% unless @company.companies_house_url.blank? %>
+     <% unless  @company.companies_house_data.blank? %>
+     <p class="type">
+         Type: <%= @company.companies_house_data.data["Company Type"].to_s.gsub(/:/,'').strip %>
+     </p>
+    <% end %>
+    
+    
        <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, redirect_it_path(@company) %></p>
     <% end %>
 </div>
