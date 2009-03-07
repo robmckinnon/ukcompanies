@@ -1,0 +1,4776 @@
+---
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "& Industry"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (BacC)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (Computer Share Investor
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (National Hip Fracture
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (OAA)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (UKISA) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: (www.london-health.org)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: 3 UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A & P Ports and Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A Nelson and Co Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A Quick Sale
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A coalition of four health professional groups
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A4E
+- !ruby/object:LobbyistClient
+  attributes:
+    name: A4e
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ABB
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "ABI \xE2\x80\x93 Association of British Insurers"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ABPI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ABPI Mental Health Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ABPI WIG Arthritis Sub-group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ABPI Wales Industry Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ACCURAY Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AEA/Scottish Power
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AES
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AES Kilroot
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AIG Direct UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AMEC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ANNMAR DEVELOPMENTS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AOL UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: APA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: APACS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ARM Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ASDA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ASDA Stores Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ASH Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AT&T
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AWG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Abbey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Abbot Laboratories
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Abbott Laboratories Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Abbott Nutrition
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Abbott UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Access Glasgow LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Access to Benefits
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Action
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Adobe Systems Software Ireland Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AdvaMed
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Advamed
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Advanced Communications and Information Systems Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Advertising Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Advertising Education Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Afton Chemicals Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Age Concern Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Agricultural Biotechnology Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Agriculture & Horticulture Development Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: AgustaWestland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ainsworth UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Airport Operators Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Airtricity
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Airtricity Holdings (UK) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Aitch
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ajinomoto Co. Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ajinomoto Sweeteners Europe SAS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Aldi
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alexandra Palace Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alexion Biopharmaceuticals
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alix Partners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All Party Parliamentary Inflammatory Arthritis Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All Party Parliamentary Small Shops Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All Party Water Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All Wales People First
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All-Party Parliamentary Furniture Industry Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All-Party Parliamentary Group for Funerals and Bereavement
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All-Party Parliamentary Group on Libraries, Literacy and Information Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: All-Party Parliamentary Thrombosis Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Allen Carr Easyway
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alliance & Leicester
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alliance Boots
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alliance Medical
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alliance of Sector Skills Councils
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Alstom
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Altala
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Altala Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: America Works
+- !ruby/object:LobbyistClient
+  attributes:
+    name: American Pharmaceutical Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "American Pharmaceutical Group (APG). Comprising: o Abbot o Amgem o Bristol-Myers Squibb o Janssen-Cilag Ltd o Lilly o Merck Sharp & Dohme o Pfizer o Proctor & Gamble Pharmaceuticals o Schering-Plough o Wyeth"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Amersham & Wycombe College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Amey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Amey Ventures Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Amgen
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Anchor Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Anchor Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Anderson Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Andrex
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Angel Trains
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Anheuser Busch
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Animal Welfare Network
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Annington Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Anthony Nolan Trust, The
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Apple
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Aquascutum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Archimedes Pharma Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Aristocrat
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ark
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ark Continuity
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Arletan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Arling Close
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Arqiva
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Arrowcroft Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Arthritis Care Cymru
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ashfield Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ashoka
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ashtenne Space Northwest
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Askew Charitable Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Assoc of British Healthcare Industries
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Associate Parliamentary Engineering Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Associated British Foods plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Associated Newspapers Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association for Organics Recycling
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association for Perioperative Practice
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association for Project Safety
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Accounting Technicians
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Cash Machine Operators
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Convenience Stores
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Licensed Multiple Retailers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Technology Staffing Companies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of Train Operating Companies ATOC)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Association of the British Pharmaceutical Industry
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Assura Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Astellas
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Astra Zeneca
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Astral Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Astratech
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Atlantic Philanthropies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Atlas Management Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Atos Origin
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Atronic
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Attorneys
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Audit Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Australian Super
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Austrian Gaming Systems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Aviva
+- !ruby/object:LobbyistClient
+  attributes:
+    name: B&Q
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BACTA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BAE Systems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BBC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BBC Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BCB Environmental
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BDO International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BDO Stoy Hayward
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BGB
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BIFM
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BIH Housing Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BII
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BLISS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BMT Group Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BNFL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BPI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BRE/Hemel 1 Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BSEF
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BSW Timber
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BSkyB
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BT
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BT Global Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BT Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BT Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Babcock & Brown
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Babcock Marine Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Baby Products Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Badenoch & Clark
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Baglady Productions
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Baker Tilley
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Balfour Beatty
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bally Gaming and Systems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ballymore
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ballymore Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ballynafeigh Community Development Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Balppa
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bank Machine
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Banyan Communications
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bar Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barclaycard
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barclays
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barclays Capital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bard Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barratt
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barratt Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barratt Kent
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barratt Thames Gateway
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Barratt West London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bavarian Nordic
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bayer Schering Pharma
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bechtel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bedell Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BeeBee Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Beeches Management Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Beetham Organization Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Beginnings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Belfast City Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Belfast Harbour Commissioners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bellway Essex
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bellway Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Benenden Healthcare Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bennoy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Berbank
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Berkeley Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Berkeley Hotel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Berwin Leighton Paisner
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Betfair
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Better Place
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bhuchar Rock (ealing) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bhuchar Rock Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Biffa Waste
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Big Yellow Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BioIndustry Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Biogen Idec
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Bird\xE2\x80\x99s Eye"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bizz Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bloomberg LP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bobath Cymru
+- !ruby/object:LobbyistClient
+  attributes:
+    name: BodmerFischer Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Boehringer Ingelheim
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bonita Ventures Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Borealis AG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bougyues
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bounty
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bowen Construction Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Breaththrough Breast Cancer
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bristol City Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bristol International Airport
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bristol Port Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bristol-Myers Squibb
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Britain Israel Communications &
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Acupuncture Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Airways
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British American Tobacco plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Association for Sexual Health and HIV
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Association of Pharmaceutical Wholesalers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Battery Manufacturers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Beer and Pub Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Brands Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Broadcasting Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Casino Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Chambers of Commerce
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Dental Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Energy Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Film Institute
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Furniture Confederation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Gas
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Generic Manufacturers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Heart Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Horseracing Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Hospitality Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British In-Vitro Diagnostics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Insurance Brokers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Marine Federation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Medical Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Metals Recycling Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Museum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Orthopaedic Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Osteopathic Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British School of Gastroenterology
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British School of Motoring
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Sky Broadcasting
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Standards Institution
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Thoracic Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Toy and Hobby Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Transport Police Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Virgin Islands Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: British Waterways
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Broads Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Brockton Capital I
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Brokerbility Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Brookdale Care
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Brookfield Real Estate Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bryson Charitable Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Bryson Social Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Burford Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Business Link in London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Business Software Alliance EMEA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Business Software Alliance UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Business in the Community
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Butler Kelly
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Buzz Technology
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CALA West
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CBRE Investors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CDS Co-operatives
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CEMEX
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CES Government 2009
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CH2M HILL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CILT
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CIT
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CIT Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CO2DeepStore
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CORGI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CSC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CSPA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: CSR Solutions
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cadbury plc (formerly
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cadogan Tate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cala Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Calor Gas Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cambian Education
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cambian Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cambridge Health & Weight Plan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Camden Town Unlimited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Camelot Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Camidoc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Campaign Against Unfair and Illegal Competition from the Channel Islands
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Canatxx
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cancer Partners UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Canderel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Candy and Candy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Canon UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cap Gemini
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Capita Symonds
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Capital & Counties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Capital One
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Carbon Capture and Storage Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Carbon Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cardway Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Care UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Carebase
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Caring Homes Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Carlyle Property
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Carvill (Scotland) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cascade Care
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Casino Machine Manufacturers Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Catesby
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Catesby Estates Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Catesby Property Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cattles
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cavendish Place
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cayman Islands Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Celgene
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cemex
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cemex Uk
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Central Craigavon Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Centrepoint
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chancerygate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Changemakers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Channel 4
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chantry
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Charity Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chart and Nautical Instrument Trade Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chartered Institute for Environmental Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chartered Institute for Patent
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chartered Institute of Personnel and Development
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chartered Insurance Institute
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chater Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chechnya Peace Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chelsea Harbour Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chelsfield
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chenil House
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Children's Workforce Development Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chilvers McCrea
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Chris Rokos
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Church Commissioners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Circle Health Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Circle Red Properties Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Circleplane
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Citi UK Consumer
+- !ruby/object:LobbyistClient
+  attributes:
+    name: City & Guilds
+- !ruby/object:LobbyistClient
+  attributes:
+    name: City of Bristol College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Citylife Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Civil Aviation Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Clarebrook Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Claridges
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Claymoss Properties Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Clayson Development
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cleanevent
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Clear Channel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ClearSprings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Clearswift
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cleveland Development
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Climate Strategies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Clinical Solutions
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Co-Ownership Housing Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Co-operation and Competition Panel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Coca Cola Great Britain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Coca-Cola Great Britain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cogitamus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Colgate Palmolive Europe SARL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: College of Optometrists
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Coloplast
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Comet
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Commission for Rural Communities (CRC) - !ruby/object:LobbyistClient
+  attributes:
+    name: events
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Committee of the Olympic
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Communications
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Community Convention and Development Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Community Transport Association Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Competition Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Compound Security Systems Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Compucredit
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Concentra
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Confederation of British Industry
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Confederation of Passenger Transport UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ConnectEd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Consol Suncentres
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Construction Skills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ConstructionSkills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Consumer Focus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Consumer Focus Post
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Consumers for Health Choice
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cool nrg
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cordoba Financial Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cory Environmental
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cosmetic, Toiletry and Perfumery Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Council for Administration
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Council for Healthcare Regulatory Excellence
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Council for the Curriculum Examinations and Assessment
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Council of Property Search Organisations
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Council)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Countryside Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Covanta Energy Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crampton
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Creation Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Creative Direction Consultants Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Credential Holdings Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crest Nicholson Regeneration
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crest/Galliford LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cromarty Firth Port Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crop Life International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crop Protection Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cross London Rail Links Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cross Party Group for Funerals and Bereavement
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cross River Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crown Wharf
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Croydon College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Crucell
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cubic
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Cycling England
+- !ruby/object:LobbyistClient
+  attributes:
+    name: D&L Mullen Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: DC Leisure
+- !ruby/object:LobbyistClient
+  attributes:
+    name: DHL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: DP World
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Danone
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Darinian Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dartex Coatings Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Database)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dave
+- !ruby/object:LobbyistClient
+  attributes:
+    name: De La Rue
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Deltex Medical Diageo GB
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Denplan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Department for Children, Schools
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Design Museum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Design and Artists\xE2\x80\x99 Copyright Society"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Deutsche Bahn
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Deutsche Post World Net
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Develica
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Development Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Devon County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Diabetes UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Diabetes UK NI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Diageo UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dickie Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Digital UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Disasters Emergency Committee
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dispensing Doctors Assoc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dollar Financial
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dolphin Square Charitable Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Domino\xE2\x80\x99s Pizza"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dong Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Doosan Babcock
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Down Royal Racecourse
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dr Foster Intelligence
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dragon LNG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dukelease Properties Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Duninga Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Durkan Estates
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Dutko Worldwide
+- !ruby/object:LobbyistClient
+  attributes:
+    name: E.ON
+- !ruby/object:LobbyistClient
+  attributes:
+    name: E.ON Climate & Renewables
+- !ruby/object:LobbyistClient
+  attributes:
+    name: E.ON UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EADS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EADS Astrium
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EADS Defence and Security
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EAS UK Ltd (Sports Nutrition) for Abbott Laboratories
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ECFIA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EDAP TMS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EDC Directorship
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EDF Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EEDA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EMI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ERA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ESB International Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ETS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EU Skills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EU-Russia Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eaga plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eagle Star Estates Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Earls Court Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EarlyBird Diabetes Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: East London Bus Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: East London Line Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: East Midlands Development Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: East Midlands Police Authorities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: East of England
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eatonfield Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ebay Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eco-Towns
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EdExcel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eden Springs
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Edenlaw West
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Edinburgh Military Tattoo
+- !ruby/object:LobbyistClient
+  attributes:
+    name: EirGrid
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ellerman
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Elliott Advisors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Elphinstone Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Emerson
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Employers Forum on Age
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Energy Retail Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Energy Saving Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Engineering & Technology Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Engineering and Technology Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: England and Wales Cricket
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Englewood
+- !ruby/object:LobbyistClient
+  attributes:
+    name: English Cricket Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: English Heritage
+- !ruby/object:LobbyistClient
+  attributes:
+    name: English UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Enodis Property Development
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Enplan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Enterprise Northern Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Enterprise Rent-A-Car
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Enviro-Fresh
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Equifax
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Equiniti
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Esmee Fairbairn Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Essex County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ethical Medicines Industry Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ethicon Endo-Surgery (Europe) GmbH
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eurobond
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Euroclad
+- !ruby/object:LobbyistClient
+  attributes:
+    name: European ATV Safety Institute
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eurostar
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Every Child a Chance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ewart Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ExCeL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Explore Investments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Eyre Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: FBC Media
+- !ruby/object:LobbyistClient
+  attributes:
+    name: FBC Media UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: FRIDE
+- !ruby/object:LobbyistClient
+  attributes:
+    name: FSA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Faculty of Sexual and Reproductive Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fair Trials International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fairview Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Falkland Islands Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Federation Internationale de L\xE2\x80\x99Automobile"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Federation of Awarding Bodies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Federation of Retail and Licensed Trade
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Federation of Small Businesses Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fellowes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Field Studies Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Finance and Leasing Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Financial Services Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Financial Services Compensation Scheme
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Financial Services Skills Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Findon Holdings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Finmeccanica UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Firmus Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: First Base
+- !ruby/object:LobbyistClient
+  attributes:
+    name: First Scotrail
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Flagship Training Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Flybe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Food Standards Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Football Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Football Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ford Motor Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Formula One Management Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Forth Ports
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fortis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Foster Care Associates Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Foundation Degree Forward
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Foundations UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Frederick Solms-Baruth
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Freedom for Pubs, Fair Pint? Campaign
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Freight Transport Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fremantle Media Group Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Frogmore
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Fujitsu Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "F\xC3\xA9d\xC3\xA9ration Internationale de Motocyclisme"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "F\xC3\xA9d\xC3\xA9ration Internationale des V\xC3\xA9hicules Anciens"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: G15 Housing Associations
+- !ruby/object:LobbyistClient
+  attributes:
+    name: G4S Cash Services (UK) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: G4S Security Services, UK and Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: G4S plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GB Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GE
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GE Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GE Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GKN plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GMAC-RFC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GML Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GP Care UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GSK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GTMC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Galil Medical
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Galliard Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gambling Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Games)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gate Gourmet Ltd London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gates Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: General Dynamics UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: General Medical Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Genesis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Genworth Financial
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Genzyme
+- !ruby/object:LobbyistClient
+  attributes:
+    name: George Hammond plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: George Wimpey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: George Wimpey East London Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Geze
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Girlguiding UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gladedale
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gladedale Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Glasgow Airport Rail Link
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GlaxoSmith Klein
+- !ruby/object:LobbyistClient
+  attributes:
+    name: GlaxoSmithKline Nutritional Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gleeson Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Glenkerrin
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Glenkerrin Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Glentoran Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Go Skills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Goldman Sachs
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Goodman International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Google
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Government of Bahrain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Government of Singapore
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grade Wand
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Granard Business Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grattan / Freemans
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Great Peter Street (GP) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Great Porland Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Greater Manchester Passenger
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Green Property
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Greenergy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Greenpeace International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Greenstar
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Greenway Land LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gretton brook Estates
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grimsby Institute
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grosvenor
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grosvenor Davies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grosvenor Securities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grosvenor Square Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Grundfos
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Guaranty Trust Bank
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Guardian Media Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Guildford College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gyle Shopping Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Gypsum Recycling International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: H Bronnley and Co Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: H.E.A.R.T. UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HACAN Clearskies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HB Dairies
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HBOS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HBOS FSPS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HBOS plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HNJV Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HSBC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: HSBC Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hadley Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hallam Land Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Halton Borough Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hammersmith Hospitals NHS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hammerson
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hannick Homes & Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hark Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Harrah\xE2\x80\x99s Entertainment"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hartham Park Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hartnell Taylor Cook
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Harworth Power
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Haslam Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Haysboro Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Headlinemoney
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Health & Safety Executive
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Health Food Manufacturers\xE2\x80\x99 Association"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Health Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Healthcare 360
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Healthcare at Home
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Healthnotes Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Healthy Direct
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Heart of London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Heating and Hotwater Industry Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hedleigh (Mayfair) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Helveta
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Henderson
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Henderson Global Investors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Henderson Surveyors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Henry Boot
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hepatitis B Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Herba Sacra
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Heritage Lottery Fund
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Heron Land Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hertfordshire County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hertfordshire Oil Storage Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hewlett-Packard
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Highbridge
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Higher Education Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Highland Hospice
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Highmore Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hilton Hotels Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hines
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Historic Houses Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hitachi Europe Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hive
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Holiday Retirement UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Holland and Barrett Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Homes for Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Homeserve plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hospedia
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hospital Corporation of America
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Housing Corporation/Tenant Services Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Huawei
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hughes Hubbard & Reed LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hull Trains
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Human Rights Watch
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Humana Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Hutchison Whampoa (Europe) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: I CAN
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IBA Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ICAEW
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IDIS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IFDS Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IGT-UK Gaming Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IIDC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "ILAG \xE2\x80\x93 Investment and Life Assurance Group"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "IMA \xE2\x80\x93 Investment Management Association"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IMD
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IMS Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ING Media
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ISIS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: IVG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Icomera UK Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Iconshield Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ifield Estates
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Imperial College Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Improvement & Development Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: InBev
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Inbev
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Inchcape Shipping Services (UK) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Independent Light Dues Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Independent Retail Confederation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Industri Kapital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Industry Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ineos
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ineos Fluor
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Infant and Dietetic Foods
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Infinergy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Infinity
+- !ruby/object:LobbyistClient
+  attributes:
+    name: InishPho
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Initiative
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Inland Waterways Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Inna Gudavadze
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Inspace Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute for Family Business
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute of Chartered Accountants of Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute of Directors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute of Physics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute of Public Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institute of Travel Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Institution of Engineering Technology
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Integrated Dental Holdings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Intel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: InterGen
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Interel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Intermodality
+- !ruby/object:LobbyistClient
+  attributes:
+    name: International Affairs Office of the Government of Dubai Executive Office
+- !ruby/object:LobbyistClient
+  attributes:
+    name: International Council on Amino Acid Science
+- !ruby/object:LobbyistClient
+  attributes:
+    name: International Paper
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Internet Services Providers'
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Internet Telephony Services Providers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Internet Watch Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Intuit
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Invensys plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Invergordon Port Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Invesco Perpetual
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Investland Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Investors in People
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Investream Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ipswich School
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Iron Mountain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Irwin Mitchell
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Isle of Man Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ixion
+- !ruby/object:LobbyistClient
+  attributes:
+    name: J SAINSBURY plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: J Sainsbury
+- !ruby/object:LobbyistClient
+  attributes:
+    name: JG Land Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: JOHN LEWIS plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: JPMorgan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: James Fisher
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Janssen Cilag
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Jemstone Network
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Jet2.com
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Jewish Community Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Jockey Club Racecourses
+- !ruby/object:LobbyistClient
+  attributes:
+    name: John Lewis Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: John Thompson and Partners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Johnson & Johnson
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Johnson Controls Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Joseph Rowntree Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Jubilee Action
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Just Retirement (Holdings) plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: KBR
+- !ruby/object:LobbyistClient
+  attributes:
+    name: KPMG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kalyx
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kaplan Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kapsch TrafficCom AG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kearsley Property Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kenmore Property Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kent Thameside Regeneration
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kettle
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kidney Wales Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kier Group PLC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kier Property
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kilbride Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kimberly-Clark Corporate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kimberly-Clark Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kingfisher
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kingsbridge Estates
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kingspan Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kleenex
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Knowsley
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Knowsley Borough Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kraft Foods UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kroll Consulting
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Kyp Systems plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LAGAN DEVELOPMENTS LTD
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LGC Forensics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LIFFE
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LIFT LOBI (Local Improvement Finance Trusts Liaison Organisation for Business Investors) www.liftlobi.co.uk (supported by Accent Partnerships, Community Solutions for Primary Care, Eric Wright Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LOCOG (London Organising
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Laing O\xE2\x80\x99Rourke"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lambert Smith Hampton
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lambeth PCT
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Land Securities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Landesbanki
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Landmark Information Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Landsbanki Depositors Action
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lantra
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lapdancing Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Law Centre Northern Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lawn Tennis Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: League Against Cruel Sports
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Leaning & Skills Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: LeasePlan UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Leeds City Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Legal and General
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Leisure Connection
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lewis Wind Power
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Liberata
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Licensed Taxi Drivers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Lifeblood: The Thrombosis Charity"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lifesearch
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lighterlife
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lilly
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lilly UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lincoln Financial Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lincolnshire County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Linden Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Linden/Dowland Graylingwell LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Livingstone Group LLC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lloyds Register
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lloyds TSB Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lloydspharmacy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Local Government Challenge
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Local Government Information Unit
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lockheed Martin UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lokahi Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London & Associated Properties Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London & Birmingham Railway Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London & Quadrant Housing Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Associated Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Borough of Hammersmith & Fulham
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Borough of Hounslow
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Chamber of Commerce
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London City Airport
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Clubs International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London First
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Health Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Paper
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Southbank University
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London Thames Gateway
+- !ruby/object:LobbyistClient
+  attributes:
+    name: London and Newcastle
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "London\xE2\x80\x99s Taxi Network"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lundbeck
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lymphoma Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Lynch Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: M Baker
+- !ruby/object:LobbyistClient
+  attributes:
+    name: M SHIELDS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MGM UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MGT Power Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MMG Global Consulting
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MVV Environment
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MWH
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mabey & Johnson
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MacDonald, Dettwiler and Associates
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MacFarlane Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mace
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Macmillan Cancer Support
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MacoPharma
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Macquarie Airports
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Maersk Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mail boxes Etc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Make Justice Work
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Managers in Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Manor Kingdom
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mantra PR
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mapeley Estates Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Marden Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Marie Curie Cancer Care
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Marine Current Turbines
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mariposa Investments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MarketGuard Insurance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Marks & Spencer plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mars UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Martha Schwartz
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mass Athens
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Matrix
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Maxim
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Maximus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Maximuscle Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Maybourne Hotels Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "McCLOSKEY & O\xE2\x80\x99KANE"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: McCain Foods
+- !ruby/object:LobbyistClient
+  attributes:
+    name: McCain Foods (GB) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: McDonalds Restaurants Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: MeadWestvaco
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Media Smart UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Medical Defence Union
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Medical Protection Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Medical Research Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Medicines for Malaria Venture
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mentor Employment & Skills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Menzies Aviation plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merck Schering Plough
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merck Sharp & Dohme
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merck Sharp & Dohme Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merck Sharp & Dohme Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merck Sharp and Dohme
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merseyside Waste Disposal Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Merseytravel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Messrs Hanby Whelan and Chesser
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Met Office
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Metropolitan Fire and Rescue Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Microsoft
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Midland Resources
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Migration Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Migration Parliamentary Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mikhailov & Partners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Miller Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mimas Developments Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ministry of Finance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mirvac
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mitsubishi Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mitsui Fudosan c/o Stanhope Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mo Ibrahim Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mobile Marketing Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Modern City Living
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Monitor
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Moody\xE2\x80\x99s Investor Services"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Morrisons
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Motor Accident Solicitors Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mouchel Parkman
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Mowbray by Design
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Multiple Schlerosis Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Multiport
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Munro & Forster Communications
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Musgrave
+- !ruby/object:LobbyistClient
+  attributes:
+    name: N Power Renewables
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NALC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NBC Universal Pictures Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NBC Winner Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NEC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NESTA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NFOPP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHBC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHBC (National House Building
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHP Leisure Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Community Foundation Trusts
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Health Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Information Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Innovations
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Supply Chain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NHS Trust (formerly
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NJW Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NL Communications
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NOFAS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NStar
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NYnet
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nabarro
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nasscom
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nathanial Associates Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Accident Helpline
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Air Traffic Services Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Ankylosing Spondylitis Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Association of Estate Agents
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Association of Funeral Directors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Australia Bank
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Australia Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Autistic Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Express East Coast Trains Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Express Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Express Group PLC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Express Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Express UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Grid
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Heritage Lottery Fund
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National House Building Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Joint Utilities Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Literacy Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Lottery Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Osteoporosis Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Rheumatoid Arthritis Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Right to Fuel Campaign
+- !ruby/object:LobbyistClient
+  attributes:
+    name: National Trust for Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nationwide Building Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Native Land
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NedRailways
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Neptune Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Neptune Land
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Neste Oil
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nestle SA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nestle UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: NetJets Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Netjets Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Network Europe Group Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Network Housing Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Network Rail
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Newlyn Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: News Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: News International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nexus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nickel Institure
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nike Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nokia
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nominet
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nord Stream
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Norfolk County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Norilsk Nickel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Norman Disney & Young
+- !ruby/object:LobbyistClient
+  attributes:
+    name: North British Windpower
+- !ruby/object:LobbyistClient
+  attributes:
+    name: North East Property Buyers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: North London Hospice
+- !ruby/object:LobbyistClient
+  attributes:
+    name: North London Waste Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Ireland Authority for Utility Regulation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Ireland Confederation for Health and Social Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Ireland Energy Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Ireland Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Ireland Legal Services Commission
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Lighthouse Board
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northern Rock
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northrop Grumman
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Northumbria University
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Norwich & Peterborough Building Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Norwich City Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Notting Hill Housing Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nottingham City Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Novartis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Novartis Pharmaceuticals
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Novo Nordisk Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Novus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nuclear Industry Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nuffield Hospitals
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nuffield Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Nutricia
+- !ruby/object:LobbyistClient
+  attributes:
+    name: O&H Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: O2
+- !ruby/object:LobbyistClient
+  attributes:
+    name: OCR Cymru
+- !ruby/object:LobbyistClient
+  attributes:
+    name: OPP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: OSS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: OTE Hellenic Telecommunications Organization
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ochre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Octavia Housing and Care
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Old Warren Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Olive Green Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Olympic Delivery Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Omega
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Omnicash
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Omnicom
+- !ruby/object:LobbyistClient
+  attributes:
+    name: OneSearch Direct
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Optometry Wales
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Oracle Residential
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Orange
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ordnance Survey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Organon/Schering Plough
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Orion/first place
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Otkritie Directorship
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Outdoor Advertising Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Oxford Nanopore
+- !ruby/object:LobbyistClient
+  attributes:
+    name: P&F Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: P&O Seafrance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PHOENIX NATURAL GAS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PPG Land Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PROBAS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PSI Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PTEG
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "PURGE: the Utilities Forum"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pafilia Property Developers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Paradigm Secure Communications
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Paragon Group of Companies plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Parkinson\xE2\x80\x99s Disease Society"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Parkridge
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Parkside 2010 (funded by Astral Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Parliament of Russia
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Parsons Brincherhoff
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Parsons Brinckerhoff
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Passenger Focus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PayPal
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PayPoint.net
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Paypoint
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Peabody Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pearl
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Peel Holdings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Peel Land Investments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pelham Holdings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pension Protection Fund
+- !ruby/object:LobbyistClient
+  attributes:
+    name: PepsiCo UK & Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Periodical Publishers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Persimmon Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Pet Food Manufacturers\xE2\x80\x99 Association"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Peter Jones National Skills Academy for Enterprise
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Phadia UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pharma Mar
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Pharmaceutical Contractors\xE2\x80\x99 Committee"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pharmaceutical Oncology
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Philip Morris Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Phonographic Performance Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Phorm Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pinewood Shepperton plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Places for People
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Plastics Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pocket
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pole Star Global
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Police Federation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Porsche
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Port of London Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Port of Tilbury
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Portfolio Venture
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Postcode Lottery
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Postcomm
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Premier League
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Premier Travel Inn
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Premier Waste Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prenergy Power
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Presentation Social Investment Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Primacure NI Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Princes Quay Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prisoners Abroad
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ProLogis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Proctor & Gamble NTC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prologis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prologis Developments Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Property Development Options Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prostate Cancer Charter for
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Provident Financial
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pru Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prudential
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Prudential Corporation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Public Trust Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Puppies)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pye Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Pyestock Unit Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: QinetiQ
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Quarriers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Quiller Consultant
+- !ruby/object:LobbyistClient
+  attributes:
+    name: R20
+- !ruby/object:LobbyistClient
+  attributes:
+    name: R3
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RADAR
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RAL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RAVL
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RBS Insurance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: REALIS ESTATES LTD
+- !ruby/object:LobbyistClient
+  attributes:
+    name: REIT Asset Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RIM
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RLF
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RLF Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RLW Estates Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RMJM
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RMJM Architects
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RMJM Consortium
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RNIB Cymru
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RPSGB
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RREEF Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: RSPCA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Racing UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Radical Middle Way
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Radio Taxis Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Railfreight Interchange Investment Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rank Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rarer Cancers Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Reach for Life
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Realdon Property
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Recycling Electrical Producers' Industry Consortium
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Redrow Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Redrow Homes Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Reed in Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Registration Council for Clinical Physiologists
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Renewal
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rentokil-Initial
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Republika Srpska
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ResCare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Research Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Research In Motion
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Retirement Villages Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rheumatology Futures Project Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Richmond Care Villages
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Riding Lane North
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rio Tinto Alcan
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Riva Hotel
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Roche Diagnostics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Roche Diagnostics Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Roche Products
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Roche Products Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ronald McDonald House Charities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rose Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rosscourt Property Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal & Sun Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal & SunAlliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Academy of Engineering
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal British Legion
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal College of Radiologists
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal College of Speech and Language Therapists
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Highland and Agricultural
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Institute of Chartered Surveyors
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Mail
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Masonic Benevolent Institution
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Mint
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Parks
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Star & Garter
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Surrey County Hospital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Royal Zoological Society of Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rugby Football League Cadbury
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rugby Football Union
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rugeley Power Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Rural Services Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: S C Johnson EURAFNE
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SAAB Training Systems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SABMiller Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SABMiller plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SAICA Packaging UK Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SEGRO Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SICPA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SMMT
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SNACMA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SNCF
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SPARKS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: STEP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: SYH Charterhouse
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Safestore Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Saga Services Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sainsburys
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Sainsbury\xE2\x80\x99s"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Salisbury District Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sanmex International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sanofi Pasteur MSD
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sanofi-Aventis Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sanofi-aventis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sard Verbinnen & Co
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Schering Plough Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: School Food Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Schweppes plc)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scope
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish & Newcastle UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Centre for Healthy Working Lives
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Development International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Environmental Protection Agency
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Life
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Physical Activity Task Force
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Power Energy Wholesale
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Rugby Union
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Water
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Widows
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Widows Bank
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Scottish Widows Investment Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: ScottishPower
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Seatwave
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Security Industry Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Selex Galileo
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sellar Property Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Serco
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Serco Integrated Transport
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Services plc)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Servier
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Servier Laboratories
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sesame Workshop
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Shaftesbury PLC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sharp
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Shelbourne Senior Living
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Shell
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sheridan Operations Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Shingles Support Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sindicatum Carbon Capital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sir Robert McAlpine
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Skills for Logistics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sky
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Society of Chiropodists & Podiatrists
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Society of Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Solicitors Regulation Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Solvay Pharmaceuticals GMBH
+- !ruby/object:LobbyistClient
+  attributes:
+    name: South African Tourism
+- !ruby/object:LobbyistClient
+  attributes:
+    name: South Thames College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: South West Water
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Southbank Centre
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Southern Water
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Southside and City Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sovereign Capital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Spar (UK) Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Special Court of Sierra Leone
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Specialised Healthcare Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Specialist Colleges
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Spinal Injuries Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Spirit Aerosystems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sport England
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sport Northern Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Spring Park Corsham Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Spring Urban Regeneration
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Springfield Hospital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: St Congar Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: St John Ambulance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: St Modwen Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: St Modwen Properties Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: St Mungo Community Housing Association Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stagecoach Rail
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Standard Life
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stanley Casinos
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stanley Siding Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stanleybet International
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Starbucks UK & Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: States of Guernsey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Steamboat Developments Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stephen Howard Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Strathclyde Partnership for Transport
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stringfellow Restaurants
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Stuart Le Gassick
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Suffolk County Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Summerleaze
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sunrise Senior Living
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Surrey Police Authority
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Sussex Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Swimming Teachers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Syngenta
+- !ruby/object:LobbyistClient
+  attributes:
+    name: T-Mobile
+- !ruby/object:LobbyistClient
+  attributes:
+    name: T-Systems
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TCS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: THE MURDOCK GROUP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: THE WILSON GROUP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "TIGA / ELSPA \xE2\x80\x93 Games UP? Campaign"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TISA - !ruby/object:LobbyistClient
+  attributes:
+    name: Tax Incentivised Savings Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TM Property
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TNT post
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TOWNS LTD
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TQ9 LLP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TRAINING MODULE CLIENTS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TSL Education Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TUI Travel PLC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Taggart Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TalentScotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Talk Talk Telecom Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tamares Capital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tandberg
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Target Living
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tate & Lyle
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Taylor Wimpey
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Taylor Wimpey UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Teach First
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Telford and Wrekin Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Terrace Hill
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tesco
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tesco Stores Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tetra Pak
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Thames Gateway
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Thames Gateway Parliamentary Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Thames Water Utilities Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Advanced Controls Manufacturers Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The All-Party Parliamentary Media Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Association of National
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Barrow Cadbury Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Benyon Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Blackstone Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The British Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Bukhamseen Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Catesby Property Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Cavendish Hotel Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Christie NHS Foundation Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The City of London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Coca-Cola Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Communication Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Construction and Property Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Consultation Institute
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Consumer Council NI
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Crown Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Dart Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Deposit Protection Service
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The E-homebuying Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Engine Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Englefield Estate
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The European Azerbaijan Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The European Specialist Sports Nutrition Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Fletcher School of Law & Diplomacy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Glenmorangie Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Government of Russia
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Health Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Junction Limited Partnership
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Kennel Club
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Kings Fund
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Kingswood Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Locus Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Lowry
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Maersk Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Mall
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Mercers Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The NorthEast Economic Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Open University
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Passage
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Platforum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Probation Board for Northern Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The REaD Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Russia Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Seafood Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Survey Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The UK and EU Very Low Calorie Diet Industry Groups
+- !ruby/object:LobbyistClient
+  attributes:
+    name: The Urology Trade Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Thomas Cook
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Thurleigh Estates Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ticketmaster
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tideway Properties
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tiger
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tilbury Green Power Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tilfen Land
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Total Politics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tourism Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Toy Industries of Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Toyota
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Trafalgar Way Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Trafficmaster
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Trainline Holdings Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: TransPennine Express
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transatlantic Nuclear Energy Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transcend
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transdev
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transport Executive (GMPTE)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transport Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Transport for London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Travel & General Insurance Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Travelodge
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Trehaven Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Triton Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Trust)
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Tr\xC3\xB3caire"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tube Lines
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tullow Oil plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Turkingtons
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tutu Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Tyco Electronics
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UCAC
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UCB Pharna
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Air Rescue
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Boxer Property Co Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Business Council for Sustainable Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK COAL plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Coal
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Lung Cancer Coalition
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Major Ports Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Property Buyers
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UK Young Scientists & Engineers Fair
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UKAS
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UKCTA
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UNISON
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UNITE, the National Federation of Royal Mail & BT Pensioners
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UPP Projects Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: UPS Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: US Chamber of Commerce
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ukio Bankas
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ulster Cancer Foundation
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Ultra Motor
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Understanding Modern Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unilever
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unilever UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unilever UK & Ireland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unisys
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unite
+- !ruby/object:LobbyistClient
+  attributes:
+    name: United Health
+- !ruby/object:LobbyistClient
+  attributes:
+    name: United House
+- !ruby/object:LobbyistClient
+  attributes:
+    name: United Nations Office for Project Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: United Utilities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: University of Central Lancashire
+- !ruby/object:LobbyistClient
+  attributes:
+    name: University of Hertfordshire
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Unum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Urban Renaissance Villages
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Urban solutions
+- !ruby/object:LobbyistClient
+  attributes:
+    name: V
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VAT Liaison
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VT Education & Skills
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VT Four S
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VT Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VT Group plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VT Support Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Valad
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Vale of Glamorgan County Borough Council
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Vattenfall
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Vauxhall Bondway Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Viagogo
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Viking Wind Energy
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Villafont Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Atlantic
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Healthcare
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Management Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Media
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Money
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Virgin Trains
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Viridor Waste Management
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Visa Europe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Visit London
+- !ruby/object:LobbyistClient
+  attributes:
+    name: VisitBritain
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Vodafone
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Voluntary Action Cardiff
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Volunteer Development Scotland
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Volunteer Reading Help
+- !ruby/object:LobbyistClient
+  attributes:
+    name: WESTFIELD SHOPPING
+- !ruby/object:LobbyistClient
+  attributes:
+    name: WMS Gaming
+- !ruby/object:LobbyistClient
+  attributes:
+    name: WRAP
+- !ruby/object:LobbyistClient
+  attributes:
+    name: WRC Holdings
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Waging Peace
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Wallace & Gromit\xE2\x80\x99s Children\xE2\x80\x99s Foundation"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Warsaw Stock Exchange
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Waste Recycling Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Water Innovation event
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Waverley Rail
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Welsh Assembly Government
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Welsh Local Government Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Welsh Water
+- !ruby/object:LobbyistClient
+  attributes:
+    name: West Anglian Routes Group
+- !ruby/object:LobbyistClient
+  attributes:
+    name: West Bay Capital
+- !ruby/object:LobbyistClient
+  attributes:
+    name: West Herts College
+- !ruby/object:LobbyistClient
+  attributes:
+    name: West Midlands Passenger Transport Authority / West Midlands Metropolitan Authorities
+- !ruby/object:LobbyistClient
+  attributes:
+    name: West of England Partnership consisting of Unitary authorities of Bath and North East Somerset, Bristol, North Somerset and South Gloucestershire
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Westinghouse Electric UK Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Westward Care
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whaftland Investments Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wheelabrator
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whessoe Oil & Gas Ltd
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whitbread Group Plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whiteburn Developments
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whitekirk Golf and Country Club
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Whizz Kidz
+- !ruby/object:LobbyistClient
+  attributes:
+    name: William Hill
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Willmott Dixon
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wine and Spirit Trade Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wine and Spirits Trade Association
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wise Employment
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wm. Morrison Supermarkets plc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wolverine World Wide (Hush
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "Women\xE2\x80\x99s Resource and Development Agency"
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Woods Bagot
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Work directions UK
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Workspace Glebe
+- !ruby/object:LobbyistClient
+  attributes:
+    name: World Agricultural Forum
+- !ruby/object:LobbyistClient
+  attributes:
+    name: World Economy and Finance Programme
+- !ruby/object:LobbyistClient
+  attributes:
+    name: World Hepatitis Alliance
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Worldwide Brands Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wright Bus
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wrigley Company
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wyeth
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Wyeth Pharmaceuticals
+- !ruby/object:LobbyistClient
+  attributes:
+    name: YUKOS Hydrocarbons
+- !ruby/object:LobbyistClient
+  attributes:
+    name: YUKOS International UK B.V
+- !ruby/object:LobbyistClient
+  attributes:
+    name: York test
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Yorkshire Building Society
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Youth Sports Trust
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Zed Homes
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Zegna III Holdings Inc
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Zurich Assurance Limited
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Zurich Financial Services
+- !ruby/object:LobbyistClient
+  attributes:
+    name: Zurich Municipal
+- !ruby/object:LobbyistClient
+  attributes:
+    name: aAIM Infrastructure
+- !ruby/object:LobbyistClient
+  attributes:
+    name: aAim Infrastructure
+- !ruby/object:LobbyistClient
+  attributes:
+    name: and Families
+- !ruby/object:LobbyistClient
+  attributes:
+    name: eBay
+- !ruby/object:LobbyistClient
+  attributes:
+    name: esure
+- !ruby/object:LobbyistClient
+  attributes:
+    name: i2o
+- !ruby/object:LobbyistClient
+  attributes:
+    name: learndirect
+- !ruby/object:LobbyistClient
+  attributes:
+    name: sanofi-aventis
+- !ruby/object:LobbyistClient
+  attributes:
+    name: "\xE2\x80\x98Europe Needs Initiative\xE2\x80\x99 campaign"
+
