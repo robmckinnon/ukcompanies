@@ -26,6 +26,7 @@ module CompaniesHouse
     connection=CompaniesHouseConnection.new
     answer=Company.new
     answer.parse(connection.searchByNumber(number))  
+    answer
   end
 
   class CompaniesHouseConnection
