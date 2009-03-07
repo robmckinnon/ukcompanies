@@ -3,7 +3,7 @@
          <p>You searched for <%= @query %></p>
        <p>Results</p>
        <% for company in @companies %>
-         <%= link_to(company.name, company_path(company))%>
+         <%= link_to(company.name, show_it_url(:id => company.friendly_id) )%>
        <% end %>
      </div>
 
