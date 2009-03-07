@@ -18,6 +18,7 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => "home"
 
   map.show_it '/:id', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
+  map.redirect_it '/:id/companies_house', :conditions => { :method => :get }, :controller => 'companies', :action => 'companies_house'
 
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }
