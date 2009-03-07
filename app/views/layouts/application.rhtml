@@ -63,13 +63,40 @@
 			}
 		</style>
  
-	
-	
-	</head>
+	  
+         <%= yield :head %>
+    </head>
 	<body>
         <div id="layout">
         			<div id="container">
+        			    <div class="container-top"></div>
+                    	<div class="container-right"></div>
+                    	<div class="container-bottom"></div>
+                    	<div class="container-left"></div>
+
+                    	<div class="container-top-right"></div>
+                    	<div class="container-bottom-right"></div>
+                    	<div class="container-bottom-left"></div>
+
+                    	<div class="container-top-left"></div>
+                    	
+                        <div id="header" >	
+                          <%= image_tag('coh.png') %>
+                          <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
+                        </div>
                          <%= yield %>
+                         
+                         <div id="footer">
+                         <div id="rsproduct"  style="padding-top: 150px;">
+                         <div style="float: left; padding: 10px">       
+                           <%= image_tag('logo/rs_bigger.png') %>
+                         </div>
+                         <div >
+                         <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the Rewired State Hackday.<br /> See <%= link_to('Rewired State','http://rewiredstate.org/') %> for details of the event.<br />
+                         <span style="font-size: 10px">Credits: @grahamashton  @delineator  @jamespjh @metade @martinbtt</span>    
+                             </p>
+                         </div>
+                         </div>
         			</div>
         		</div>
 
