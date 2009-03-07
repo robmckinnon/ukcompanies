@@ -419,3 +419,567 @@
     created_at: 2009-03-07 15:45:14
   attributes_cache: {}
 
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH BRANDS GROUP
+    company_number: NL16767639
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:45:47
+    url: 
+    id: "40"
+    address: MULBERRY HOFYNING LAROGATE PETERSFIELD GU31 5EE
+    created_at: 2009-03-07 15:45:47
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH DENTAL ASSOCIATION
+    company_number: "00014161"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:46:13
+    url: 
+    id: "41"
+    address: 64 Wimpole Street, London W1g 8ys
+    created_at: 2009-03-07 15:46:13
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH ENERGY GROUP PLC
+    company_number: SC270184
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:46:26
+    url: 
+    id: "42"
+    address: Britsih Energy, Gso Business Park, East Kilbride, G74 5PG
+    created_at: 2009-03-07 15:46:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH FILM INSTITUTE
+    company_number: NL18153132
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:46:36
+    url: 
+    id: "43"
+    address: 21 STEVEN ST LONDONW1T 1LN
+    created_at: 2009-03-07 15:46:36
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH FURNITURE CONFEDERATION
+    company_number: 05811554
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:46:50
+    url: 
+    id: "44"
+    address: Francis Vaughan Hse Q1 Capital, Point Capital Business Pk
+    created_at: 2009-03-07 15:46:50
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITISH HOSPITALITY ASSOCIATION
+    company_number: 00109030
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:47:30
+    url: 
+    id: "45"
+    address: Queens Ho, 55-56 Lincolns Inn Fields, London WC2A 3BH
+    created_at: 2009-03-07 15:47:30
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRITSPACE MODULAR BUILDINGS LIMITED
+    company_number: 04503758
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:48:45
+    url: 
+    id: "46"
+    address: Unicorn Hse, Broad La Gilberdyke, Brough, HU15 2TS
+    created_at: 2009-03-07 15:48:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BROADS AUTHORITY
+    company_number: NL17672984
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:48:53
+    url: 
+    id: "47"
+    address: 18 COLEGATENORWICH NR3 1BQ
+    created_at: 2009-03-07 15:48:53
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRUTON KNOWLES
+    company_number: NL17397598
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:49:24
+    url: 
+    id: "48"
+    address: 42 BULL ST BIRMINGHAMB4 6AF
+    created_at: 2009-03-07 15:49:24
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BRYSON CHARITABLE GROUP
+    company_number: NI001319
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:49:35
+    url: 
+    id: "49"
+    address: 28 BEDFORD ST BELFAST BT2 7FE
+    created_at: 2009-03-07 15:49:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BSEF
+    company_number: NL17414493
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:49:41
+    url: 
+    id: "50"
+    address: 363 CURIE AVEHARWELL DIDCOTOX11 0QQ
+    created_at: 2009-03-07 15:49:41
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BURFORD GROUP
+    company_number: "01340222"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:50:06
+    url: 
+    id: "51"
+    address: 20 Thayer Street, London, W1U 2DD
+    created_at: 2009-03-07 15:50:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BURGES SALMON LLP
+    company_number: OC307212
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:50:12
+    url: 
+    id: "52"
+    address: Narrow Quay House, Narrow Quay, Bristol, BS1 4AH
+    created_at: 2009-03-07 15:50:12
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: BUYINGTEAM LIMITED
+    company_number: 06029614
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:50:41
+    url: 
+    id: "53"
+    address: Eagle House, 16 Procter Street, London, WC1V 6NX
+    created_at: 2009-03-07 15:50:41
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CALA HOMES
+    company_number: NL17985380
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:51:11
+    url: 
+    id: "54"
+    address: BRIDGEDEAN SALES ENQUIRIES COALPORT RD BROSELEYTF12 5AN
+    created_at: 2009-03-07 15:51:11
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CANON (UK) LIMITED
+    company_number: "01264300"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:52:34
+    url: 
+    id: "55"
+    address: Woodhatch, Reigate, Surrey, RH2 8BF
+    created_at: 2009-03-07 15:52:34
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CANON UK
+    company_number: NL18592135
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:52:48
+    url: 
+    id: "56"
+    address: UNIT 1 FLEMING CENTREFLEMING WAY CRAWLEY RH10 9NN
+    created_at: 2009-03-07 15:52:48
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CAPITA RESOURCING LTD
+    company_number: NL04208139
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:53:27
+    url: 
+    id: "57"
+    address: 71 Victoria Street, London, SW1H 0XA
+    created_at: 2009-03-07 15:53:27
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CAPITA SYMONDS
+    company_number: NL18268651
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:53:39
+    url: 
+    id: "58"
+    address: SUNDIAL HO 63 CHEAP ST NEWBURY RG14 5BT
+    created_at: 2009-03-07 15:53:39
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CARDWAY LTD
+    company_number: 01484649
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:54:46
+    url: 
+    id: "59"
+    address: at heading address.
+    created_at: 2009-03-07 15:54:46
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CATS SOLUTIONS LTD
+    company_number: "02766445"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:56:54
+    url: 
+    id: "60"
+    address: Rushy Platt, Swindon, Wiltshire, SN5 8WG
+    created_at: 2009-03-07 15:56:54
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CCS MEDIA LIMITED
+    company_number: 01693516
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:57:16
+    url: 
+    id: "61"
+    address: Old Birdholme Hse, Derby Rd, Chesterfield, Derbyshire S40 2EX
+    created_at: 2009-03-07 15:57:16
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CENTRAL TELECOM UK LIMITED
+    company_number: 01913537
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:57:38
+    url: 
+    id: "62"
+    address: 3 The Maltings, Wetmore Rd, Burton-on-trent, Staffs DE14 1SF
+    created_at: 2009-03-07 15:57:38
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CERTES COMPUTING LIMITED
+    company_number: 01697294
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:57:44
+    url: 
+    id: "63"
+    address: 3 The Courtyard, Roman Way, Coleshill, Warwickshire B46 1HQ
+    created_at: 2009-03-07 15:57:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CHECHNYA PEACE FORUM
+    company_number: 05990870
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:59:06
+    url: 
+    id: "64"
+    address: Clearwater House, 4-7 Manchester Street, London, W1U 3AE
+    created_at: 2009-03-07 15:59:06
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CITY OF BRISTOL COLLEGE
+    company_number: NL17394756
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:00:19
+    url: 
+    id: "65"
+    address: OLD CUSTOM HOQUEENS SQ BRISTOL BS1 4JH
+    created_at: 2009-03-07 16:00:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CIVIL AVIATION AUTHORITY
+    company_number: NL18315090
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:00:35
+    url: 
+    id: "66"
+    address: HOUSTON RD BARNSFORD RENFREW PA4 9LS
+    created_at: 2009-03-07 16:00:35
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CLARANET LIMITED
+    company_number: "03152737"
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:00:42
+    url: 
+    id: "67"
+    address: 21 Southampton Row, London, WC1B 5HA
+    created_at: 2009-03-07 16:00:42
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CLARIDGES
+    company_number: NL18132877
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:00:52
+    url: 
+    id: "68"
+    address: 7 OAKLEIGH RD NORTHLONDONN20 0RX
+    created_at: 2009-03-07 16:00:52
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CLAYMOSS PROPERTIES LIMITED
+    company_number: 03359514
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:01:00
+    url: 
+    id: "69"
+    address: 5 Ridge Hse, Ridge Hse Dr, Festival Park, Stoke-on-trent ST1 5SJ
+    created_at: 2009-03-07 16:01:00
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CLIMATE STRATEGIES
+    company_number: 05796323
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:01:38
+    url: 
+    id: "70"
+    address: 3 Clement's Inn, C/o Carbon Trust, London, WC2A 2AZ
+    created_at: 2009-03-07 16:01:38
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: COLLIERS CRE
+    company_number: NL02895224
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:03:40
+    url: 
+    id: "71"
+    address: 9 Marylebone La, London, W1U 1HL
+    created_at: 2009-03-07 16:03:40
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: COLOPLAST
+    company_number: NL18814770
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:03:57
+    url: 
+    id: "72"
+    address: 5 HILLSIDE GRANTSTOWN VILLAGEWATERFORD
+    created_at: 2009-03-07 16:03:57
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: COMMUNICAID GROUP LIMITED
+    company_number: 03233384
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:04:46
+    url: 
+    id: "73"
+    address: Holland House 5th Floor, 1-4 Bury Street, London, EC3A 5AW
+    created_at: 2009-03-07 16:04:46
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Competition Commission
+    company_number: NL03291492
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:05:12
+    url: 
+    id: "74"
+    address: New Ct, 48 Carey St, London, WC2A 2JT
+    created_at: 2009-03-07 16:05:12
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CONFEDERATION OF BRITISH INDUSTRY
+    company_number: RC000139
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:05:32
+    url: 
+    id: "75"
+    address: 103 New Oxford St, London WC1A 1DU
+    created_at: 2009-03-07 16:05:32
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CONFEDERATION OF PASSENGER TRANSPORT UK
+    company_number: 01182437
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:05:44
+    url: 
+    id: "76"
+    address: 34-43 Russell Street, London, WC2B 5HA
+    created_at: 2009-03-07 16:05:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CONSUMER FOCUS
+    company_number: NL16957214
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:06:19
+    url: 
+    id: "77"
+    address: HUNTERS MOON MADDOX PKLITTLE BOOKHAM LEATHERHEAD KT23 3BW
+    created_at: 2009-03-07 16:06:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CORY ENVIRONMENTAL
+    company_number: NL17677310
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:07:55
+    url: 
+    id: "78"
+    address: CHURCHFIELDS RDBECKENHAM BR3 4QY
+    created_at: 2009-03-07 16:07:55
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CREDENTIAL HOLDINGS LIMITED
+    company_number: SC298567
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:09:17
+    url: 
+    id: "79"
+    address: 249 West George Street, Glasgow, G2 4RB
+    created_at: 2009-03-07 16:09:17
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CRIPPS HARRIES HALL LLP
+    company_number: OC311169
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:09:26
+    url: 
+    id: "80"
+    address: Wallside Hse, 12 Mount Ephraim Rd, Tunbridge Wells, Kent TN1 1EG
+    created_at: 2009-03-07 16:09:26
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CROMARTY FIRTH PORT AUTHORITY
+    company_number: NL17117918
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:09:37
+    url: 
+    id: "81"
+    address: Shore Rd, Invergordon Ross-shire IV18 0HD
+    created_at: 2009-03-07 16:09:37
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CROSS RIVER PARTNERSHIP
+    company_number: NL17902127
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:10:01
+    url: 
+    id: "82"
+    address: 11TH FLOOR 64 VICTORIA ST WESTMINSTERLONDONSW1E 6OP
+    created_at: 2009-03-07 16:10:01
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: CROYDON COLLEGE
+    company_number: NL16755030
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:10:16
+    url: 
+    id: "83"
+    address: FAIRFIELDCOLLEGE ROADCR9 1DX
+    created_at: 2009-03-07 16:10:16
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DAMOVO UK LIMITED
+    company_number: 04166889
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:10:45
+    url: 
+    id: "84"
+    address: Broadlands Business Pk, Langhurstwood Rd, Horsham, RH12 4QP
+    created_at: 2009-03-07 16:10:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DART VALLEY SYSTEMS LIMITED
+    company_number: 01945355
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:11:08
+    url: 
+    id: "85"
+    address: Moorgate House, King Street, Newton Abbot, Devon TQ12 2LG
+    created_at: 2009-03-07 16:11:08
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: DENTON WILDE SAPTE
+    company_number: NL17595038
+    wikipedia_url: 
+    updated_at: 2009-03-07 16:12:02
+    url: 
+    id: "86"
+    address: 1 FLEET PL LONDONEC4M 7WS
+    created_at: 2009-03-07 16:12:02
+  attributes_cache: {}
+
