@@ -11,3 +11,13 @@ div#header {
     width: 798px;
     margin: 0 auto;
 }
+
+div#profile {
+  padding-left: 20px;
+  
+}
+
+#profile img {
+  width:  140px;
+  height: 140px;
+}

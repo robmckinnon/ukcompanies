@@ -15,7 +15,6 @@ git submodule update
 
 # update/add your database.yml
 rake db:migrate
-
-
+rake ukcompanies:import_all
 
 Notes: Plugins are submodules..
