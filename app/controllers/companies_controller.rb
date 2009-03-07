@@ -3,7 +3,7 @@ class CompaniesController < ApplicationController
   before_filter :ensure_current_url, :only => [:show, :companies_house]
 
   def search
-    @query  =  params[:q]
+    @query = params[:q]
     @companies = Company.find_all_by_company_name(@query)
 
     if @companies.empty?
@@ -13,12 +13,16 @@ class CompaniesController < ApplicationController
         @companies = []
       end
     end
-    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id if @companies.size == 1
+    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format] if @companies.size == 1
   end
 
   def show
+    respond_to do |format|
+      format.html
+      format.xml { render :xml => @company.to_more_xml }
+    end
   end
-  
+
   def companies_house
     p params
     if @company.companies_house_url.blank?
@@ -34,7 +38,7 @@ class CompaniesController < ApplicationController
       begin
         unless params[:id].include? '+'
           @company = Company.find_this(params[:id])
-          redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :status => :moved_permanently if @company.has_better_id?
+          redirect_to :controller=>"companies", :action=>"show", :id => @company.friendly_id, :status => :moved_permanently if @company.has_better_id?
         end
       rescue
         render_not_found
