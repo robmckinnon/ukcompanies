@@ -1,0 +1,2237 @@
+---
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 2
+    name: Kidde Fire Protection Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 4
+    name: PKL Group (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 6
+    name: Foster Refrigerator
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 7
+    name: Jewson Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 12
+    name: Electrolux Foodservice
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 13
+    name: IMC (Imperial Machine Co) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 16
+    name: hfx Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 20
+    name: Thurston Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 30
+    name: JLA Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 35
+    name: Buck & Hickman
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 36
+    name: Cromwell Tools Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 39
+    name: Setsquare Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 40
+    name: Group 4 Technology Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 41
+    name: Burlington Uniforms Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 42
+    name: Bunzl Lockhart & Bunzl Catering Supplies
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 51
+    name: Le Maitre (Sales) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 58
+    name: Rational UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 61
+    name: Dart Valley Systems Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 63
+    name: Clenaware Systems Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 66
+    name: Chubb Integrated Technologies
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 67
+    name: Meiko UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 68
+    name: Viscount Catering Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 77
+    name: Nalco Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 78
+    name: Britspace Modular Buildings Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 79
+    name: Laundryserv
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 82
+    name: General Vending Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 84
+    name: Crown Flooring Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 88
+    name: Tilsley and Lovatt Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 92
+    name: Danwood Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 93
+    name: Ricoh UK Ltd. (formerly NRG Group Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 94
+    name: Xerox (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 96
+    name: Environment 2000 Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 97
+    name: Elite Systems (GB) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 112
+    name: Banner Business Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 117
+    name: Promart Manufacturing Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 120
+    name: Clearwater Technology Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 125
+    name: McAvoy Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 130
+    name: Light Years Ahead Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 152
+    name: Oc? (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 153
+    name: Canon (UK) Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 156
+    name: Hobart UK
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 169
+    name: Falcon Foodservice Equipment
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 172
+    name: InterfaceFLOR
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 175
+    name: Corsair Manufacturing Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 185
+    name: Winterhalter Gastronom Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 186
+    name: Glen Dimplex Professional Appliances
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 187
+    name: Durable Window Film
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 190
+    name: Accenture UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 193
+    name: Alexander Hughes Interim Management
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 194
+    name: Alpine Consortium, The
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 203
+    name: Atkins Management Consultants
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 207
+    name: Badenoch & Clark
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 209
+    name: Basis
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 212
+    name: Bluesky International
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 216
+    name: Brooklands Executives Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 217
+    name: BT
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 219
+    name: Cable & Wireless
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 222
+    name: Capgemini
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 223
+    name: Capita Group, The
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 228
+    name: Connect Internet Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 230
+    name: Corporate Document Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 231
+    name: Dbi Consulting
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 233
+    name: Deloitte
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 236
+    name: Dotted Eyes
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 238
+    name: Elan Computing Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 239
+    name: Electronic Data Systems (EDS) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 243
+    name: Ernst & Young LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 244
+    name: ESRI (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 245
+    name: Evolve Business Consultancy Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 249
+    name: Frontline Consultants
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 250
+    name: Fujitsu Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 255
+    name: Hays Information Technology
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 258
+    name: Tribal Helm Corporation Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 259
+    name: Hudson Global Resources Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 261
+    name: IBM United Kingdom Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 263
+    name: Hitachi Consulting
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 266
+    name: Informed Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 268
+    name: Infotech
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 269
+    name: Infoterra Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 271
+    name: Insight Management and Systems Consultants Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 277
+    name: Kable Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 280
+    name: KPMG LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 282
+    name: LA International Computer Consultants Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 285
+    name: Logica
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 290
+    name: telent Technology Services Ltd (previously trading as telent Communications Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 291
+    name: SELEX Communications Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 296
+    name: Methods Consulting
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 298
+    name: Lawson Bishop
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 302
+    name: Mouchel Management Consulting Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 305
+    name: NES IT (previously trading as NESco)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 307
+    name: Northern Recruitment Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 312
+    name: PA Consulting Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 313
+    name: Parity
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 317
+    name: PKF
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 318
+    name: PricewaterhouseCoopers LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 319
+    name: QinetiQ
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 324
+    name: SAIC Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 325
+    name: Sand Resources Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 327
+    name: SciSys UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 328
+    name: Serco
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 334
+    name: Socitm Consulting
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 336
+    name: Specialist Computer Centres (SCC) plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 344
+    name: TATA Consultancy Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 346
+    name: Supporta Professional Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 356
+    name: Walker Cox Consortium
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 358
+    name: Steria Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 359
+    name: Tribal Consortium
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 366
+    name: Computacenter (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 367
+    name: Dell Corporation Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 369
+    name: DSGi Business
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 370
+    name: Hewlett Packard Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 373
+    name: Siemens Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 374
+    name: Viglen Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 380
+    name: Trustmarque Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 381
+    name: Unisys
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 382
+    name: Centerprise International Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 383
+    name: Civica UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 388
+    name: Northgate Information Solutions UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 390
+    name: Addleshaw Goddard
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 391
+    name: Beachcroft LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 392
+    name: Berwin Leighton Paisner
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 393
+    name: Bevan Brittan
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 394
+    name: Bird & Bird
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 395
+    name: Burges Salmon LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 397
+    name: Charles Russell LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 398
+    name: CMS Cameron McKenna
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 399
+    name: Cripps Harries Hall LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 401
+    name: Davitt Jones Bould
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 402
+    name: Denton Wilde Sapte
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 403
+    name: Dickinson Dees LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 404
+    name: DLA Piper UK LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 406
+    name: Field Fisher Waterhouse LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 412
+    name: Michelmores LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 413
+    name: Mills & Reeve Solicitors
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 414
+    name: Nabarro
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 416
+    name: Pinsent Masons LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 417
+    name: Simmons & Simmons
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 418
+    name: Trowers & Hamlins Solicitors
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 419
+    name: Veale Wasbrough Lawyers
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 420
+    name: Ward Hadaway Solicitors
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 421
+    name: Weightmans
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 422
+    name: Wragge & Co
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 423
+    name: Eversheds
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 430
+    name: Global Crossing (UK) Telecommunications Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 432
+    name: Affiniti - a KCOM Group Business
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 435
+    name: Orange PCS Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 445
+    name: Vodafone UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 452
+    name: PageOne Communications Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 453
+    name: Easynet
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 454
+    name: Synetrix Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 455
+    name: Telewest Ltd, t/as ntl:Telewest Business
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 458
+    name: Gunnebo UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 466
+    name: Turner & Townsend Project Management
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 468
+    name: Drivers Jonas
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 469
+    name: EC Harris
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 474
+    name: Lambert Smith Hampton
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 488
+    name: Knight Frank
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 493
+    name: Carillion with Bruton Knowles
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 496
+    name: Parsons Brinckerhoff Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 501
+    name: Gardiner & Theobald LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 502
+    name: QMP Management & Design
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 507
+    name: Xpelair
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 509
+    name: Advanced Demand Side Management plc (ADSM)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 511
+    name: MARS Drinks (Divison of MARS UK Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 512
+    name: Dawson MMP Ltd (Foodservice Equipment)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 513
+    name: Eurotek Office Furniture Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 517
+    name: Atisreal
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 518
+    name: Bruton Knowles
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 519
+    name: King Sturge
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 521
+    name: Herman Miller Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 522
+    name: Flexiform Business Furniture Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 523
+    name: Godfrey Syrett Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 525
+    name: Kinnarps UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 528
+    name: OEP Office Furniture Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 529
+    name: Senator International Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 530
+    name: ATOS Origin IT Services UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 532
+    name: Fray Design Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 536
+    name: "OCS Group UK Ltd T/A: Cannon"
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 538
+    name: Alexandra plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 540
+    name: Argos Business Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 541
+    name: B&Q plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 542
+    name: Bhs Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 543
+    name: Comet Group plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 546
+    name: Canon (UK) Limited - Fax Machines
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 547
+    name: Muratec Europe (UK)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 548
+    name: Sagem Communication UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 549
+    name: Allsigns International Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 553
+    name: GVA Grimley LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 555
+    name: WYG
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 559
+    name: Scottish Hydro Electric
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 561
+    name: DSG Retail Ltd trading as Dixons Group Business Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 562
+    name: Arcadia Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 563
+    name: British Gas Business
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 564
+    name: EDF Energy
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 565
+    name: Corona Energy Retail 4 Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 567
+    name: Enodis UK Food Service
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 568
+    name: Williams Refrigeration
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 573
+    name: TEAM (EAA Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 574
+    name: Wolseley UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 576
+    name: Labcold Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 577
+    name: Aqualogic Water Conservation Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 578
+    name: Signs & Labels
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 579
+    name: Dometic UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 580
+    name: Entec UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 581
+    name: Hyder Consulting UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 582
+    name: MWH UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 583
+    name: RPS Planning & Development Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 585
+    name: URS Corporation Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 588
+    name: DTZ with ISS Coflex
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 589
+    name: OPERON with GVA Grimley
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 590
+    name: MITIE with Atisreal
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 591
+    name: Taylor Woodrow with King Sturge
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 593
+    name: ACUMEN Consortium (AMTEC)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 594
+    name: Certes Computing Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 595
+    name: Hays Specialist Recruitment
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 596
+    name: Huntress Search Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 597
+    name: Morgan Hunt
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 598
+    name: Reed Personnel Services PLC
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 599
+    name: Resourcefulpeople Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 600
+    name: Robert Half International
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 601
+    name: Technology Project Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 602
+    name: SmartSourcing plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 603
+    name: Venn Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 604
+    name: Atlan Resource Solutions Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 605
+    name: Monarch Recruitment Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 606
+    name: NetworkersMSB
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 607
+    name: Actica Consulting Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 608
+    name: Alsbridge plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 609
+    name: AMQIS Consortium (AMTEC)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 610
+    name: AMTEC Consulting plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 611
+    name: RSM Bentley Jennison
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 612
+    name: Berkshire Consultancy Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 613
+    name: Qi Consulting
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 614
+    name: Systems Consultants Services Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 615
+    name: WCL (White Consultants Limited)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 616
+    name: Airwave Solutions Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 617
+    name: Carillion IT Services Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 618
+    name: Arqiva
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 619
+    name: Attenda Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 620
+    name: BancTec Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 621
+    name: Bramble.cc Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 622
+    name: Central Telecom UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 623
+    name: Damovo UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 624
+    name: Digica Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 625
+    name: Eduserv Technologies Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 626
+    name: Aerelink Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 627
+    name: Freedom Communications (UK) Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 628
+    name: NextiraOne
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 629
+    name: IPL Information Processing Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 630
+    name: Kainos Software Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 631
+    name: Keane Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 632
+    name: Lagan Technologies Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 633
+    name: Lockheed Martin UK
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 634
+    name: "Kingston Communications \x96 a KCOM Group Business"
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 635
+    name: PDMS Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 636
+    name: Redweb
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 637
+    name: ROCELA Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 638
+    name: Servo Computer Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 639
+    name: Tessella Support Services plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 640
+    name: THUS plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 641
+    name: TechnoPhobia Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 642
+    name: SunGard Public Sector Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 643
+    name: XMA Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 644
+    name: DHL Global Mail
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 645
+    name: DX Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 646
+    name: Lynx Mail a UPS Company
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 648
+    name: Royal Mail Group plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 649
+    name: Secure Mail Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 650
+    name: The Mailing House Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 651
+    name: TNT Post
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 652
+    name: UK Mail Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 653
+    name: Ericsson Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 654
+    name: UK Mail International
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 655
+    name: SPRING
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 656
+    name: Turner & Townsend Management Solutions Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 657
+    name: Bytes Technology Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 658
+    name: CCS Media Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 660
+    name: European Electronique
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 662
+    name: Insight Direct (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 663
+    name: Pitney Bowes MapInfo Limited (formerly trading as MapInfo Limited)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 664
+    name: NEC Computers Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 665
+    name: Probrand Ltd (The IT Index)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 666
+    name: Supplies Team
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 667
+    name: Misco UK (Systemax Europe Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 668
+    name: Toshiba
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 669
+    name: WStore UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 671
+    name: O2 (UK) Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 672
+    name: T-Mobile (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 675
+    name: DHL Express (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 676
+    name: Activity Information Management Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 677
+    name: Atkins Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 678
+    name: CACI Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 679
+    name: Grontmij
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 680
+    name: Detica Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 681
+    name: ABeam Consulting Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 682
+    name: Microgen Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 683
+    name: Netstore Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 684
+    name: Oxford Computer Consultants Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 685
+    name: Real Time
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 686
+    name: TRL Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 687
+    name: Smart421
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 688
+    name: VEGA Consulting Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 690
+    name: Bunzl Vending Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 691
+    name: Mott MacDonald
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 693
+    name: buyingTeam Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 694
+    name: Redcap Associates Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 695
+    name: ORC International
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 696
+    name: Quadrant Consultants Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 697
+    name: CPC (Capital Project Consultancy Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 698
+    name: Ci Research
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 699
+    name: QS - Quatrosystem Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 700
+    name: JMCL Consulting Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 701
+    name: Simon Jersey Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 704
+    name: Armstrong Commercial Laundry Systems
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 705
+    name: Electrolux Laundry Systems
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 708
+    name: Intellego Health
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 709
+    name: Interim Performers
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 710
+    name: Russam GMS
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 711
+    name: CIPFA Placements
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 712
+    name: Greenham
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 713
+    name: Antalis Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 714
+    name: Howard Smith Paper
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 715
+    name: James McNaughton Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 716
+    name: Premier Paper
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 717
+    name: Robert Horne
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 718
+    name: The Paper Company
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 719
+    name: BGL Rieber Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 720
+    name: Avon Protection
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 721
+    name: R H Hall
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 723
+    name: Portakabin Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 724
+    name: Extraspace
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 727
+    name: Hedra BearingPoint
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 728
+    name: McKinsey & Company
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 729
+    name: Allen & Overy LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 730
+    name: Blake Lapthorn Tarlo Lyons
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 731
+    name: Bond Pearce LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 732
+    name: Capsticks Solicitors LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 733
+    name: Cobbetts LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 734
+    name: Freshfields Bruckhaus Deringer
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 735
+    name: Carlson Wagonlit Travel Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 736
+    name: Halliwells LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 737
+    name: Hammonds
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 738
+    name: Herbert Smith LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 739
+    name: Linklaters
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 741
+    name: Maclay Murray & Spens LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 742
+    name: Martineau Johnson
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 743
+    name: Arval UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 744
+    name: HRG UK
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 745
+    name: Expotel
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 746
+    name: Redfern Travel Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 747
+    name: NYS Corporate Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 748
+    name: American Express Business Travel
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 749
+    name: Capita Business Travel
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 750
+    name: Enterprise Rent-A-Car
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 751
+    name: Arnold Clark Car & Van Rental
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 752
+    name: Morgan Cole
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 753
+    name: Morrison & Foerster
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 754
+    name: Norton Rose
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 755
+    name: Reynolds Porter Chamberlain LLP
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 756
+    name: Sharpe Pritchard
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 757
+    name: Shoosmiths
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 758
+    name: Slaughter and May
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 759
+    name: Taylor Vinters Solicitors
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 760
+    name: Technology Law Alliance Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 762
+    name: Walker Morris
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 763
+    name: Lovells
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 764
+    name: Cats Solutions Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 765
+    name: Cedar Press (Southern) Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 766
+    name: DG3
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 768
+    name: Cliffe Enterprise
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 769
+    name: Copyprint UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 770
+    name: Eclipse Colour Print Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 771
+    name: ESP Colour Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 772
+    name: Howard Hunt Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 773
+    name: Howitt Ltd (a Lateral Group company)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 774
+    name: imageData Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 775
+    name: Impress Print Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 776
+    name: Jade Press Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 777
+    name: Lexon Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 778
+    name: Maurice Payne Colourprint Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 780
+    name: Richard Edward Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 781
+    name: 3M Security Printing & Systems Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 782
+    name: SLS Print Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 783
+    name: Stralfors Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 784
+    name: Thames Loose Leaf Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 785
+    name: The Charlesworth Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 786
+    name: The Stationery Office
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 787
+    name: The Westdale Press Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 788
+    name: Thornton Print Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 789
+    name: AccessPlus
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 790
+    name: Ancient House Press Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 791
+    name: Brown Knight & Truscott Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 792
+    name: Commercial Colour Press Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 793
+    name: CW Print Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 794
+    name: Limetree Offset Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 795
+    name: McCorquodale Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 796
+    name: Midland Regional Printers Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 797
+    name: Pindar Graphics
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 798
+    name: RGM Media Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 799
+    name: Software Logistics Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 800
+    name: Sterling Press Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 801
+    name: Wyndeham Press Group Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 802
+    name: Greenshires Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 803
+    name: Linney Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 804
+    name: Park Communications Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 805
+    name: St Ives plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 806
+    name: Belmont Press Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 807
+    name: Adare Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 808
+    name: Aldridge Print Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 809
+    name: Alphagraphics
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 810
+    name: Augustus Martin Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 811
+    name: Anton Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 812
+    name: Corporate Express Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 813
+    name: Formara Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 814
+    name: MWL Print Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 815
+    name: Paragon Group UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 816
+    name: Stephen Austin and Sons Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 818
+    name: CDS
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 819
+    name: Delta Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 820
+    name: G&H Print Services Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 821
+    name: RR Donnelly Global Document Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 822
+    name: Amey Business Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 823
+    name: Taurus Print & Design Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 824
+    name: GPEX
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 826
+    name: Cyril Sweett
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 827
+    name: Jacobs UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 828
+    name: Pick Everard
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 829
+    name: Capita Symonds Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 830
+    name: BKS SURVEYS LIMITED
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 831
+    name: HSBC
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 832
+    name: RBS Streamline
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 833
+    name: Lloyds TSB Cardnet Merchant Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 834
+    name: Barclaycard Payment Acceptance
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 835
+    name: Coal 4 Energy Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 836
+    name: Scottish Coal
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 837
+    name: CMR (EH Bennett and CO) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 841
+    name: BP LPG UK
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 842
+    name: TradingPartners
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 843
+    name: Airtricity
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 844
+    name: ESB Independent Energy NI Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 845
+    name: Viridian Energy Supply Ltd (Energia)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 846
+    name: ADAS UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 847
+    name: Halcrow Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 848
+    name: Innogistic Software Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 849
+    name: 4C Strategies Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 850
+    name: a&o systems + services UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 851
+    name: Carillion Infrastructure Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 852
+    name: AT Communications PLC
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 853
+    name: Avanti Broadband
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 854
+    name: Avaya
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 855
+    name: Azzurri Communications
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 856
+    name: Bailey Teswaine
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 857
+    name: Cityspace Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 858
+    name: Claranet Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 859
+    name: Communications Advisory Service Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 860
+    name: Datacenta Hosting Ltd.
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 861
+    name: Datavilla Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 862
+    name: FibreSpan Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 863
+    name: HEDLEY 2000 LTD
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 864
+    name: IDN Telecom - part of the Redstone Plc Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 865
+    name: Analysys Mason Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 866
+    name: MLL Telecom Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 867
+    name: Networks by Wireless Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 868
+    name: Opal Telecom
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 869
+    name: Source8
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 870
+    name: Switch Communications Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 871
+    name: Updata Infrastructure UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 872
+    name: Verizon Business
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 873
+    name: NEC Philips Unified Solutions UK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 874
+    name: Konica Minolta Business Solutions (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 875
+    name: Altodigital UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 879
+    name: Esso Petroleum Co Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 880
+    name: Visa Europe
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 881
+    name: The Co-operative Bank plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 882
+    name: Ulster Bank Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 883
+    name: Lloyds TSB
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 884
+    name: The Royal Bank of Scotland Group
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 885
+    name: Natwest
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 886
+    name: Ashbourne Assessment Systems Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 887
+    name: Barkers Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 888
+    name: Capita Resourcing Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 889
+    name: Elan Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 890
+    name: Advantage Professional t/a FSS, Crone Corkill, Strategi and Advantage Global
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 891
+    name: Mendas Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 892
+    name: Michael Page International
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 893
+    name: NorthgateArinso (NgA)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 894
+    name: Reed Managed Services PLC
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 895
+    name: Colliers CRE
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 896
+    name: DTZ
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 897
+    name: CitySprint
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 899
+    name: Government Car and Despatch Agency
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 901
+    name: TNT UK
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 902
+    name: E-Courier (UK) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 903
+    name: TBS (South Wales) Ltd Trading as Triumph Government Furniture Store
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 904
+    name: Gresham Office Furniture Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 905
+    name: H.Morris and Company Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 906
+    name: Metalrax Storage
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 907
+    name: Rackline
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 908
+    name: Rotadex Systems Ltd T/A Templestock
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 909
+    name: BravoSolution UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 910
+    name: "@UK PLC"
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 911
+    name: The Purchasing Index UK Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 912
+    name: Emptoris Inc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 913
+    name: Etesius Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 914
+    name: Spikes Cavell Analytic Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 915
+    name: Academia Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 916
+    name: Joskos Solutions Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 917
+    name: Pugh Computers Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 918
+    name: Ramesys ( e-business services) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 919
+    name: RM plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 920
+    name: Sirius Corporation
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 921
+    name: Civica Services Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 922
+    name: Mouchel Consortium
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 923
+    name: AMT-SYBEX Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 924
+    name: HTK Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 925
+    name: 2ergo Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 927
+    name: Bond Solon Training Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 928
+    name: BPP Professional Education
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 929
+    name: Bray Leino BroadSkill
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 930
+    name: Bridge Partnership Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 931
+    name: AMA Associates Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 932
+    name: Central Law Training Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 933
+    name: DESQ
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 934
+    name: Eliesha Training Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 935
+    name: Epic Performance Improvement Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 936
+    name: Happy Computers Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 937
+    name: Westminster Explained
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 938
+    name: Premier Partnership
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 939
+    name: ER Consultants Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 940
+    name: CMEurope Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 941
+    name: BDP Media Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 942
+    name: Alpha Consolidated Training Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 943
+    name: The Development Partnership
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 944
+    name: Duncan MacQuarrie Associates Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 945
+    name: Dynamic Learning Solutions Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 946
+    name: The Experience Corps
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 947
+    name: The Faraday Partnership Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 949
+    name: G4S Managed Services
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 950
+    name: iTrain Education Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 951
+    name: Kaplan Financial Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 952
+    name: International Training Service (ITS) Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 953
+    name: The Learning and Skills Network
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 954
+    name: Wilson Sherriff (Ltd)
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 955
+    name: Walkgrove Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 956
+    name: Stephanie Wheeler Associates Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 957
+    name: The Synergy Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 958
+    name: ILX Group Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 959
+    name: LINE Communications Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 960
+    name: The Oxford Group Consulting and Training Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 961
+    name: ReCreate Learning Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 962
+    name: LMD Learning Solutions
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 963
+    name: Linkvision
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 964
+    name: Communicaid Group Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 966
+    name: Operational Command Training Organisation Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 967
+    name: Open University
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 968
+    name: QA Limited
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 969
+    name: PMMS Consulting Group Ltd
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 970
+    name: cScape Plc
+- !ruby/object:OgcSupplier
+  attributes:
+    ogc_id: 971
+    name: GovNet
