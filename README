@@ -1,0 +1,14 @@
+==About
+
+
+==Installing
+
+# clone on github
+
+git remote add rob git://github.com/robmckinnon/ukcompanies.git -t master
+git fetch rob master
+git submodule init
+git submodule update
+
+
+Plugins are submodules..
