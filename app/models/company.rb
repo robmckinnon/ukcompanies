@@ -19,4 +19,8 @@ class Company < ActiveRecord::Base
     end
 
   end
+
+    def object_url format=nil
+      url_for :controller=>"companies", :action=>"show", :id => friendly_id, :format => format, :only_path => false
+    end
 end
