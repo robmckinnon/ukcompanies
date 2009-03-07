@@ -3,7 +3,6 @@
 body, html {
 	height: 100%;
   font-family:"Lucida Grande", Arial,Helvetica,sans-serif; font-size:12px;
-
 }
  
 	div#layout { /* exploder 5.5+ */
@@ -24,7 +23,7 @@ body, html {
 		div#container {
 			position: relative;
 			top: 50%;
-			margin-top: -235px;
+			margin-top: -205px;
 			margin-left: auto;
 			margin-right: auto;
 			text-align: left;
