@@ -3,7 +3,7 @@ class CompaniesController < ApplicationController
   before_filter :ensure_current_url, :only => :show
 
   def search
-    @query  =  params[:q]
+    @query = params[:q]
     @companies = Company.find_all_by_company_name(@query)
 
     if @companies.empty?
@@ -13,10 +13,14 @@ class CompaniesController < ApplicationController
         @companies = []
       end
     end
-    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id if @companies.size == 1
+    redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format] if @companies.size == 1
   end
 
   def show
+    respond_to do |format|
+      format.html
+      format.xml { render :xml => @company.to_xml }
+    end
   end
 
   private
