@@ -1,0 +1,193 @@
+--- 
+- !ruby/object:Company 
+  attributes: 
+    name: ABBOTT LABORATORIES LIMITED
+    company_number: 00329102
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:27:41
+    url: 
+    id: "5"
+    address: Abbott Ho, Norden Rd, Maidenhead Berkshire SL6 4XE
+    created_at: 2009-03-07 15:27:41
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ABEAM CONSULTING LIMITED
+    company_number: 04372778
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:27:53
+    url: 
+    id: "6"
+    address: Sterling Hse, 19-23 High St, Kidlington, Oxon OX5 2DH
+    created_at: 2009-03-07 15:27:53
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ACCESS TO BENEFITS
+    company_number: NI061324
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:28:16
+    url: 
+    id: "7"
+    address: MURRAY HOUSE MURRAY STREET BELFAST BT1 6DN
+    created_at: 2009-03-07 15:28:16
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ADOBE SYSTEMS SOFTWARE IRELAND LIMITED
+    company_number: IE344992
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:28:45
+    url: 
+    id: "8"
+    address: UNIT 3100 LAKE DR CITY WEST BUSINESS CAMPUS SAGGART DUBLIN 2
+    created_at: 2009-03-07 15:28:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: AERELINK LIMITED
+    company_number: "05043711"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:29:03
+    url: 
+    id: "9"
+    address: Progress Hse North Mersey, Business Cntr Woodward Rd, Knowsley
+    created_at: 2009-03-07 15:29:03
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ALDRIDGE PRINT GROUP
+    company_number: NL16734420
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:29:44
+    url: 
+    id: "10"
+    address: STREATHAM PRINT WORKS36 MITCHAM LA LONDONSW16 6NW
+    created_at: 2009-03-07 15:29:44
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ALSBRIDGE PLC
+    company_number: 04502419
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:30:45
+    url: 
+    id: "11"
+    address: 22-24 Ely Place, London, EC1N 6TE
+    created_at: 2009-03-07 15:30:45
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: AMT-SYBEX LIMITED
+    company_number: 03036807
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:31:55
+    url: 
+    id: "12"
+    address: Spirella Bldg, Bridge Rd, Letchworth Hertfordshire SG6 4ET
+    created_at: 2009-03-07 15:31:55
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: AMTEC CONSULTING PLC
+    company_number: 02991335
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:32:00
+    url: 
+    id: "13"
+    address: Excalibur Hse, 2 The Millennium Cntr, Crosby Way Farnham, GU9
+    created_at: 2009-03-07 15:32:00
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ANCIENT HOUSE PRESS PLC
+    company_number: "00410453"
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:32:19
+    url: 
+    id: "14"
+    address: Unit R, Hadleigh Rd Indstl Est, Ipswich Suffolk IP2 0HA
+    created_at: 2009-03-07 15:32:19
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ANDERSON GROUP
+    company_number: NL17529063
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:32:27
+    url: 
+    id: "15"
+    address: ANDERSON HO47 BROAD STBRIDGETONGLASGOW G40 2QW
+    created_at: 2009-03-07 15:32:27
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ANTON GROUP LIMITED
+    company_number: 03593627
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:32:57
+    url: 
+    id: "16"
+    address: Anton House, Christy Way, Laindon, Essex SS15 6TR
+    created_at: 2009-03-07 15:32:57
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: AQUASCUTUM
+    company_number: NL17402839
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:33:16
+    url: 
+    id: "17"
+    address: 15 CHESHIRE OAKS OUTLET VILLAGE KINSEY ROADELLESMERE PORTCH65 9JJ
+    created_at: 2009-03-07 15:33:16
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ARISTOCRAT
+    company_number: NL16782137
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:33:32
+    url: 
+    id: "18"
+    address: 82-84 CHINGFORD MOUNT RD LONDONE4 9AA
+    created_at: 2009-03-07 15:33:32
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: Arqiva
+    company_number: NL04467902
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:34:03
+    url: 
+    id: "19"
+    address: Crawley Court, Winchester, Hampshire, SO21 2QA
+    created_at: 2009-03-07 15:34:03
+  attributes_cache: {}
+
+- !ruby/object:Company 
+  attributes: 
+    name: ASDA STORES LTD
+    company_number: NL17117560
+    wikipedia_url: 
+    updated_at: 2009-03-07 15:34:18
+    url: 
+    id: "20"
+    address: LINGWELL GATE LA LOFTHOUSE WAKEFIELD
+    created_at: 2009-03-07 15:34:18
+  attributes_cache: {}
+

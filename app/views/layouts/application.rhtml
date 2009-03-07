@@ -5,85 +5,18 @@
 		<meta name="description" content="Compani.es - The alternative Open Companies House"/>
 		<meta name="keywords" content="twitter,search,realtime"/>
 		<title>Comapani.es Open House</title>
-		<%=   stylesheet_link_tag("application") %>
-	
-	    <style>
-		    body {
-		    	margin: 0px;
-		    	padding: 0px;
-		    	font-family: verdana;
-		    	font-size: 12px;
-		    }
- 
-			div#layout { /* exploder 5.5+ */
-				width: expression((document.body.clientWidth > 790 ? document.body.clientWidth : 790) + "px");
-				height: expression((document.body.clientHeight > 490 ? document.body.clientHeight : 490) + "px");
-			}
- 
-			div#container,
-			div#container div.container-top,
-			div#container div.container-bottom {
-				width: 790px;
-			}
- 
-			div#container,
-			div#container div.container-right,
-			div#container div.container-left {
-				height: 390px;
-			}
- 
-			/* colors */
-			div#container {
-				background: #FFFFFF;
-			}
- 
-			div#container div.container-top {
-			}
- 
-			div#container div.container-right {
-			}
- 
-			div#container div.container-bottom {
-        
-			}
- 
-			div#container div.container-left {
-			}
- 
-			div#container div.container-top-right {
-			}
- 
-			div#container div.container-bottom-right {
-			}
- 
-			div#container div.container-bottom-left {
-			}
- 
-			div#container div.container-top-left {
-			}
-		</style>
- 
-	  
-         <%= yield :head %>
-    </head>
+		<%= stylesheet_link_tag("application") %>
+	    <%= yield :head %>
+	</head>
 	<body>
         <div id="layout">
-        			<div id="container">
-        			    <div class="container-top"></div>
-                    	<div class="container-right"></div>
-                    	<div class="container-bottom"></div>
-                    	<div class="container-left"></div>
+		          <div id="header" >	
+					      <%= image_tag('coh.png') %>
+					      <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
+					    </div>
 
-                    	<div class="container-top-right"></div>
-                    	<div class="container-bottom-right"></div>
-                    	<div class="container-bottom-left"></div>
+			  			<div id="container">
 
-                    	<div class="container-top-left"></div>
-                    	
-                        <div id="header" >	
-                          <%= image_tag('coh.png') %>
-                          <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
-                        </div>
                          <%= yield %>
                          
                          <div id="footer">
@@ -93,7 +26,14 @@
                          </div>
                          <div >
                          <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the Rewired State Hackday.<br /> See <%= link_to('Rewired State','http://rewiredstate.org/') %> for details of the event.<br />
-                         <span style="font-size: 10px">Credits: @grahamashton  @delineator  @jamespjh @metade @martinbtt</span>    
+                         <span style="font-size: 10px">
+														Credits:
+														<a href="http://twitter.com/delineator">@delineator</a>
+														<a href="http://effectif.com">Graham Ashton</a>
+														<a href="http://twitter.com/jamespjh">@jamespjh</a>
+														<a href="http://twitter.com/martinbtt">@martinbtt</a>
+														<a href="http://twitter.com/metade">@metade</a>
+												 </span>    
                              </p>
                          </div>
                          </div>
