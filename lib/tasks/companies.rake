@@ -15,5 +15,25 @@ namespace :ukcompanies do
   task :import_ogc_suppliers => :environment do
     OgcSupplier.load_from_file
   end
+  
+  task :match_names_to_checksure => :environment do
+    names = LobbyistClient.find(:all).map { |c| c.name.downcase }
+    names += OgcSupplier.find(:all).map { |c| c.name.downcase }
+    names = names.uniq.sort
+    p names
+    
+    names.each do |name|
+      begin
+        hash = Checksure.search_by_name(name)
+      rescue => e
+        p e
+        next
+      end
+      sleep 1
+      next if hash.nil?
+      p hash
+      Company.create(hash)
+    end
+  end
 
 end
