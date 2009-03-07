@@ -5,8 +5,13 @@ class Company < ActiveRecord::Base
 
 
   class << self
-    def find_by_company_name name
+    def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
     end
+
+    def find_by_company_name name
+      find(:first, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
+    end
+    
   end
 end
