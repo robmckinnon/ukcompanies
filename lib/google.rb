@@ -10,9 +10,6 @@ module Google
     if results.size > 0
       result = results.first['href']
     else
-      url =
-      "http://www.google.com/search?&q=#{encoded_name}%20site%3Aen.wikipedia.org"
-      url += "%20#{additional_search_term}" if additional_search_term
       results = (Hpricot(open(url)) / 'h2.r/a')
       if results.size > 0
         result = results.first['href']
