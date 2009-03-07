@@ -25,7 +25,7 @@ class CompaniesController < ApplicationController
       begin
         unless params[:id].include? '+'
           @company = Company.find_this(params[:id])
-          redirect_to @company, :status => :moved_permanently if @company.has_better_id?
+          redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :status => :moved_permanently if @company.has_better_id?
         end
       rescue
         render_not_found
