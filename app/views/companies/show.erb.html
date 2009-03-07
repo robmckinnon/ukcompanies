@@ -13,7 +13,7 @@
 
 
     <% unless @company.companies_house_url.blank? %>
-       <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, @company.companies_house_url %> on <%= link_to 'Companies House', 'http://www.companieshouse.gov.uk' %></p>
+       <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, redirect_it_path(@company) %> on <%= link_to 'Companies House', 'http://www.companieshouse.gov.uk' %></p>
     <% end %>
 </div>
 <br style="clear: both" />
