@@ -10,36 +10,36 @@
       <%= yield :head %>
   </head>
   <body>
-        <div id="layout">
-              <div id="header" >
-                <%= link_to(image_tag('coh.png'), '/') %>
-                <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
-              </div>
-
-              <div id="container">
-
-                         <%= yield %>
-
-                         <div id="footer">
-                         <div id="rsproduct"  style="padding-top: 150px;">
-                         <div style="float: left; padding: 10px">
-                           <%= image_tag('logo/rs_bigger.png') %>
-                         </div>
-                         <div >
-                         <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the Rewired State Hackday.<br /> See <%= link_to('Rewired State','http://rewiredstate.org/') %> for details of the event.<br />
-                         <span style="font-size: 10px">
-                            Credits:
-                            <a href="http://twitter.com/delineator">@delineator</a>
-                            <a href="http://twitter.com/grahamashton">@grahamashton</a>
-                            <a href="http://twitter.com/jamespjh">@jamespjh</a>
-                            <a href="http://twitter.com/martinbtt">@martinbtt</a>
-                            <a href="http://twitter.com/metade">@metade</a>
-                         </span>
-                             </p>
-                         </div>
-                         </div>
-              </div>
-            </div>
+    <div id="layout">
+      <div id="header" >
+        <%= link_to(image_tag('coh.png'), '/') %>
+        <span style="text-align: right; float: right">Always Open 24/7 (unlike companies house)</span>
+      </div>
+      <div id="container">
+        <%= yield %>
+      </div>
+      <div id="footer">
+        <div id="rsproduct">
+          <div style="float: left; padding: 10px"><%= image_tag('logo/rs_bigger.png') %></div>
+          <div>
+            <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the Rewired State Hackday.
+              <br />See <%= link_to('Rewired State','http://rewiredstate.org/') %> for details of the event.
+              <br />Watch our <%= link_to('presentation',rewired_state_presentation_url) %> for an explanation of the site.
+              <br />
+              <span style="font-size: 10px">Credits:
+                <a href="http://twitter.com/delineator">@delineator</a>
+                <a href="http://twitter.com/grahamashton">@grahamashton</a>
+                <a href="http://twitter.com/jamespjh">@jamespjh</a>
+                <a href="http://twitter.com/martinbtt">@martinbtt</a>
+                <a href="http://twitter.com/metade">@metade</a>
+              </span>
+            </p>
+         </div>
+         <div>
+         </div>
+       </div>
+    </div>
+  </div>
 <% if RAILS_ENV == 'production' %>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -51,5 +51,5 @@ var pageTracker = _gat._getTracker("UA-7809484-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
 <% end %>
-</body>
+  </body>
 </html>
