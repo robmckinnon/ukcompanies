@@ -7,7 +7,7 @@ require 'ostruct'
 module CompaniesHouse
   Server = 'wck2.companieshouse.gov.uk'
   SessionRe= 'wck2.companieshouse.gov.uk\/(.*)\/wcframe\?name=accessCompanyInfo'
-  
+
   def self.search_by_name(name)
     connection=CompaniesHouseConnection.new
     answer=CompanySearch.new(name,connection)
@@ -21,17 +21,21 @@ module CompaniesHouse
       nil
     end
   end
-  
+
   def self.search_by_number(number)
     connection=CompaniesHouseConnection.new
     answer=Company.new
-    answer.parse(connection.searchByNumber(number))  
+    answer.parse(connection.searchByNumber(number))
     answer
   end
 
   def self.url_for_number(number)
-    connection=CompaniesHouseConnection.new
-    connection.urlForNumber(number)  
+    begin
+      connection=CompaniesHouseConnection.new
+      connection.urlForNumber(number)
+    rescue
+      ''
+    end
   end
 
   class CompaniesHouseConnection
@@ -79,13 +83,13 @@ module CompaniesHouse
       @doc.search("//tr[@class='resC']").each do |row|
         result=Company.new
         result.fromSearch(row,@connection)
-        @companies[result.name]=result  
+        @companies[result.name]=result
       end
     end
-    
+
     attr_reader :companies
   end
-  
+
   class Company
     attr_reader :id,:name,:status,:action,:link,:nameReturn,:business,:data
 
@@ -118,8 +122,8 @@ module CompaniesHouse
       @business=@data["Nature of Business (SIC(03))"]
     end
   end
-  
-  
+
+
   class Connection
 
       def initialize(server, options = {})
@@ -127,7 +131,7 @@ module CompaniesHouse
           raise "Fourth argument must be a hash of options!"
         end
         @server = server
-        @format = options[:format] || (defined?(JSON) ? :json : :xml)     
+        @format = options[:format] || (defined?(JSON) ? :json : :xml)
         @enable_caching = options[:enable_caching]
         if @enable_caching
           $cache ||= {}
@@ -281,5 +285,5 @@ module CompaniesHouse
       end
 
     end
-  
+
 end
