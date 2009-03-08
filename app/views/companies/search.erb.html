@@ -8,6 +8,12 @@
         <li><%= link_to(company.name, show_it_url(:id => company.friendly_id) )%></li>
       <% end %>
       </ol>
+      <% if @companies.empty? %>
+        <p>Our database currently contains a sample of
+        <br /> <%= Company.count %> companies for demonstration purposes.</p>
+        <p>Try an example search:
+        <br /><a href="http://ukcompani.es/companies/search?q=ltd">http://ukcompani.es/companies/search?q=ltd</a></p>
+      <% end %>
     </div>
     <% if @companies.empty? %>
       <%= render :partial => "/home/search_box", :locals => {:query => @query} %>
