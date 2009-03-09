@@ -18,16 +18,26 @@ class CompaniesController < ApplicationController
         end
       end
 
-      if params[:format] == 'xml'
-        render :xml => @companies.first.to_more_xml if @companies.size == 1
+      format = params[:format] || params[:f]
+      if format == 'xml'
+        if @companies.empty?
+          xml = ''
+        elsif @companies.size == 1
+          xml = @companies.first.to_more_xml
+        else
+          xml = @companies.collect(&:to_more_xml).join("\n").gsub('<?xml version="1.0" encoding="UTF-8"?>','')
+        end
+        render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
       elsif @companies.size == 1
-        redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format]
+        redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => format
       else
+        # show search view
       end
     end
   end
 
   def show
+    params[:format] = params[:f] if params[:f]
     respond_to do |format|
       format.html
       format.xml { render :xml => @company.to_more_xml }
