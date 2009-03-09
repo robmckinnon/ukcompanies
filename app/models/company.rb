@@ -8,11 +8,11 @@ class Company < ActiveRecord::Base
   def companies_house_url
     @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
   end
-  
+
   def companies_house_data
     @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
   end
-  
+
   class << self
     def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
@@ -33,12 +33,12 @@ class Company < ActiveRecord::Base
   end
 
   def to_more_xml
-    supplier = ogc_suppliers.empty? ? 'no' : 'yes'
-    lobbyist = lobbyist_clients.empty? ? 'maybe' : 'yes'
-
-    xml = to_xml
-
-    xml.sub('</company>',"<ogc-supplier>#{supplier}</ogc-supplier><lobbyist-client>#{lobbyist}</lobbyist-client></company>")
+    to_xml(:except=>[:id,:created_at,:updated_at]) do |xml|
+      xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
+      xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
+      xml.id("http://ukcompani.es/#{friendly_id}")
+      xml.short_id("http://ukcompani.es/#{company_number}")
+    end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
   end
 
 end
