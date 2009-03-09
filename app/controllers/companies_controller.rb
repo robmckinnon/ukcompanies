@@ -3,20 +3,27 @@ class CompaniesController < ApplicationController
   before_filter :ensure_current_url, :only => [:show, :companies_house]
 
   def search
-    @query = params[:q]
-    @companies = Company.find_all_by_company_name(@query)
-
-    if @companies.empty?
-      begin
-        @companies = [Company.find_this(@query)]
-      rescue
-        @companies = []
-      end
-    end
-    if params[:format] == 'xml'
-      render :xml => @companies.first.to_more_xml if @companies.size == 1
+    if params[:commit]
+      params.delete(:commit)
+      redirect_to params
     else
-      redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format] if @companies.size == 1
+      @query = params[:q]
+      @companies = Company.find_all_by_company_name(@query)
+
+      if @companies.empty?
+        begin
+          @companies = [Company.find_this(@query)]
+        rescue
+          @companies = []
+        end
+      end
+
+      if params[:format] == 'xml'
+        render :xml => @companies.first.to_more_xml if @companies.size == 1
+      elsif @companies.size == 1
+        redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => params[:format]
+      else
+      end
     end
   end
 

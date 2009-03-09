@@ -6,12 +6,12 @@ div#header {
 </style>
 <% end %>
     <div id="searchbox">
-      <% form_tag('/companies/search', :method => "get") do %>
+      <% form_tag('/search', :method => "get") do %>
         <%= text_field_tag(:q,'Enter a company name or #', :class => 'textbox') %>  <%= submit_tag("Search", :style => 'border: 1px solid black; font-size: 20px ') %>
       <% end %>
       <p>Our database currently contains a sample of
       <br /> <%= Company.count %> companies for demonstration purposes.</p>
       <p>Try an example search:
-      <br /><a href="http://ukcompani.es/companies/search?q=ltd">http://ukcompani.es/companies/search?q=ltd</a></p>
+      <br /><a href="http://ukcompani.es/search?q=ltd">http://ukcompani.es/search?q=ltd</a></p>
     </div>
 

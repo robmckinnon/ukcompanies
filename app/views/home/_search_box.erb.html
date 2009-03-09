@@ -6,7 +6,7 @@ div#header {
 </style>
 <% end %>
     <div id="searchbox">
-      <% form_tag('/companies/search', :method => "get") do %>
+      <% form_tag('/search', :method => "get") do %>
         <%= text_field_tag(:q, query ? query : 'Enter a company name or #', :class => 'textbox') %>  <%= submit_tag("Search", :style => 'border: 1px solid black; font-size: 20px ') %>
       <% end %>
     </div>
