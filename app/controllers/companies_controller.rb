@@ -25,8 +25,9 @@ class CompaniesController < ApplicationController
         elsif @companies.size == 1
           xml = @companies.first.to_more_xml
         else
-          xml = @companies.collect(&:to_more_xml).join("\n").gsub('<?xml version="1.0" encoding="UTF-8"?>','')
+          xml = @companies.collect(&:to_more_xml).join("\n")
         end
+        xml = xml.gsub('<?xml version="1.0" encoding="UTF-8"?>','')
         render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
       elsif @companies.size == 1
         redirect_to :controller=>"companies", :action=>"show", :id => @companies.last.friendly_id, :format => format
