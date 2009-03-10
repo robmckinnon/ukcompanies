@@ -13,19 +13,19 @@
     <div id="layout">
       <div id="header" >
         <%= link_to(image_tag('coh.png'), '/') %>
-        <span style="text-align: right; float: right">always open 24/7 (unlike companies house)</span>
+        <span class="tagline">always open 24/7 (unlike companies house)</span>
       </div>
       <div id="container">
         <%= yield %>
       </div>
       <div id="footer">
         <div id="rsproduct">
-          <div style="float: left; padding: 10px"><%= image_tag('logo/rs_bigger.png') %></div>
+          <div class="rslogo"><%= image_tag('logo/rs_bigger.png') %></div>
           <div>
-            <p style="font-size: 15px; font-weight: italic; veritcal-align: center">This service was constructed as part of the <%= link_to('Rewired State','http://rewiredstate.org/') %> hackday.
+            <p class="about">This service was constructed as part of the <%= link_to('Rewired State','http://rewiredstate.org/') %> hackday.
               <br />Watch our <%= link_to('presentation',rewired_state_presentation_url) %> for an explanation of the site.
               <br />
-              <span style="font-size: 10px">Credits:
+              <span class="credits">Credits:
                 <a href="http://twitter.com/delineator">@delineator</a>
                 <a href="http://twitter.com/grahamashton">@grahamashton</a>
                 <a href="http://twitter.com/jamespjh">@jamespjh</a>
