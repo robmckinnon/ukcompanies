@@ -1,0 +1,14 @@
+<rdf:Description rdf:about="<%= show_it_path(@company) %>">
+  <rdfs:label>Description of the company <%= @company.name %></rdfs:label>
+  <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"><%= @company.created_at %></dcterms:created>
+  <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"><%= @company.updated_at %></dcterms:modified>
+  <foaf:primaryTopic rdf:resource="<%= show_it_path(@company.company_number) %>"/>
+</rdf:Description>
+
+<foaf:Organization rdf:about="<%= show_it_path(@company.company_number) %>">
+   <foaf:name><%= @company.name %></foaf:name>
+   <ukcompanies:company_number><%= @company.company_number %></ukcompanies:company_number>
+   <vcard:Extadd><%= @company.address %></vcard:Extadd>
+</ns1:Organization>
+
+<!-- TODO: add the ukcompanies Company house redirect, e.g. <%= redirect_it_path(@company) %> -->

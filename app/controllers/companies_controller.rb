@@ -41,6 +41,7 @@ class CompaniesController < ApplicationController
     params[:format] = params[:f] if params[:f]
     respond_to do |format|
       format.html
+      format.rdf
       format.xml { render :xml => @company.to_more_xml }
     end
   end

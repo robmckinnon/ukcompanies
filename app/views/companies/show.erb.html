@@ -1,3 +1,6 @@
+<% content_for :head do %>
+<link rel="alternate" type="application/rdf+xml" href="<%= show_it_formatted_path(@company, :format => 'rdf') %>" />
+<% end %>
 <% @title= "#{@company.name} | Company No. #{@company.company_number} " %>
 <div id="profile">
 <h1><%= @company.name %></h1>
