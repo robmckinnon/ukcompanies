@@ -10,7 +10,11 @@ class Company < ActiveRecord::Base
   end
 
   def companies_house_data
-    @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
+    begin 
+      @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
+    rescue Timeout::Error
+      # do nothing for the moment
+    end
   end
 
   class << self
