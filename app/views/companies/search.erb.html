@@ -1,5 +1,5 @@
     <% @title= %Q|Search results for "#{@query}"| %>
-
+      <%= render :partial => "/home/search_box", :locals => {:query => @query} %>
     <div id="results">
       <p>You searched for "<%= @query %>"</p>
       <p>Results (<%= @companies.size %>)</p>
@@ -15,7 +15,5 @@
         <br /><a href="http://ukcompani.es/search?q=ltd">http://ukcompani.es/search?q=ltd</a></p>
       <% end %>
     </div>
-    <% if @companies.empty? %>
-      <%= render :partial => "/home/search_box", :locals => {:query => @query} %>
-    <% end %>
+
 
