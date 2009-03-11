@@ -21,6 +21,15 @@ namespace :ukcompanies do
     OgcSupplier.load_from_file
   end
 
+  desc "Find and import company logo urls via Google Image API search"
+  task :import_logo_image_urls => :environment do
+    for company in Company.all
+      if url = GoogleImageSearch.find_named_logo_url(company.name)
+        company.update_attribute(:logo_image_url, url)
+      end
+    end
+  end
+  
   task :match_names_to_checksure => :environment do
     names = LobbyistClient.find(:all).map { |c| c.name.downcase }
     names += OgcSupplier.find(:all).map { |c| c.name.downcase }

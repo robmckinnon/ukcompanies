@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090307142721) do
+ActiveRecord::Schema.define(:version => 20090311124308) do
 
   create_table "companies", :force => true do |t|
     t.string   "name"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20090307142721) do
     t.string   "wikipedia_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "logo_image_url"
   end
 
   add_index "companies", ["company_number"], :name => "index_companies_on_company_number"
