@@ -5,6 +5,18 @@ class Company < ActiveRecord::Base
   has_many :lobbyist_clients
   has_many :ogc_suppliers
 
+  def companies_house_url
+    @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
+  end
+
+  def companies_house_data
+    begin
+      @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
+    rescue Timeout::Error
+      # do nothing for the moment
+    end
+  end
+
   class << self
     def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
@@ -17,14 +29,6 @@ class Company < ActiveRecord::Base
       end
       company
     end
-  end
-
-  def companies_house_url
-    @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
-  end
-
-  def companies_house_data
-    @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
   end
 
   def find_company_data

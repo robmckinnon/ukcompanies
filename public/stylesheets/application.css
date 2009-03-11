@@ -9,6 +9,13 @@ div#layout, div#header {
   width: 798px;
   margin: 0 auto;
 }
+
+div#header .tagline {text-align: right; float: right}
+div#footer {padding-top: 4%; padding-left: 10%;}
+div#footer .about   {font-size: 15px; font-weight: italic; veritcal-align: center}
+div#footer .rslogo  {float: left; padding: 10px}
+div#footer .credits {font-size: 10px}
+
 div#profile {
   padding-left: 20px;
 }
@@ -35,7 +42,7 @@ img {
   border: 0;
 }
 #results {
-  clear: both; padding-top: 60px; text-align: center;
+  clear: both; padding-top: 0px; text-align: center;
 }
 #results ol {
   margin-left: 250px;
@@ -45,5 +52,5 @@ img {
   text-align: left;
 }
 #rsproduct {
-  padding-top: 150px;
+  padding-top: 10px;
 }
