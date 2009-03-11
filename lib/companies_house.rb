@@ -8,82 +8,93 @@ module CompaniesHouse
   Server = 'wck2.companieshouse.gov.uk'
   SessionRe= 'wck2.companieshouse.gov.uk\/(.*)\/wcframe\?name=accessCompanyInfo'
 
-  def self.search_by_name(name)
-    connection=CompaniesHouseConnection.new
-    answer=CompanySearch.new(name,connection)
-    if answer.companies.size == 1
-      company = answer.companies.values.first
-      company.parse_link
-      company.data
-    else
-      p answer.companies
-      puts answer.companies.size
-      nil
+  class << self
+    def search_by_name(name)
+      connection = CompaniesHouseConnection.new
+      begin
+        answer = CompanySearch.new(name,connection)
+      rescue Exception => e
+        puts e
+        []
+      end
+      if answer.companies.size == 1
+        company = answer.companies.values.first
+        company.parse_link
+        company.data
+      elsif answer.companies.has_key?(name)
+        company = answer.companies[name]
+        company.parse_link
+        company.data
+      else
+        puts answer.companies
+        puts answer.companies.size
+        answer.companies
+      end
     end
-  end
 
-  def self.search_by_number(number)
-    connection=CompaniesHouseConnection.new
-    answer=Company.new
-    answer.parse(connection.searchByNumber(number))
-    answer
-  end
+    def search_by_number(number)
+      connection = CompaniesHouseConnection.new
+      answer = Company.new
+      answer.parse(connection.searchByNumber(number))
+      answer
+    end
 
-  def self.url_for_number(number)
-    begin
-      connection=CompaniesHouseConnection.new
-      connection.urlForNumber(number)
-    rescue
-      ''
+    def url_for_number(number)
+      begin
+        connection = CompaniesHouseConnection.new
+        connection.urlForNumber(number)
+      rescue
+        ''
+      end
     end
   end
 
   class CompaniesHouseConnection
     attr_reader :sessionId
     def initialize
-      @connection=Connection.new(Server)
-      @redirect=@connection.get('/')['location']
-      @sessionId=@redirect.match(SessionRe)[1]
+      @connection = Connection.new(Server)
+      @redirect = @connection.get('/')['location']
+      @sessionId = @redirect.match(SessionRe)[1]
     end
     def searchByName(name)
-      path="/#{sessionId}/companysearch"
-      result=@connection.post(path,'cname'=>name,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
-      redirect=result['location']
-      path="/#{sessionId}/#{redirect}"
+      path = "/#{sessionId}/companysearch"
+      result = @connection.post(path,'cname'=>name,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
+      redirect = result['location']
+      path = "/#{sessionId}/#{redirect}"
       @connection.get(path)
     end
     def searchByNumber(number)
-      path="/#{sessionId}/companysearch"
-      result=@connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
-      redirect=result['location']
-      path="/#{sessionId}/#{redirect}"
+      path = "/#{sessionId}/companysearch"
+      result = @connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
+      redirect = result['location']
+      path = "/#{sessionId}/#{redirect}"
       @connection.get(path)
     end
     def urlForNumber(number)
-      path="/#{sessionId}/companysearch"
-      result=@connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
-      redirect=result['location']
-      path="/#{sessionId}/#{redirect}"
-      path=~/compdetails/ ? "http://#{Server}#{path}" : nil
+      path = "/#{sessionId}/companysearch"
+      result = @connection.post(path,'cnumb'=>number,'cosearch'=>'1','cotype0'=>'1','stype'=>'E')
+      redirect = result['location']
+      path = "/#{sessionId}/#{redirect}"
+      path =~ /compdetails/ ? "http://#{Server}#{path}" : nil
     end
     def queryACompany(link)
-      path="/#{sessionId}/#{link}"
-      result=@connection.get(path)
-      redirect=result['location']
-      path="/#{sessionId}/#{redirect}"
-      result=@connection.get(path)
+      path = "/#{sessionId}/#{link}"
+      result = @connection.get(path)
+      redirect = result['location']
+      path = "/#{sessionId}/#{redirect}"
+      result = @connection.get(path)
      end
   end
   class CompanySearch
     def initialize(name,connection)
-      @connection=connection
-      answer=@connection.searchByName(name)
-      @doc=Hpricot(answer.body)
-      @companies={}
+      @connection = connection
+      answer = @connection.searchByName(name)
+      @doc = Hpricot(answer.body)
+      @companies = {}
       @doc.search("//tr[@class='resC']").each do |row|
-        result=Company.new
+        result = Company.new
         result.fromSearch(row,@connection)
-        @companies[result.name]=result
+        @companies[result.name] = result
       end
     end
 
@@ -97,32 +108,31 @@ module CompaniesHouse
     end
 
     def fromSearch(row,connection)
-      result=OpenStruct.new
-      @connection=connection
-      @id=row.search("td[1]/a").inner_html
-      @name=row.search("td[3]").inner_html
-      @status=row.search("td[2]").inner_html
-      @action=row.search("td[4]").inner_html
-      @link=row.search("td[1]").inner_html.match("href=\"(.*)\" class")[1]
+      result = OpenStruct.new
+      @connection = connection
+      @id = row.search("td[1]/a").inner_html
+      @name = row.search("td[3]").inner_html
+      @status = row.search("td[2]").inner_html
+      @action = row.search("td[4]").inner_html
+      @link = row.search("td[1]").inner_html.match("href=\"(.*)\" class")[1]
     end
 
     def parseLink
-      html=@connection.queryACompany(@link)
+      html = @connection.queryACompany(@link)
       parse(html)
     end
 
     def parse(res)
-      html=Hpricot(res.body)
-      @data={}
-      headers=html.search('td[@class="yellowCreamTable]/strong').each do |val|
-        data_maybe=val.next_node
-        data_maybe=data_maybe.next_node while (data_maybe.to_s==":" or data_maybe.to_s=="<br />")
-        @data[val.inner_html]=data_maybe.to_s
+      html = Hpricot(res.body)
+      @data = {}
+      headers = html.search('td[@class="yellowCreamTable]/strong').each do |val|
+        data_maybe = val.next_node
+        data_maybe = data_maybe.next_node while (data_maybe.to_s==":" or data_maybe.to_s=="<br />")
+        @data[val.inner_html] = data_maybe.to_s
       end
-      @business=@data["Nature of Business (SIC(03))"]
+      @business = @data["Nature of Business (SIC(03))"]
     end
   end
-
 
   class Connection
 

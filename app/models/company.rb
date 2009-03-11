@@ -5,14 +5,6 @@ class Company < ActiveRecord::Base
   has_many :lobbyist_clients
   has_many :ogc_suppliers
 
-  def companies_house_url
-    @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
-  end
-
-  def companies_house_data
-    @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
-  end
-
   class << self
     def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
@@ -25,11 +17,18 @@ class Company < ActiveRecord::Base
       end
       company
     end
-
   end
 
-  def object_url format=nil
-    url_for :controller=>"companies", :action=>"show", :id => friendly_id, :format => format, :only_path => false
+  def companies_house_url
+    @companies_house_url ||= (CompaniesHouse.url_for_number(company_number) || '')
+  end
+
+  def companies_house_data
+    @companies_house_data ||= (CompaniesHouse.search_by_number(company_number) || '')
+  end
+
+  def find_company_data
+    data = CompaniesHouse.search_by_name(name)
   end
 
   def to_more_xml

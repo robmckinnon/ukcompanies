@@ -10,6 +10,10 @@ class OgcSupplier < ActiveRecord::Base
 
   before_validation :set_company_id
 
+  def find_company_data
+    CompaniesHouse.search_by_name(name)
+  end
+
   private
     def set_company_id
       unless company_id
