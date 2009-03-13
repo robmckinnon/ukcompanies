@@ -7,7 +7,8 @@
 
 <foaf:Organization rdf:about="<%= show_it_path(@company.company_number) %>">
    <foaf:name><%= @company.name %></foaf:name>
-   <ukcompanies:company_number><%= @company.company_number %></ukcompanies:company_number>
+   <foafcorp:company_number><%= @company.company_number %></foafcorp:company_number>
+   <!-- TODO: extend address details when we receive companies house xml (stored in 1 single field atm) -->
    <vcard:Extadd><%= @company.address %></vcard:Extadd>
 </foaf:Organization>
 
