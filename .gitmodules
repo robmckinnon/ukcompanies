@@ -19,3 +19,6 @@
 [submodule "vendor/plugins/ar_fixtures"]
 	path = vendor/plugins/ar_fixtures
 	url = git://github.com/topfunky/ar_fixtures.git
+[submodule "vendor/plugins/companies-house"]
+	path = vendor/plugins/companies-house
+	url = git://github.com/robmckinnon/companies-house.git
