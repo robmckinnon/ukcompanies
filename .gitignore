@@ -2,6 +2,7 @@ log/*.log
 tmp/**/*
 test
 config/database.yml
+config/companies-house.yml
 .DS_Store
 doc
 db/*.sqlite3
