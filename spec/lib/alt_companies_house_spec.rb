@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../../lib/companies_house'
 require 'pp'
-include CompaniesHouse
+include AltCompaniesHouse
 
 =begin
 
@@ -15,16 +15,16 @@ describe Connection do
   end
 end
 
-describe CompaniesHouse do
+describe AltCompaniesHouse do
   it 'should work' do
-    res=CompaniesHouse.search_by_number('06603291')
+    res=AltCompaniesHouse.search_by_number('06603291')
     pp res.data
   end
   it 'should give a url when comp exists' do
-    CompaniesHouse.url_for_number('06603291').should match /compdetails/
+    AltCompaniesHouse.url_for_number('06603291').should match /compdetails/
   end
   it 'should not give a url when no comp exists' do
-    CompaniesHouse.url_for_number('wfwfw').should be_nil
+    AltCompaniesHouse.url_for_number('wfwfw').should be_nil
   end
 end
 

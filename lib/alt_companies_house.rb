@@ -4,7 +4,7 @@ require 'rexml/document'
 require 'hpricot'
 require 'ostruct'
 
-module CompaniesHouse
+module AltCompaniesHouse
   Server = 'wck2.companieshouse.gov.uk'
   SessionRe= 'wck2.companieshouse.gov.uk\/(.*)\/wcframe\?name=accessCompanyInfo'
 

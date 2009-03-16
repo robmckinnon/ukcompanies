@@ -3,7 +3,7 @@ class CompaniesController < ApplicationController
   before_filter :ensure_current_url, :only => [:show]
 
   def show_by_number
-    company = Company.find_by_company_number(params[:number])
+    company = Company.retrieve_by_number(params[:number])
     if company
       if params[:format] && params[:format] == 'xml'
         render :xml => company.to_more_xml
@@ -31,11 +31,11 @@ class CompaniesController < ApplicationController
       redirect_to params
     else
       @query = params[:q]
-      @companies = Company.find_all_by_company_name(@query)
+      @companies = Company.retrieve_by_name(@query)
 
       if @companies.empty?
         begin
-          @companies = [Company.find_this(@query)]
+          @companies = [Company.retrieve_by_number(@query)].compact
         rescue
           @companies = []
         end

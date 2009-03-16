@@ -1,9 +1,11 @@
-CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_number" varchar(255), "address" text, "url" varchar(255), "wikipedia_url" varchar(255), "created_at" datetime, "updated_at" datetime, "logo_image_url" varchar(255));
+CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_number" varchar(255), "address" text, "url" varchar(255), "wikipedia_url" varchar(255), "created_at" datetime, "updated_at" datetime, "logo_image_url" varchar(255), "company_category" varchar(255), "company_status" varchar(255), "incorporation_date" date);
 CREATE TABLE "lobbyist_clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company_id" integer, "created_at" datetime, "updated_at" datetime);
 CREATE TABLE "ogc_suppliers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "ogc_id" integer, "company_id" integer, "created_at" datetime, "updated_at" datetime);
 CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL);
 CREATE TABLE "slugs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sluggable_id" integer, "sequence" integer DEFAULT 1 NOT NULL, "sluggable_type" varchar(40), "scope" varchar(40), "created_at" datetime);
+CREATE INDEX "index_companies_on_company_category" ON "companies" ("company_category");
 CREATE INDEX "index_companies_on_company_number" ON "companies" ("company_number");
+CREATE INDEX "index_companies_on_company_status" ON "companies" ("company_status");
 CREATE INDEX "index_companies_on_name" ON "companies" ("name");
 CREATE INDEX "index_companies_on_url" ON "companies" ("url");
 CREATE INDEX "index_lobbyist_clients_on_company_id" ON "lobbyist_clients" ("company_id");
@@ -20,3 +22,7 @@ INSERT INTO schema_migrations (version) VALUES ('20090307142543');
 INSERT INTO schema_migrations (version) VALUES ('20090307142721');
 
 INSERT INTO schema_migrations (version) VALUES ('20090311124308');
+
+INSERT INTO schema_migrations (version) VALUES ('20090316233326');
+
+INSERT INTO schema_migrations (version) VALUES ('20090316233652');

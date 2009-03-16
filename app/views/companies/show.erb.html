@@ -7,18 +7,20 @@
   <%= logo_image(@company) %>
 <div class="panel">
   <p class="address">
-    <%= @company.address.gsub(',','<br />')%>
+    <%= @company.address.gsub(/,|\n/,'<br />')%>
   </p>
   <p class="number">
     Company No. <%= @company.company_number %>
   </p>
-  <% unless false # || @company.companies_house_url.blank? %>
-    <% unless  @company.companies_house_data.blank? %>
-      <p class="type">
-        Type: <%= @company.companies_house_data.data["Company Type"].to_s.gsub(/:/,'').strip %>
-      </p>
-    <% end %>
-  <% end %>
+  <p class="type">
+    Type: <%= @company.company_category %>
+  </p>
+  <p class="incorporation">
+    Incorporation: <%= @company.incorporation_date.to_s %>
+  </p>
+  <p class="incorporation">
+    Status: <%= @company.company_status %>
+  </p>
   <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, companies_house_url(:number => @company.company_number) %></p>
   <p class="number">
     <% short_url = show_it_url(:id => @company.company_number) %>
