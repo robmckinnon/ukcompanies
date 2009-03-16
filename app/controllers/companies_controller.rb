@@ -53,7 +53,8 @@ class CompaniesController < ApplicationController
         xml = xml.gsub('<?xml version="1.0" encoding="UTF-8"?>','')
         render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
       elsif @companies.size == 1
-        redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+        company = @companies.first
+        redirect_to show_by_number_and_name_url(company.company_number, company.friendly_id), :status=>303 # 303 = 'See Other'
       else
         # show search view
       end
