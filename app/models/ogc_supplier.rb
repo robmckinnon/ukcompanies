@@ -17,7 +17,7 @@ class OgcSupplier < ActiveRecord::Base
   private
     def set_company_id
       unless company_id
-        companies = Company.find_all_by_company_name(self.name)
+        companies = Company.retrieve_by_name(self.name)
         if companies.size == 1
           self.company_id = companies.first.id
         end
