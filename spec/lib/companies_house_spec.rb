@@ -1,6 +1,9 @@
-require '../lib/companies_house'
+require File.dirname(__FILE__) + '/../../lib/companies_house'
 require 'pp'
 include CompaniesHouse
+
+=begin
+
 describe Connection do
   it 'should connect' do
     result=Connection.new(Server)
@@ -39,7 +42,7 @@ describe CompaniesHouseConnection do
   it 'should search simply by number' do
     connection=CompaniesHouseConnection.new
     answer=Company.new
-    answer.parse(connection.searchByNumber('06603291')) 
+    answer.parse(connection.searchByNumber('06603291'))
     pp answer.data
   end
 end
@@ -48,7 +51,7 @@ describe CompanySearch do
   it 'should parse the results of a search' do
     connection=CompaniesHouseConnection.new
     name='Badham'
-   
+
     results=CompanySearch.new(name,connection)
     results.companies.keys.length.should eql 13
   end
@@ -66,4 +69,4 @@ describe Company do
   end
 end
 
-
+=end

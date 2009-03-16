@@ -2,6 +2,25 @@ class CompaniesController < ApplicationController
 
   before_filter :ensure_current_url, :only => [:show, :companies_house]
 
+  def show_by_number
+    company = Company.find_by_company_number(params[:number])
+    if company
+      redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+    else
+      render_not_found
+    end
+  end
+
+  def show_by_number_and_name
+    company = Company.find_by_company_number(params[:number])
+    if company && (company.friendly_id == params[:name])
+      @company = company
+      render "show"
+    else
+      render_not_found
+    end
+  end
+
   def search
     if params[:commit]
       params.delete(:commit)

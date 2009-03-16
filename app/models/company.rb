@@ -18,6 +18,11 @@ class Company < ActiveRecord::Base
   end
 
   class << self
+    def name_search name
+      results = CompaniesHouse.name_search(name)
+      results
+    end
+
     def find_all_by_company_name name
       find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
     end
