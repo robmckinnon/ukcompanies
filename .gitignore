@@ -3,6 +3,7 @@ tmp/**/*
 test
 config/database.yml
 config/companies-house.yml
+public/google*
 .DS_Store
 doc
 db/*.sqlite3
