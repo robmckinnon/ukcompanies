@@ -10,8 +10,14 @@ describe CompaniesController do
     route_for(:controller => "companies", :action => "show_by_number", :number=>'NL18709799').should == "/NL18709799"
     route_for(:controller => "companies", :action => "show_by_number", :number=>'02158715').should == "/02158715"
 
+    route_for(:controller => "companies", :action => "show_by_number", :number=>'NL18709799', :format=>'xml').should == "/NL18709799.xml"
+    route_for(:controller => "companies", :action => "show_by_number", :number=>'02158715', :format=>'xml').should == "/02158715.xml"
+
     params_from(:get, "/NL18709799").should == {:controller => "companies", :action => "show_by_number", :number=>'NL18709799'}
     params_from(:get, "/02158715").should == {:controller => "companies", :action => "show_by_number", :number=>'02158715'}
+
+    params_from(:get, "/NL18709799.xml").should == {:controller => "companies", :action => "show_by_number", :number=>'NL18709799', :format=>'xml'}
+    params_from(:get, "/02158715.xml").should == {:controller => "companies", :action => "show_by_number", :number=>'02158715', :format=>'xml'}
   end
 
   it 'should route number and name url correctly' do

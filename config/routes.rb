@@ -9,6 +9,8 @@ ActionController::Routing::Routes.draw do |map|
   with_controller :companies, map do |companies|
     companies.with_options(number_requirements) do |number|
       number.show_by_number '/:number', :action=>'show_by_number'
+      number.show_xml_by_number '/:number.:format', :action=>'show_by_number'
+      number.companies_house '/:number/companies_house', :action => 'companies_house'
       number.show_by_number_and_name '/:number/:name', :action=>'show_by_number_and_name'
     end
   end
@@ -24,7 +26,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.show_it_formatted '/:id.:format', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
   map.show_it '/:id', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
-  map.redirect_it '/:id/companies_house', :conditions => { :method => :get }, :controller => 'companies', :action => 'companies_house'
+  # map.redirect_it '/:id/companies_house', :conditions => { :method => :get }, :controller => 'companies', :action => 'companies_house'
 
   map.connect '*path', :controller => 'companies', :action => 'search'
 

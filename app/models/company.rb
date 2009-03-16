@@ -44,8 +44,9 @@ class Company < ActiveRecord::Base
     to_xml(:except=>[:id,:created_at,:updated_at]) do |xml|
       xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
       xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
-      xml.id("http://ukcompani.es/#{friendly_id}")
-      xml.short_id("http://ukcompani.es/#{company_number}")
+      xml.id("http://ukcompani.es/#{company_number}")
+      xml.long_url("http://ukcompani.es/#{company_number}/#{friendly_id}")
+      xml.xml_url("http://ukcompani.es/#{company_number}.xml")
     end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
   end
 

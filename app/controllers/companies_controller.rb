@@ -1,11 +1,15 @@
 class CompaniesController < ApplicationController
 
-  before_filter :ensure_current_url, :only => [:show, :companies_house]
+  before_filter :ensure_current_url, :only => [:show]
 
   def show_by_number
     company = Company.find_by_company_number(params[:number])
     if company
-      redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+      if params[:format] && params[:format] == 'xml'
+        render :xml => company.to_more_xml
+      else
+        redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+      end
     else
       render_not_found
     end
@@ -67,8 +71,9 @@ class CompaniesController < ApplicationController
 
   def companies_house
     p params
+    @company = Company.find_by_company_number(params[:number])
     if @company.companies_house_url.blank?
-      redirect_to company_path(@company)
+      redirect_to show_by_number_and_name_url(params[:number], @company.friendly_id), :status=>303 # 303 = 'See Other'
     else
       redirect_to @company.companies_house_url
     end
