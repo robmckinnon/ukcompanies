@@ -4,6 +4,7 @@
 ==Installing
 
 sudo gem install unicode
+sudo gem install hpricot
 
 # clone on github
 
