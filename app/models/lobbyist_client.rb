@@ -11,7 +11,6 @@ class LobbyistClient < ActiveRecord::Base
     data = CompaniesHouse.search_by_name(name)
   end
 
-  private
     def set_company_id
       unless company_id
         companies = Company.retrieve_by_name(self.name)
