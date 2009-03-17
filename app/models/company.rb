@@ -1,3 +1,9 @@
+class Slug < ActiveRecord::Base
+  def to_friendly_id
+    name
+  end
+end
+
 class Company < ActiveRecord::Base
 
   has_friendly_id :name, :use_slug => true, :strip_diacritics => true
@@ -6,10 +12,12 @@ class Company < ActiveRecord::Base
   has_many :ogc_suppliers
 
   class << self
+
     def retrieve_by_name name
       companies = find_all_by_company_name(name)
       if companies.empty?
         results = CompaniesHouse.name_search(name)
+
         if results && results.respond_to?(:co_search_items)
           items = results.co_search_items
           matches = items.select{|item| item.company_name[/#{name}/i]}
@@ -28,6 +36,7 @@ class Company < ActiveRecord::Base
       company = find_by_company_number(number)
       unless company
         details = CompaniesHouse.company_details(number)
+
         if details && details.respond_to?(:company_name)
           company = Company.create({:name => details.company_name,
               :company_number => details.company_number,

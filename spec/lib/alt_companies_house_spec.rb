@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../../lib/companies_house'
+require File.dirname(__FILE__) + '/../../lib/alt_companies_house'
 require 'pp'
 include AltCompaniesHouse
 
