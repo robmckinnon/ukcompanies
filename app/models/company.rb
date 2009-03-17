@@ -11,7 +11,13 @@ class Company < ActiveRecord::Base
   has_many :lobbyist_clients
   has_many :ogc_suppliers
 
+  NUMBER_PATTERN = /([A-Z][A-Z])?(\d)?(\d)?\d\d\d\d\d\d/
+
   class << self
+
+    def find_all_by_slug(slug)
+      Slug.find(:all, :conditions => {:name => slug}).collect(&:sluggable)
+    end
 
     def retrieve_by_name name
       companies = find_all_by_company_name(name)
@@ -60,8 +66,9 @@ class Company < ActiveRecord::Base
     end
 
     def find_this identifier
-      company = retrieve_by_number(identifier)
-      unless company
+      if identifier[Company::NUMBER_PATTERN]
+        company = retrieve_by_number(identifier)
+      else
         company = find(identifier)
       end
       company

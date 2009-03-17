@@ -5,7 +5,7 @@
       <p>Results (<%= @companies.size %>)</p>
       <ol>
       <% for company in @companies %>
-        <li><%= link_to(company.name, show_by_number_and_name_url(:number=>company.company_number, :name => company.friendly_id) )%></li>
+        <li><%= link_to(company.name, show_by_number_and_name_url(:number=>company.company_number, :name => company.friendly_id) )%> <%= company.company_status.blank? ? '' : "(#{company.company_status.downcase})"%> </li>
       <% end %>
       </ol>
       <% if @companies.empty? %>

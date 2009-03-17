@@ -1,7 +1,5 @@
 class CompaniesController < ApplicationController
 
-  before_filter :ensure_current_url, :only => [:show]
-
   def show_by_number
     company = Company.retrieve_by_number(params[:number])
     if company
@@ -62,12 +60,24 @@ class CompaniesController < ApplicationController
   end
 
   def show
-    params[:format] = params[:f] if params[:f]
-    respond_to do |format|
-      format.html
-      format.rdf
-      format.xml { render :xml => @company.to_more_xml }
+    @companies = Company.find_all_by_slug(params[:id])
+    format = params[:f] ? params[:f] : params[:format]
+
+    if @companies.empty?
+      redirect_to :controller=>'home', :action=>'index'
+    elsif @companies.size == 1
+      company = @companies.first
+      redirect_to show_by_number_and_name_url(company.company_number, company.friendly_id), :status=>303, :format=>format # 303 = 'See Other'
+    else
+      @query = @companies.first.name
+      render :action=>'search', :format=>format
     end
+
+    # respond_to do |format|
+      # format.html
+      # format.rdf
+      # format.xml { render :xml => @company.to_more_xml }
+    # end
   end
 
   def companies_house
@@ -84,9 +94,16 @@ class CompaniesController < ApplicationController
 
     def ensure_current_url
       begin
-        unless params[:id].include? '+'
-          @company = Company.find_this(params[:id])
-          redirect_to :controller=>"companies", :action=>"show", :id => @company.friendly_id, :status => :moved_permanently if @company.has_better_id?
+        raise 'hi'
+        identifier = params[:id]
+        unless identifier.include? '+'
+          if identifier[Company::NUMBER_PATTERN]
+            @company = retrieve_by_number(identifier)
+          else
+            @company = find(identifier)
+            # redirect_to show_by_number_and_name_url(@company.company_number, @company.friendly_id)
+            redirect_to :controller=>"companies", :action=>"show", :id => @company.friendly_id, :status => :moved_permanently if @company.has_better_id?
+          end
         end
       rescue
         render_not_found

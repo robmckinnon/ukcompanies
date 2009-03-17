@@ -4,7 +4,7 @@ end
 
 ActionController::Routing::Routes.draw do |map|
 
-  number_requirements = {:requirements => { :number => /([A-Z][A-Z])?(\d)?(\d)?\d\d\d\d\d\d/ } }
+  number_requirements = {:requirements => { :number => Company::NUMBER_PATTERN } }
 
   with_controller :companies, map do |companies|
     companies.with_options(number_requirements) do |number|
