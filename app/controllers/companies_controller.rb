@@ -10,12 +10,12 @@ class CompaniesController < ApplicationController
   end
 
   def show_by_number_and_name
-    company = Company.find_by_company_number(params[:number])
-    if company && (company.friendly_id == params[:name])
-      @company = company
-      render "show"
-    else
-      render_not_found
+    @company = Company.find_by_company_number(params[:number])
+    raise ActiveRecord::RecordNotFound unless (@company and @company.friendly_id == params[:name])
+    respond_to do |format|
+      format.html { render "show" }
+      format.rdf { render "show" }
+      format.xml { render :xml => @company.to_more_xml }
     end
   end
 
