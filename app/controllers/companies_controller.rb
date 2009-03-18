@@ -1,15 +1,11 @@
 class CompaniesController < ApplicationController
 
   def show_by_number
-    company = Company.retrieve_by_number(params[:number])
-    if company
-      if params[:format] && params[:format] == 'xml'
-        render :xml => company.to_more_xml
-      else
-        redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
-      end
-    else
-      render_not_found
+    @company = Company.retrieve_by_number(params[:number])
+    respond_to do |format|
+      format.html { redirect_to show_by_number_and_name_url(params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
+      format.rdf { redirect_to show_by_number_and_name_url(params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
+      format.xml { render :xml => @company.to_more_xml }
     end
   end
 
