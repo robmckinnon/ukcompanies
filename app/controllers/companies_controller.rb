@@ -4,9 +4,9 @@ class CompaniesController < ApplicationController
     company = Company.retrieve_by_number(params[:number])
     if company
       if params[:format] && params[:format] == 'xml'
-        render :xml => company.to_more_xml
+        render :xml => company.to_more_xml(request.host)
       else
-        redirect_to show_by_number_and_name_url(params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+        redirect_to show_by_number_and_name_url(params[:country_code], params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
       end
     else
       render_not_found
@@ -52,7 +52,7 @@ class CompaniesController < ApplicationController
         render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
       elsif @companies.size == 1
         company = @companies.first
-        redirect_to show_by_number_and_name_url(company.company_number, company.friendly_id), :status=>303 # 303 = 'See Other'
+        redirect_to show_by_number_and_name_url(company.country_code, company.company_number, company.friendly_id), :status=>303 # 303 = 'See Other'
       else
         # show search view
       end
@@ -67,7 +67,7 @@ class CompaniesController < ApplicationController
       redirect_to :controller=>'home', :action=>'index'
     elsif @companies.size == 1
       company = @companies.first
-      redirect_to show_by_number_and_name_url(company.company_number, company.friendly_id), :status=>303, :format=>format # 303 = 'See Other'
+      redirect_to show_by_number_and_name_url(company.country_code, company.company_number, company.friendly_id), :status=>303, :format=>format # 303 = 'See Other'
     else
       @query = @companies.first.name
       render :action=>'search', :format=>format
@@ -84,7 +84,7 @@ class CompaniesController < ApplicationController
     p params
     @company = Company.find_by_company_number(params[:number])
     if @company.companies_house_url.blank?
-      redirect_to show_by_number_and_name_url(params[:number], @company.friendly_id), :status=>303 # 303 = 'See Other'
+      redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 # 303 = 'See Other'
     else
       redirect_to @company.companies_house_url
     end

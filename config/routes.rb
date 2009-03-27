@@ -8,10 +8,10 @@ ActionController::Routing::Routes.draw do |map|
 
   with_controller :companies, map do |companies|
     companies.with_options(number_requirements) do |number|
-      number.show_by_number '/:number', :action=>'show_by_number'
-      number.show_xml_by_number '/:number.:format', :action=>'show_by_number'
-      number.companies_house '/:number/companies_house', :action => 'companies_house'
-      number.show_by_number_and_name '/:number/:name', :action=>'show_by_number_and_name'
+      number.show_by_number '/:country_code/:number', :action=>'show_by_number'
+      number.show_xml_by_number '/:country_code/:number.:format', :action=>'show_by_number'
+      number.companies_house '/:country_code/:number/companies_house', :action => 'companies_house'
+      number.show_by_number_and_name '/:country_code/:number/:name', :action=>'show_by_number_and_name'
     end
   end
 
@@ -24,9 +24,9 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => "home"
   map.rewired_state_presentation '/rewired_state_presentation', :controller => "home", :action => :rewired_state_presentation
 
-  map.show_it_formatted '/:id.:format', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
-  map.show_it '/:id', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
-  # map.redirect_it '/:id/companies_house', :conditions => { :method => :get }, :controller => 'companies', :action => 'companies_house'
+  map.show_it_formatted '/:country_code/:number.:format', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
+  map.show_it '/:country_code/:id', :conditions => { :method => :get }, :controller => 'companies', :action => 'show'
+  # map.redirect_it '/:country_code/:id/companies_house', :conditions => { :method => :get }, :controller => 'companies', :action => 'companies_house'
 
   map.connect '*path', :controller => 'companies', :action => 'search'
 

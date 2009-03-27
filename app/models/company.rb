@@ -41,7 +41,7 @@ class Company < ActiveRecord::Base
     def retrieve_by_number number
       company = find_by_company_number(number)
       unless company
-        details = CompaniesHouse.company_details(number)
+        details = CompaniesHouse.company_details(number) # doesn't work between 12am-7am, but number_search does
 
         if details && details.respond_to?(:company_name)
           company = Company.create({:name => details.company_name,
@@ -91,13 +91,13 @@ class Company < ActiveRecord::Base
     data = AltCompaniesHouse.search_by_name(name)
   end
 
-  def to_more_xml
+  def to_more_xml(host='localhost')
     to_xml(:except=>[:id,:created_at,:updated_at]) do |xml|
       xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
       xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
-      xml.id("http://ukcompani.es/#{company_number}")
-      xml.long_url("http://ukcompani.es/#{company_number}/#{friendly_id}")
-      xml.xml_url("http://ukcompani.es/#{company_number}.xml")
+      xml.id("http://#{host}/#{country_code}/#{company_number}")
+      xml.long_url("http://#{host}/#{country_code}/#{company_number}/#{friendly_id}")
+      xml.xml_url("http://#{host}/#{country_code}/#{company_number}.xml")
     end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
   end
 

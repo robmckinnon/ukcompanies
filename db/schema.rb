@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090316233652) do
+ActiveRecord::Schema.define(:version => 20090326125745) do
 
   create_table "companies", :force => true do |t|
     t.string   "name"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20090316233652) do
     t.string   "company_category"
     t.string   "company_status"
     t.date     "incorporation_date"
+    t.string   "country_code",       :limit => 2
   end
 
   add_index "companies", ["company_category"], :name => "index_companies_on_company_category"
