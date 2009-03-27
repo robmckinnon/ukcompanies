@@ -12,6 +12,7 @@ ActionController::Routing::Routes.draw do |map|
       number.show_xml_by_number '/:country_code/:number.:format', :action=>'show_by_number'
       number.companies_house '/:country_code/:number/companies_house', :action => 'companies_house'
       number.show_by_number_and_name '/:country_code/:number/:name', :action=>'show_by_number_and_name'
+      number.show_by_number_and_name_formatted '/:country_code/:number/:name.:format', :action=>'show_by_number_and_name'
     end
   end
 

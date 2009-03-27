@@ -42,14 +42,14 @@ class Company < ActiveRecord::Base
       company = find_by_company_number(number)
       unless company
         details = CompaniesHouse.company_details(number) # doesn't work between 12am-7am, but number_search does
-
         if details && details.respond_to?(:company_name)
           company = Company.create({:name => details.company_name,
               :company_number => details.company_number,
               :address => details.reg_address.address_lines.join("\n"),
               :company_status => details.company_status,
               :company_category => details.company_category,
-              :incorporation_date => details.incorporation_date
+              :incorporation_date => details.incorporation_date,
+              :country_code => 'uk'
           })
         end
       end

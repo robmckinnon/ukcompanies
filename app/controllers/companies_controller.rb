@@ -1,12 +1,12 @@
 class CompaniesController < ApplicationController
 
   def show_by_number
-    company = Company.retrieve_by_number(params[:number])
-    if company
-      if params[:format] && params[:format] == 'xml'
-        render :xml => company.to_more_xml(request.host)
-      else
-        redirect_to show_by_number_and_name_url(params[:country_code], params[:number], company.friendly_id), :status=>303 # 303 = 'See Other'
+    @company = Company.retrieve_by_number(params[:number])
+    if @company
+      respond_to do |format|
+        format.html { redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
+        format.rdf { redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
+        format.xml { render :xml => @company.to_more_xml(request.host) }
       end
     else
       render_not_found
@@ -14,12 +14,12 @@ class CompaniesController < ApplicationController
   end
 
   def show_by_number_and_name
-    company = Company.find_by_company_number(params[:number])
-    if company && (company.friendly_id == params[:name])
-      @company = company
-      render "show"
-    else
-      render_not_found
+    @company = Company.find_by_company_number(params[:number])
+    raise ActiveRecord::RecordNotFound unless (@company and @company.friendly_id == params[:name])
+    respond_to do |format|
+      format.html { render "show" }
+      format.rdf { render "show" }
+      format.xml { render :xml => @company.to_more_xml }
     end
   end
 
