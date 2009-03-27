@@ -6,6 +6,7 @@ class CompaniesController < ApplicationController
       respond_to do |format|
         format.html { redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
         format.rdf { redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 } # 303 = 'See Other'
+        format.js  { render :json => @company.to_json }
         format.xml { render :xml => @company.to_more_xml(request.host) }
       end
     else
@@ -19,7 +20,8 @@ class CompaniesController < ApplicationController
     respond_to do |format|
       format.html { render "show" }
       format.rdf { render "show" }
-      format.xml { render :xml => @company.to_more_xml }
+      format.js  { render :json => @company.to_json }
+      format.xml { render :xml => @company.to_more_xml(request.host) }
     end
   end
 
@@ -50,6 +52,8 @@ class CompaniesController < ApplicationController
         end
         xml = xml.gsub('<?xml version="1.0" encoding="UTF-8"?>','')
         render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
+      elsif format == 'js'
+        render :json => @companies.to_json
       elsif @companies.size == 1
         company = @companies.first
         redirect_to show_by_number_and_name_url(company.country_code, company.company_number, company.friendly_id), :status=>303 # 303 = 'See Other'
