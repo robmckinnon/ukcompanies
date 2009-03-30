@@ -31,12 +31,19 @@ class CompaniesController < ApplicationController
       redirect_to params
     else
       @query = params[:q]
-      @companies = Company.retrieve_by_name(@query)
+      exception = nil
+      begin
+        @companies = Company.retrieve_by_name(@query)
+      rescue CompaniesHouse::Exception => e
+        exception = e
+        @companies = []
+      end
 
       if @companies.empty?
         begin
           @companies = [Company.retrieve_by_number(@query)].compact
-        rescue
+        rescue CompaniesHouse::Exception => e
+          exception = e
           @companies = []
         end
       end
@@ -51,7 +58,8 @@ class CompaniesController < ApplicationController
           xml = @companies.collect(&:to_more_xml).join("\n")
         end
         xml = xml.gsub('<?xml version="1.0" encoding="UTF-8"?>','')
-        render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}">#{xml}</companies>|
+        error = exception ? %Q| error="#{exception.to_s}"| : ''
+        render :xml => %Q|<?xml version="1.0" encoding="UTF-8"?>\n<companies result-size="#{@companies.size}"#{error}>#{xml}</companies>|
       elsif format == 'js'
         render :json => @companies.to_json
       elsif @companies.size == 1

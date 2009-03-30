@@ -19,6 +19,7 @@ class Company < ActiveRecord::Base
       Slug.find(:all, :conditions => {:name => slug}).collect(&:sluggable)
     end
 
+    # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
       companies = find_all_by_company_name(name)
       if companies.empty?
