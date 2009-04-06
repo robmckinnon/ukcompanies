@@ -29,7 +29,7 @@ class Company < ActiveRecord::Base
         if matches.empty?
           numbers = retrieve_by_name_with_rows name, 20
           companies = numbers.collect do |number|
-            puts "retrieving #{number}"
+            logger.info "retrieving #{number}"
             company = retrieve_by_number number
             sleep 0.5
             company
@@ -45,17 +45,17 @@ class Company < ActiveRecord::Base
     end
 
     def retrieve_by_name_with_rows name, rows, numbers = [], last_name=name
-      puts "retriving #{rows} for #{last_name}"
+      logger.info "retriving #{rows} for #{last_name}"
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
 
       if results && results.respond_to?(:co_search_items)
         items = results.co_search_items
-        puts items.size
+        logger.info items.size
 
         if items.last.company_name[/#{name}/i]
           sleep 0.5
           numbers = numbers + retrieve_by_name_with_rows(name, 100, numbers, items.last.company_name.gsub('&','AND'))
-          puts "numbers #{numbers.size} for #{last_name}"
+          logger.info "numbers #{numbers.size} for #{last_name}"
         end
 
         matches = items.select{|item| item.company_name[/#{name}/i]}
