@@ -22,21 +22,46 @@ class Company < ActiveRecord::Base
     # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
       companies = find_all_by_company_name(name)
-      if companies.empty?
-        results = CompaniesHouse.name_search(name)
+      matches = companies.select{|x| x.name[/^#{name}$/i]}
 
-        if results && results.respond_to?(:co_search_items)
-          items = results.co_search_items
-          matches = items.select{|item| item.company_name[/#{name}/i]}
-          numbers = matches.collect(&:company_number)
+      if matches.empty?
+        matches = companies.select{|x| x.name[/^#{name} (group|limited|llp|ltd|plc)$/i]}
+        if matches.empty?
+          numbers = retrieve_by_name_with_rows name, 20
           companies = numbers.collect do |number|
+            puts "retrieving #{number}"
             company = retrieve_by_number number
             sleep 0.5
             company
           end.compact
+        else
+          companies = matches
         end
+      else
+        companies = matches
       end
+
       companies
+    end
+
+    def retrieve_by_name_with_rows name, rows, numbers = [], last_name=name
+      puts "retriving #{rows} for #{last_name}"
+      results = CompaniesHouse.name_search(last_name, :search_rows => rows)
+
+      if results && results.respond_to?(:co_search_items)
+        items = results.co_search_items
+        puts items.size
+
+        if items.last.company_name[/#{name}/i]
+          sleep 0.5
+          numbers = numbers + retrieve_by_name_with_rows(name, 100, numbers, items.last.company_name.gsub('&','AND'))
+          puts "numbers #{numbers.size} for #{last_name}"
+        end
+
+        matches = items.select{|item| item.company_name[/#{name}/i]}
+        numbers = (matches.collect(&:company_number) + numbers).uniq
+      end
+      numbers
     end
 
     def retrieve_by_number number
@@ -63,7 +88,7 @@ class Company < ActiveRecord::Base
     end
 
     def find_all_by_company_name name
-      find(:all, :conditions => %Q|name like "%#{name.gsub('"','')}%"|)
+      find(:all, :conditions => %Q|name like "#{name.gsub('"','')}%"|)
     end
 
     def find_this identifier
