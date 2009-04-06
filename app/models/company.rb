@@ -74,7 +74,7 @@ class Company < ActiveRecord::Base
               :address => details.reg_address.address_lines.join("\n"),
               :company_status => details.company_status,
               :company_category => details.company_category,
-              :incorporation_date => details.incorporation_date,
+              :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
               :country_code => 'uk'
           })
         end
