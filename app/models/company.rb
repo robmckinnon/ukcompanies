@@ -41,6 +41,7 @@ class Company < ActiveRecord::Base
           companies.each do |company|
             search.search_results.build(:company_id => company.id)
           end
+          search.save
         end
         companies
       else
