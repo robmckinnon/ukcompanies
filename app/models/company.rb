@@ -23,28 +23,43 @@ class Company < ActiveRecord::Base
 
     # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
-      companies = find_all_by_company_name(name)
-      matches = companies.select{|x| x.name[/^#{name}$/i]}
+      term = name.strip.squeeze(' ')
+      search = Search.find_by_term(term, :include => :companies)
 
-      if matches.empty?
-        matches = companies.select{|x| x.name[/^#{name} (group|limited|llp|ltd|plc)$/i]}
+      if search
+        companies = search.companies
+      elsif true
+        company_numbers = retrieve_company_numbers_by_name_with_rows name, 20
+        companies = company_numbers.collect do |number|
+          logger.info "retrieving #{number}"
+          company = retrieve_by_number number
+          sleep 0.5
+          company
+        end.compact
+        unless companies.empty?
+          search = Search.new :term => term
+          companies.each do |company|
+            search.search_results.build(:company_id => company.id)
+          end
+        end
+        companies
+      else
+        companies = find_all_by_company_name(name)
+        matches = companies.select{|x| x.name[/^#{name}$/i]}
+
         if matches.empty?
-          numbers = retrieve_by_name_with_rows name, 20
-          companies = numbers.collect do |number|
-            logger.info "retrieving #{number}"
-            company = retrieve_by_number number
-            sleep 0.5
-            company
-          end.compact
-        else
-          companies = matches
+          matches = companies.select{|x| x.name[/^#{name} (group|limited|llp|ltd|plc)$/i]}
+          if matches.empty?
+          else
+            companies = matches
+          end
         end
       end
 
       companies
     end
 
-    def retrieve_by_name_with_rows name, rows, numbers = [], last_name=name
+    def retrieve_company_numbers_by_name_with_rows name, rows, company_numbers = [], last_name=name
       logger.info "retriving #{rows} for #{last_name}"
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
 
@@ -54,17 +69,18 @@ class Company < ActiveRecord::Base
 
         if items.last.company_name[/#{name}/i]
           sleep 0.5
-          numbers = numbers + retrieve_by_name_with_rows(name, 100, numbers, items.last.company_name.gsub('&','AND'))
-          logger.info "numbers #{numbers.size} for #{last_name}"
+          company_numbers = company_numbers + retrieve_company_numbers_by_name_with_rows(name, 100, company_numbers, items.last.company_name.gsub('&','AND'))
+          logger.info "numbers #{company_numbers.size} for #{last_name}"
         end
 
         matches = items.select{|item| item.company_name[/#{name}/i]}
-        numbers = (matches.collect(&:company_number) + numbers).uniq
+        company_numbers = (matches.collect(&:company_number) + company_numbers).uniq
       end
-      numbers
+      company_numbers
     end
 
     def retrieve_by_number number
+      number = number.strip
       company = find_by_company_number(number)
       unless company
         details = CompaniesHouse.company_details(number) # doesn't work between 12am-7am, but number_search does
