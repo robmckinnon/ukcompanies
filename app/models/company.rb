@@ -24,13 +24,13 @@ class Company < ActiveRecord::Base
     # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
       term = name.squeeze(' ')
-      term += ' ' if term.size < 4 && !term.ends_with?(' ')
+      term = "#{term} " if term.size < 4 && !term.ends_with?(' ')
       search = Search.find_by_term(term, :include => :companies)
 
-      if search
+      if search && search.term == term
         companies = search.companies
       elsif true
-        company_numbers = retrieve_company_numbers_by_name_with_rows(name, 20)
+        company_numbers = retrieve_company_numbers_by_name_with_rows(term, 20)
         if company_numbers.empty?
           companies = []
         else
@@ -51,21 +51,30 @@ class Company < ActiveRecord::Base
       companies
     end
 
+    def numberfy text
+      text.tr('1','one').tr('2','two').tr('3','three').tr('4','four').tr('5','five').tr('6','six').tr('7','seven').tr('8','eight').tr('9','nine').tr('0','o')
+    end
+
     def retrieve_company_numbers_by_name_with_rows name, rows, company_numbers = [], last_name=name
       logger.info "retriving #{rows} for #{last_name}"
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
+
+      no_space_name = numberfy(name.tr('- .',''))
+      alt_name = numberfy(name).gsub(' ','[^A-Z]')
 
       if results && results.respond_to?(:co_search_items)
         items = results.co_search_items
         logger.info items.size
 
-        if items.last.company_name[/#{name}/i]
+        if numberfy(items.last.company_name).tr('- .','')[/#{no_space_name}/i]
           sleep 0.5
           company_numbers = company_numbers + retrieve_company_numbers_by_name_with_rows(name, 100, company_numbers, items.last.company_name.gsub('&','AND'))
           logger.info "numbers #{company_numbers.size} for #{last_name}"
+        else
+          logger.info "no more matches: #{items.last.company_name}"
         end
 
-        matches = items.select{|item| item.company_name[/#{name}/i]}
+        matches = items.select{|item| item.company_name[/#{name}/i] || numberfy(item.company_name)[/#{alt_name}/i]}
         company_numbers = (matches.collect(&:company_number) + company_numbers).uniq
       end
       company_numbers.compact.uniq
