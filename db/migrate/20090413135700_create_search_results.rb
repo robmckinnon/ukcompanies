@@ -3,8 +3,6 @@ class CreateSearchResults < ActiveRecord::Migration
     create_table :search_results do |t|
       t.integer :search_id
       t.integer :company_id
-
-      t.timestamps
     end
 
     add_index :search_results, :search_id

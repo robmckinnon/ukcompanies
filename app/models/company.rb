@@ -29,31 +29,21 @@ class Company < ActiveRecord::Base
       if search
         companies = search.companies
       elsif true
-        company_numbers = retrieve_company_numbers_by_name_with_rows name, 20
-        companies = company_numbers.collect do |number|
-          logger.info "retrieving #{number}"
-          company = retrieve_by_number number
-          sleep 0.5
-          company
-        end.compact
-        unless companies.empty?
+        company_numbers = retrieve_company_numbers_by_name_with_rows(name, 20)
+        if company_numbers.empty?
+          companies = []
+        else
           search = Search.new :term => term
-          companies.each do |company|
-            search.search_results.build(:company_id => company.id)
+          companies = company_numbers.collect do |number|
+            logger.info "retrieving #{number}"
+            company = retrieve_by_number(number)
+            if company
+              search.search_results.build(:company_id => company.id)
+            end
+            company
           end
-          search.save
-        end
-        companies
-      else
-        companies = find_all_by_company_name(name)
-        matches = companies.select{|x| x.name[/^#{name}$/i]}
-
-        if matches.empty?
-          matches = companies.select{|x| x.name[/^#{name} (group|limited|llp|ltd|plc)$/i]}
-          if matches.empty?
-          else
-            companies = matches
-          end
+          companies.compact!
+          search.save unless companies.empty?
         end
       end
 
@@ -77,7 +67,7 @@ class Company < ActiveRecord::Base
         matches = items.select{|item| item.company_name[/#{name}/i]}
         company_numbers = (matches.collect(&:company_number) + company_numbers).uniq
       end
-      company_numbers
+      company_numbers.compact.uniq
     end
 
     def retrieve_by_number number
@@ -85,15 +75,19 @@ class Company < ActiveRecord::Base
       company = find_by_company_number(number)
       unless company
         details = CompaniesHouse.company_details(number) # doesn't work between 12am-7am, but number_search does
+        sleep 0.5
         if details && details.respond_to?(:company_name)
-          company = Company.create({:name => details.company_name,
-              :company_number => details.company_number,
-              :address => details.reg_address.address_lines.join("\n"),
-              :company_status => details.company_status,
-              :company_category => details.company_category,
-              :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
-              :country_code => 'uk'
-          })
+          company_number = details.company_number.strip
+          if number == company_number
+            company = Company.create({:name => details.company_name,
+                :company_number => company_number,
+                :address => details.reg_address.address_lines.join("\n"),
+                :company_status => details.company_status,
+                :company_category => details.company_category,
+                :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
+                :country_code => 'uk'
+            })
+          end
         end
       end
       company

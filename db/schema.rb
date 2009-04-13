@@ -52,10 +52,8 @@ ActiveRecord::Schema.define(:version => 20090413135700) do
   add_index "ogc_suppliers", ["company_id"], :name => "index_ogc_suppliers_on_company_id"
 
   create_table "search_results", :force => true do |t|
-    t.integer  "search_id"
-    t.integer  "company_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer "search_id"
+    t.integer "company_id"
   end
 
   add_index "search_results", ["company_id"], :name => "index_search_results_on_company_id"
