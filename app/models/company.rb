@@ -52,7 +52,7 @@ class Company < ActiveRecord::Base
     end
 
     def numberfy text
-      text.tr('1','one').tr('2','two').tr('3','three').tr('4','four').tr('5','five').tr('6','six').tr('7','seven').tr('8','eight').tr('9','nine').tr('0','o')
+      text.gsub('1','one').gsub('2','two').gsub('3','three').gsub('4','four').gsub('5','five').gsub('6','six').gsub('7','seven').gsub('8','eight').gsub('9','nine').gsub('0','o')
     end
 
     def retrieve_company_numbers_by_name_with_rows name, rows, company_numbers = [], last_name=name
