@@ -11,6 +11,8 @@ class Company < ActiveRecord::Base
   has_many :lobbyist_clients
   has_many :ogc_suppliers
 
+  validates_uniqueness_of :company_number
+
   NUMBER_PATTERN = /([A-Z][A-Z])?(\d)?(\d)?\d\d\d\d\d\d/
 
   class << self
@@ -37,8 +39,6 @@ class Company < ActiveRecord::Base
         else
           companies = matches
         end
-      else
-        companies = matches
       end
 
       companies
@@ -88,7 +88,8 @@ class Company < ActiveRecord::Base
     end
 
     def find_all_by_company_name name
-      find(:all, :conditions => %Q|name like "#{name.gsub('"','')}%"|)
+      find(:all, :conditions => ['name like ?', %Q|#{name.gsub('"','')}%|]) +
+        find(:all, :conditions => ['name like ?', %Q|The #{name.gsub('"','')}%|])
     end
 
     def find_this identifier
