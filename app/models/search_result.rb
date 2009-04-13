@@ -1,6 +1,6 @@
 class SearchResult < ActiveRecord::Base
 
-  has_one :search
-  has_one :company
+  belongs_to :search
+  belongs_to :company
 
 end
