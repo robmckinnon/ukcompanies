@@ -23,7 +23,8 @@ class Company < ActiveRecord::Base
 
     # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
-      term = name.strip.squeeze(' ')
+      term = name.squeeze(' ')
+      term += ' ' if term.size < 4 && !term.ends_with?(' ')
       search = Search.find_by_term(term, :include => :companies)
 
       if search
