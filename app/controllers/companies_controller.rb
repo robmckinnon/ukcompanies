@@ -68,6 +68,8 @@ class CompaniesController < ApplicationController
       else
         # show search view
       end
+    else
+      @companies = []
     end
   end
 
