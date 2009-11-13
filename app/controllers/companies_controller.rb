@@ -29,7 +29,7 @@ class CompaniesController < ApplicationController
     if params[:commit]
       params.delete(:commit)
       redirect_to params
-    else
+    elsif params[:q]
       @query = params[:q]
       exception = nil
       begin
