@@ -32,12 +32,12 @@ class ApplicationController < ActionController::Base
   def redirect_old_urls
     path = request.path
     if is_companiesrevealed_request?
-      redirect_to "http://companiesopen.org#{path}"
+      redirect_to "http://companiesopen.org#{path}", :status=>:moved_permanently
     elsif is_ukcompanies_request?
       if path.starts_with?('/search') || path == '/'
-        redirect_to "http://companiesopen.org#{path}"
+        redirect_to "http://companiesopen.org#{path}", :status=>:moved_permanently
       elsif
-        redirect_to "http://companiesopen.org/uk#{path}"
+        redirect_to "http://companiesopen.org/uk#{path}", :status=>:moved_permanently
       end
     elsif !is_companiesopen_request?
       render(:text => 'not found', :status => 404)
