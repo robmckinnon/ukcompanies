@@ -16,9 +16,7 @@ class ApplicationController < ActionController::Base
   end
 
   def is_ukcompanies_request?
-    request.host == 'ukcompani.es' ||
-        (RAILS_ENV == 'development' && request.host == 'localhost') ||
-        (RAILS_ENV == 'test' && request.host == 'test.host')
+    request.host == 'ukcompani.es'
   end
 
   def is_companiesrevealed_request?
@@ -26,7 +24,9 @@ class ApplicationController < ActionController::Base
   end
 
   def is_companiesopen_request?
-    request.host == 'companiesopen.org'
+    request.host == 'companiesopen.org' ||
+        (RAILS_ENV == 'development' && request.host == 'localhost') ||
+        (RAILS_ENV == 'test' && request.host == 'test.host')
   end
 
   def redirect_old_urls
