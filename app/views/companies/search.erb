@@ -1,5 +1,5 @@
-    <% @title= %Q|Search results for "#{@query}"| %>
-      <% escaped_query = h(@query) %>
+    <% escaped_query = strip_tags(h(@query)) %>
+    <% @title= %Q|Search results for "#{escaped_query}"| %>
       <%= render :partial => "/home/search_box", :locals => {:query => escaped_query} %>
     <div id="results">
       <p>You searched for "<%= escaped_query %>"</p>
