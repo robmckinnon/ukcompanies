@@ -1,7 +1,8 @@
     <% @title= %Q|Search results for "#{@query}"| %>
-      <%= render :partial => "/home/search_box", :locals => {:query => @query} %>
+      <% escaped_query = h(@query) %>
+      <%= render :partial => "/home/search_box", :locals => {:query => escaped_query} %>
     <div id="results">
-      <p>You searched for "<%= h @query %>"</p>
+      <p>You searched for "<%= escaped_query %>"</p>
       <p>Results (<%= @companies.size %>)</p>
       <ol>
       <% for company in @companies %>
