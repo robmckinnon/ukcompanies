@@ -95,7 +95,7 @@ class Company < ActiveRecord::Base
           if number == company_number
             company = Company.create({:name => details.company_name,
                 :company_number => company_number,
-                :address => details.reg_address.address_lines.join("\n"),
+                :address => details.respond_to?(:reg_address) ? details.reg_address.address_lines.join("\n") : nil,
                 :company_status => details.company_status,
                 :company_category => details.company_category,
                 :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
