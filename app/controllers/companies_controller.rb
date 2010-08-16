@@ -1,3 +1,4 @@
+
 class CompaniesController < ApplicationController
 
   def show_by_number
@@ -105,20 +106,43 @@ class CompaniesController < ApplicationController
   end
 
   def reconcile
-    metadata = %Q|{
-  "name":"Companies Open Reconciliation Service",
-  "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
-  "schemaSpace":"http://rdf.freebase.com/ns/type.object.id"
-}|
 
     if callback = params[:callback]
-      render :json => metadata, :callback => callback
+      render :json => service_metadata, :callback => callback
+    elsif queries = params[:queries]
+      hash = JSON.parse queries
+      results = Company.multiple_query hash
+      results.keys.each do |key|
+        companies = results[key]
+        gridworks_hashes = companies.map{|x| x.to_gridworks_hash(request.host) }
+        results[key] = { :result => gridworks_hashes }
+      end
+      json = results.to_json
+      logger.info json
+      render :json => json
     else
-      render :json => metadata
+      render :json => service_metadata
     end
   end
 
   private
+
+    def process_reconciliation_results hash
+      hash
+    end
+
+    def service_metadata
+      %Q|{
+  "name":"CompaniesOpen.org UK Reconciliation Service",
+  "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
+  "schemaSpace":"http://rdf.freebase.com/ns/type.object.id",
+  "defaultTypes":[{
+      "id":"/organization/organization",
+      "name":"Organization"
+    }
+  ]
+}|
+    end
 
     def ensure_current_url
       begin

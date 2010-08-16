@@ -25,3 +25,6 @@
 [submodule "vendor/plugins/morph"]
 	path = vendor/plugins/morph
 	url = git://github.com/robmckinnon/morph.git
+[submodule "vendor/plugins/yajl"]
+	path = vendor/plugins/yajl
+	url = http://github.com/brianmario/yajl-ruby.git

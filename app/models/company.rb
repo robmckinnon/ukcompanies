@@ -17,6 +17,26 @@ class Company < ActiveRecord::Base
 
   class << self
 
+    def multiple_query hash
+      results = {}
+      hash.keys.each do |key|
+        query = hash[key]
+        term = query['query']
+        search = if (limit = query['limit'])
+          Search.find_by_term(term, :include => :companies)
+        else
+          Search.find_by_term(term, :include => :companies)
+        end
+
+        if search
+          results[key] = search.companies.first(limit.to_i)
+        else
+          results[key] = []
+        end
+      end
+      results
+    end
+
     def find_all_by_slug(slug)
       Slug.find(:all, :conditions => {:name => slug}).collect(&:sluggable)
     end
@@ -147,10 +167,25 @@ class Company < ActiveRecord::Base
     to_xml(:except=>[:id,:created_at,:updated_at]) do |xml|
       xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
       xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
-      xml.id("http://#{host}/#{country_code}/#{company_number}")
-      xml.long_url("http://#{host}/#{country_code}/#{company_number}/#{friendly_id}")
-      xml.xml_url("http://#{host}/#{country_code}/#{company_number}.xml")
+      xml.id(subject_indicator(host))
+      xml.long_url("#{subject_indicator(host)}/#{friendly_id}")
+      xml.xml_url("#{subject_indicator(host)}.xml")
     end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
+  end
+
+  def to_gridworks_hash(host='localhost')
+    {
+      :id => subject_indicator(host),
+      :name => name,
+      :type => {
+          :id => '/organization/organization',
+          :name => 'Organization'
+      }
+    }
+  end
+
+  def subject_indicator(host)
+    "http://#{host}/#{country_code}/#{company_number}"
   end
 
 end
