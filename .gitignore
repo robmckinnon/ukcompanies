@@ -7,3 +7,7 @@ public/google*
 .DS_Store
 doc
 db/*.sqlite3
+public/images/Crystal_Clear_app_sharemanager.png
+public/images/coh0.png
+public/images/coh2.png
+
