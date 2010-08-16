@@ -8,8 +8,8 @@ describe Company do
     hash = company.to_gridworks_hash
     hash[:name].should == name
     hash[:id].should == 'http://localhost/uk/123'
-    hash[:type][:id].should == '/organization/organization'
-    hash[:type][:name].should == 'Organization'
+    hash[:type].first[:id].should == '/organization/organization'
+    hash[:type].first[:name].should == 'Organization'
 
     Company.delete_all
   end
@@ -28,31 +28,50 @@ describe Company do
     end
   end
 
-  describe 'handling multiple query' do
+  describe 'handling reconciliation' do
     before do
       @q0 = 'BritishAmerican Business'
       @q1 = 'British Retail Consortium'
       @q2 = 'IoD'
-      @json = %Q|{"q0":{"query":"#{@q0}","limit":2},"q1":{"query":"#{@q1}","limit":2},"q2":{"query":"#{@q2}","limit":2}}|
-      @company2 = mock(Company, :name => 'British Retail Consortium Associated')
-      @company0 = mock(Company, :name => 'British Retail Consortium Ltd')
-      @company1 = mock(Company, :name => 'British Retail Consortium Plc')
+      @company0 = mock(Company, :name => 'British Retail Consortium Associated')
+      @company1 = mock(Company, :name => 'British Retail Consortium Ltd')
+      @company2 = mock(Company, :name => 'British Retail Consortium Plc')
+      @company3 = mock(Company, :name => 'IoD')
       @companies = [@company0, @company1, @company2]
-      @search = mock(Search, :companies => @companies)
-      @hash = JSON.parse @json
     end
 
-    it 'should look for existing search results' do
-      Search.should_receive(:find_by_term).with(@q0, :include => :companies).and_return nil
-      Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
-      Search.should_receive(:find_by_term).with(@q2, :include => :companies).and_return nil
-      results = Company.multiple_query(@hash)
-      results.should have_key('q0')
-      results.should have_key('q1')
-      results.should have_key('q2')
-      results['q0'].should == []
-      results['q1'].should == [@company0, @company1]
-      results['q2'].should == []
+    describe 'handling single query' do
+      before do
+        @json = %Q|{"query":"#{@q1}"}|
+        @search = mock(Search, :companies => @companies)
+        @hash = JSON.parse @json
+      end
+
+      it 'should look for matching results' do
+        results = Company.single_query(@hash)
+      end
+    end
+
+    describe 'handling multiple query' do
+      before do
+        @json = %Q|{"q0":{"query":"#{@q0}","limit":2},"q1":{"query":"#{@q1}","limit":2},"q2":{"query":"#{@q2}","limit":2}}|
+        @search = mock(Search, :companies => @companies)
+        @search2 = mock(Search, :companies => [@company3])
+        @hash = JSON.parse @json
+      end
+
+      it 'should look for existing search results' do
+        Search.should_receive(:find_by_term).with(@q0, :include => :companies).and_return nil
+        Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
+        Search.should_receive(:find_by_term).with(@q2, :include => :companies).and_return @search2
+        results = Company.multiple_query(@hash)
+        results.should have_key('q0')
+        results.should have_key('q1')
+        results.should have_key('q2')
+        results['q0'].should == []
+        results['q1'].should == [ [@company0,69.44,false], [@company1,86.2,false] ]
+        results['q2'].should == [ [@company3,90.0,true] ]
+      end
     end
   end
 end

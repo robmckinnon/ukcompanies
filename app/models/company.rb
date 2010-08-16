@@ -17,22 +17,45 @@ class Company < ActiveRecord::Base
 
   class << self
 
-    def multiple_query hash
-      results = {}
-      hash.keys.each do |key|
-        query = hash[key]
-        term = query['query']
-        search = if (limit = query['limit'])
-          Search.find_by_term(term, :include => :companies)
+    # returns array of [company, score, match] elements
+    def single_query hash
+      term = hash['query']
+      limit = hash['limit']
+      search = Search.find_by_term(term, :include => :companies)
+      companies = if search
+        if limit
+          search.companies.first(limit.to_i)
         else
-          Search.find_by_term(term, :include => :companies)
+          search.companies
+        end
+      else
+        []
+      end
+
+      companies.collect do |company|
+        is_match = false
+        score = if term.size < company.name.size
+          accuracy_score(term.size, company.name.size)
+        else
+          accuracy_score(0.9, companies.size)
         end
 
-        if search
-          results[key] = search.companies.first(limit.to_i)
-        else
-          results[key] = []
+        if (companies.size == 1) && (companies.first.name.downcase.strip == term.downcase.strip)
+          is_match = true
+          score = 90.0
         end
+
+        [company, score, is_match]
+      end
+    end
+
+    # returns hash of keys to array of [company, score, match] elements
+    def multiple_query hash
+      results = ActiveSupport::OrderedHash.new
+      hash.keys.each do |key|
+        query = hash[key]
+        companies = single_query(query)
+        results[key] = companies
       end
       results
     end
@@ -49,7 +72,7 @@ class Company < ActiveRecord::Base
 
       if search && search.term == term
         companies = search.companies
-      elsif true
+      else
         company_numbers = retrieve_company_numbers_by_name_with_rows(term, 20)
         if company_numbers.empty?
           companies = []
@@ -145,6 +168,12 @@ class Company < ActiveRecord::Base
       end
       company
     end
+
+    private
+    def accuracy_score numerator, denominator
+      (( (numerator * 100.0) / denominator) * 100 ).to_i / 100.0
+    end
+
   end
 
   def companies_house_url
@@ -174,14 +203,11 @@ class Company < ActiveRecord::Base
   end
 
   def to_gridworks_hash(host='localhost')
-    {
-      :id => subject_indicator(host),
-      :name => name,
-      :type => {
-          :id => '/organization/organization',
-          :name => 'Organization'
-      }
-    }
+    hash = ActiveSupport::OrderedHash.new
+    hash[:id] = subject_indicator(host)
+    hash[:name] = name
+    hash[:type] = [{ :id => '/organization/organization', :name => 'Organization' }]
+    hash
   end
 
   def subject_indicator(host)

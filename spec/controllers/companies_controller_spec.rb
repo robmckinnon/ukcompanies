@@ -46,27 +46,51 @@ describe CompaniesController do
     end
   end
 
-  describe 'when asked multiple reconciliation query' do
+  describe 'when doing reconciliation' do
     before do
-      @json = %Q|{"q0":{"query":"BritishAmerican Business","limit":3},"q1":{"query":"British Retail Consortium","limit":3},"q2":{"query":"IoD","limit":3},"q3":{"query":"Brindex","limit":3},"q4":{"query":"Association of Electricity Producers","limit":3},"q5":{"query":"Permira","limit":3},"q6":{"query":"JCA Group","limit":3},"q7":{"query":"GKN","limit":3},"q8":{"query":"KPMG","limit":3},"q9":{"query":"Eli Lilley","limit":3}}|
-      @hash = JSON.parse @json
-      @query_json = %Q|{"queries"=>"#{@json}"}|
       @company0 = Company.new :name => 'British Retail Consortium Associated', :company_number => '1', :country_code => 'uk'
       @company1 = Company.new :name => 'British Retail Consortium Ltd', :company_number => '2', :country_code => 'uk'
       @company2 = Company.new :name => 'British Retail Consortium Plc', :company_number => '3', :country_code => 'uk'
-      @companies = [@company0, @company1, @company2]
-
-      @results = {
-        'q0' => [],
-        'q1' => @companies,
-        'q2' => []
-      }
+      @companies = [ [@company0,33.3,false], [@company1,33.3,false], [@company2,33.3,false] ]
     end
 
-    it 'should query company model' do
-      Company.should_receive(:multiple_query).with(@hash).and_return @results
-      post :reconcile, :country_code => 'uk', :queries => @json
-      response.body.should == '{"q1":{"result":[{"type":{"name":"Organization","id":"/organization/organization"},"name":"British Retail Consortium Associated","id":"http://test.host/uk/1"},{"type":{"name":"Organization","id":"/organization/organization"},"name":"British Retail Consortium Ltd","id":"http://test.host/uk/2"},{"type":{"name":"Organization","id":"/organization/organization"},"name":"British Retail Consortium Plc","id":"http://test.host/uk/3"}]},"q2":{"result":[]},"q0":{"result":[]}}'
+    describe 'and asked single query' do
+      before do
+        @json = %Q|{"query":"BritishAmerican Business"}|
+        @hash = JSON.parse @json
+        @query_json = %Q|{"query"=>"#{@json}"}|
+        @results = @companies
+      end
+
+      it 'should query company model' do
+        @controller.should_receive(:start_timer)
+        @controller.should_receive(:stop_timer).and_return 1001
+        Company.should_receive(:single_query).with(@hash).and_return @results
+        post :reconcile, :country_code => 'uk', :query => @json
+        response.body.should == '{"result":[{"id":"http://test.host/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}],"duration":1001}'
+      end
+    end
+
+    describe 'and asked multiple query' do
+      before do
+        @json = %Q|{"q0":{"query":"BritishAmerican Business","limit":3},"q1":{"query":"British Retail Consortium","limit":3},"q2":{"query":"IoD","limit":3},"q3":{"query":"Brindex","limit":3},"q4":{"query":"Association of Electricity Producers","limit":3},"q5":{"query":"Permira","limit":3},"q6":{"query":"JCA Group","limit":3},"q7":{"query":"GKN","limit":3},"q8":{"query":"KPMG","limit":3},"q9":{"query":"Eli Lilley","limit":3}}|
+        @hash = JSON.parse @json
+        @query_json = %Q|{"queries"=>"#{@json}"}|
+
+        @results = {
+          'q0' => [],
+          'q1' => @companies,
+          'q2' => []
+        }
+      end
+
+      it 'should query company model' do
+        @controller.should_receive(:start_timer)
+        @controller.should_receive(:stop_timer).and_return 1001
+        Company.should_receive(:multiple_query).with(@hash).and_return @results
+        post :reconcile, :country_code => 'uk', :queries => @json
+        response.body.should == '{"q1":{"result":[{"id":"http://test.host/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}]},"q2":{"result":[]},"duration":1001,"q0":{"result":[]}}'
+      end
     end
   end
 

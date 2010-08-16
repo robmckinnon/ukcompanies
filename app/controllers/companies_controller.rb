@@ -106,7 +106,7 @@ class CompaniesController < ApplicationController
   end
 
   def reconcile
-
+    start_timer
     if callback = params[:callback]
       render :json => service_metadata, :callback => callback
     elsif queries = params[:queries]
@@ -114,10 +114,21 @@ class CompaniesController < ApplicationController
       results = Company.multiple_query hash
       results.keys.each do |key|
         companies = results[key]
-        gridworks_hashes = companies.map{|x| x.to_gridworks_hash(request.host) }
-        results[key] = { :result => gridworks_hashes }
+        results[key] = { :result => gridworks_hash(companies) }
       end
+      duration = stop_timer
+      results[:duration] = duration
       json = results.to_json
+      logger.info json
+      render :json => json
+    elsif query = params[:query]
+      hash = JSON.parse query
+      companies = Company.single_query hash
+      duration = stop_timer
+      result = ActiveSupport::OrderedHash.new
+      result[:result] = gridworks_hash(companies)
+      result[:duration] = duration
+      json = result.to_json
       logger.info json
       render :json => json
     else
@@ -127,8 +138,13 @@ class CompaniesController < ApplicationController
 
   private
 
-    def process_reconciliation_results hash
-      hash
+    def gridworks_hash companies
+      companies.map do |x|
+        hash = x[0].to_gridworks_hash(request.host)
+        hash[:score] = x[1]
+        hash[:match] = x[2]
+        hash
+      end
     end
 
     def service_metadata
@@ -160,5 +176,13 @@ class CompaniesController < ApplicationController
       rescue
         render_not_found
       end
+    end
+
+    def start_timer
+      @start_time = Time.now
+    end
+
+    def stop_timer
+      (Time.now - @start_time) * 1000
     end
 end
