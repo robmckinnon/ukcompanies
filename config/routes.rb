@@ -7,6 +7,8 @@ ActionController::Routing::Routes.draw do |map|
   number_requirements = {:requirements => { :number => Company::NUMBER_PATTERN } }
 
   with_controller :companies, map do |companies|
+    companies.reconcile '/:country_code/reconcile', :action => 'reconcile'
+
     companies.with_options(number_requirements) do |number|
       number.show_by_number '/:country_code/:number', :action=>'show_by_number'
       number.show_xml_by_number '/:country_code/:number.:format', :action=>'show_by_number'

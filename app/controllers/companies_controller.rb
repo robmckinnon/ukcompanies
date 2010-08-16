@@ -104,6 +104,20 @@ class CompaniesController < ApplicationController
     end
   end
 
+  def reconcile
+    metadata = %Q|{
+  "name":"Companies Open Reconciliation Service",
+  "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
+  "schemaSpace":"http://rdf.freebase.com/ns/type.object.id"
+}|
+
+    if callback = params[:callback]
+      render :json => metadata, :callback => callback
+    else
+      render :json => metadata
+    end
+  end
+
   private
 
     def ensure_current_url
