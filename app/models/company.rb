@@ -18,34 +18,12 @@ class Company < ActiveRecord::Base
   class << self
 
     # returns array of [company, score, match] elements
-    def single_query hash
-      term = hash['query']
-      limit = hash['limit']
+    def single_query term, limit=nil
       search = Search.find_by_term(term, :include => :companies)
-      companies = if search
-        if limit
-          search.companies.first(limit.to_i)
-        else
-          search.companies
-        end
+      if search
+        search.reconciliation_results(term, limit)
       else
         []
-      end
-
-      companies.collect do |company|
-        is_match = false
-        score = if term.size < company.name.size
-          accuracy_score(term.size, company.name.size)
-        else
-          accuracy_score(0.9, companies.size)
-        end
-
-        if (companies.size == 1) && (companies.first.name.downcase.strip == term.downcase.strip)
-          is_match = true
-          score = 90.0
-        end
-
-        [company, score, is_match]
       end
     end
 
@@ -54,7 +32,9 @@ class Company < ActiveRecord::Base
       results = ActiveSupport::OrderedHash.new
       hash.keys.each do |key|
         query = hash[key]
-        companies = single_query(query)
+        term = query['query']
+        limit = query['limit']
+        companies = single_query(term, limit)
         results[key] = companies
       end
       results
@@ -167,11 +147,6 @@ class Company < ActiveRecord::Base
         company = find(identifier)
       end
       company
-    end
-
-    private
-    def accuracy_score numerator, denominator
-      (( (numerator * 100.0) / denominator) * 100 ).to_i / 100.0
     end
 
   end

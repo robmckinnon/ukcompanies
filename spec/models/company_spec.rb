@@ -38,17 +38,21 @@ describe Company do
       @company2 = mock(Company, :name => 'British Retail Consortium Plc')
       @company3 = mock(Company, :name => 'IoD')
       @companies = [@company0, @company1, @company2]
+      @results = [ [@company0,69.44,false], [@company1,86.2,false], [@company2,86.2,false] ]
     end
 
     describe 'handling single query' do
       before do
-        @json = %Q|{"query":"#{@q1}"}|
         @search = mock(Search, :companies => @companies)
-        @hash = JSON.parse @json
       end
 
       it 'should look for matching results' do
-        results = Company.single_query(@hash)
+        Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
+        @search.should_receive(:reconciliation_results).with(@q1, nil).and_return @results
+
+        results = Company.single_query(@q1)
+
+        results.should == @results
       end
     end
 
@@ -58,19 +62,25 @@ describe Company do
         @search = mock(Search, :companies => @companies)
         @search2 = mock(Search, :companies => [@company3])
         @hash = JSON.parse @json
+
+        @results1 = [ [@company0,69.44,false], [@company1,86.2,false] ]
+        @results2 = [ [@company3,90.0,true] ]
       end
 
       it 'should look for existing search results' do
         Search.should_receive(:find_by_term).with(@q0, :include => :companies).and_return nil
         Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
         Search.should_receive(:find_by_term).with(@q2, :include => :companies).and_return @search2
+
+        @search.should_receive(:reconciliation_results).with(@q1, 2).and_return @results1
+        @search2.should_receive(:reconciliation_results).with(@q2, 2).and_return @results2
         results = Company.multiple_query(@hash)
         results.should have_key('q0')
         results.should have_key('q1')
         results.should have_key('q2')
         results['q0'].should == []
-        results['q1'].should == [ [@company0,69.44,false], [@company1,86.2,false] ]
-        results['q2'].should == [ [@company3,90.0,true] ]
+        results['q1'].should == @results1
+        results['q2'].should == @results2
       end
     end
   end
