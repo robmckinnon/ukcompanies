@@ -6,6 +6,39 @@ class Search < ActiveRecord::Base
 
   validates_uniqueness_of :term
 
+  class << self
+    def normalize_term term
+      term = term.squeeze(' ')
+      term = "#{term} " if term.size < 4 && !term.ends_with?(' ')
+      term
+    end
+
+    def find_from_term term
+      search = find_by_term(term, :include => :companies)
+      if search && search.term == term
+        search
+      else
+        nil
+      end
+    end
+
+    def create_from_term term, company_numbers_and_names
+      search = Search.new :term => term
+      if company_numbers_and_names.size == 1
+        company_number = company_numbers_and_names.first.first
+        company = Company.retrieve_by_number(company_number)
+        search.search_results.build(:company_id => company.id) if company
+      else
+        company_numbers_and_names.each do |company_number, name|
+          company = Company.find_or_create_by_company_number_and_name_and_country_code(company_number, name, 'uk')
+          search.search_results.build(:company_id => company.id) if company
+        end
+      end
+      search.save
+      search
+    end
+  end
+
   def reconciliation_results(term, limit)
     results = limit ? companies.first(limit.to_i) : companies
 

@@ -14,7 +14,7 @@ describe Company do
     Company.delete_all
   end
 
-  describe 'creating friendly id' do
+  describe 'when creating friendly id' do
     it 'should allow multiple companies to have same friendly id' do
       company = Company.create :name => 'Canonical Limited', :company_number => '123'
       company.friendly_id.should == 'canonical-limited'
@@ -23,8 +23,6 @@ describe Company do
       company.friendly_id.should == 'canonical-limited'
 
       Company.delete_all
-      # Company.should_receive(:find_by_company_number).and_return @company
-      # get :show_by_number, :number => '02158715'
     end
   end
 

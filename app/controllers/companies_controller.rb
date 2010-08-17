@@ -16,7 +16,7 @@ class CompaniesController < ApplicationController
   end
 
   def show_by_number_and_name
-    @company = Company.find_by_company_number(params[:number])
+    @company = Company.find_from_company_number(params[:number])
     raise ActiveRecord::RecordNotFound unless (@company and @company.friendly_id == params[:name])
     respond_to do |format|
       format.html { render "show" }
@@ -97,7 +97,7 @@ class CompaniesController < ApplicationController
 
   def companies_house
     p params
-    @company = Company.find_by_company_number(params[:number])
+    @company = Company.find_from_company_number(params[:number])
     if @company.companies_house_url.blank?
       redirect_to show_by_number_and_name_url(params[:country_code], params[:number], @company.friendly_id), :status=>303 # 303 = 'See Other'
     else

@@ -24,4 +24,29 @@ describe Search do
       results.should == [ [@company0,69.44,false], [@company1,86.2,false] ]
     end
   end
+
+  describe 'when asked to normalize term' do
+    it 'should squeeze spaces' do
+      Search.normalize_term('Acme  Ltd').should == 'Acme Ltd'
+    end
+    it 'should add space to terms less than 4 chars' do
+      Search.normalize_term('ABC').should == 'ABC '
+      Search.normalize_term('AB ').should == 'AB '
+    end
+  end
+
+  describe 'when asked to find from term' do
+    before do
+      @term = 'ABC '
+    end
+    it 'should return search if term matches exactly' do
+      expected_search = mock(Search, :term => @term)
+      Search.should_receive(:find_by_term).with(@term, :include => :companies).and_return expected_search
+      Search.find_from_term(@term).should == expected_search
+    end
+    it 'should return nil if term does not match exactly' do
+      Search.should_receive(:find_by_term).with(@term, :include => :companies).and_return mock(Search, :term => @term.downcase)
+      Search.find_from_term(@term).should be_nil
+    end
+  end
 end

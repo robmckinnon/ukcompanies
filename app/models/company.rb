@@ -13,14 +13,13 @@ class Company < ActiveRecord::Base
 
   validates_uniqueness_of :company_number
 
-  NUMBER_PATTERN = /([A-Z][A-Z])?(\d)?(\d)?\d\d\d\d\d\d/
+  NUMBER_PATTERN = /([A-Z][A-Z])?(\d)?(\d)?(\d)?\d\d\d\d\d([A-Z])?/
 
   class << self
 
     # returns array of [company, score, match] elements
     def single_query term, limit=nil
-      search = Search.find_by_term(term, :include => :companies)
-      if search
+      if search = Search.find_by_term(term, :include => :companies)
         search.reconciliation_results(term, limit)
       else
         []
@@ -29,15 +28,13 @@ class Company < ActiveRecord::Base
 
     # returns hash of keys to array of [company, score, match] elements
     def multiple_query hash
-      results = ActiveSupport::OrderedHash.new
-      hash.keys.each do |key|
-        query = hash[key]
-        term = query['query']
-        limit = query['limit']
-        companies = single_query(term, limit)
-        results[key] = companies
+      hash.keys.inject(ActiveSupport::OrderedHash.new) do |results, key|
+        term = hash[key]['query']
+        limit = hash[key]['limit']
+
+        results[key] = single_query(term, limit)
+        results
       end
-      results
     end
 
     def find_all_by_slug(slug)
@@ -46,32 +43,17 @@ class Company < ActiveRecord::Base
 
     # raises CompaniesHouse::Exception if error
     def retrieve_by_name name
-      term = name.squeeze(' ')
-      term = "#{term} " if term.size < 4 && !term.ends_with?(' ')
-      search = Search.find_by_term(term, :include => :companies)
+      term = Search.normalize_term(name)
+      search = Search.find_from_term(term)
 
-      if search && search.term == term
-        companies = search.companies
-      else
-        company_numbers = retrieve_company_numbers_by_name_with_rows(term, 20)
-        if company_numbers.empty?
-          companies = []
-        else
-          search = Search.new :term => term
-          companies = company_numbers.collect do |number|
-            logger.info "retrieving #{number}"
-            company = retrieve_by_number(number)
-            if company
-              search.search_results.build(:company_id => company.id)
-            end
-            company
-          end
-          companies.compact!
-          search.save unless companies.empty?
+      unless search
+        numbers_and_names = retrieve_company_numbers_and_names(term)
+        unless numbers_and_names.empty?
+          search = Search.create_from_term(term, numbers_and_names)
         end
       end
 
-      companies
+      search ? search.companies : []
     end
 
     def numberfy text
@@ -82,7 +64,7 @@ class Company < ActiveRecord::Base
       text
     end
 
-    def retrieve_company_numbers_by_name_with_rows name, rows, company_numbers = [], last_name=name
+    def retrieve_company_numbers_and_names name, rows=20, numbers_and_names=[], last_name=name
       logger.info "retriving #{rows} for #{last_name}"
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
 
@@ -95,37 +77,35 @@ class Company < ActiveRecord::Base
 
         if numberfy(items.last.company_name).tr('- .','')[/#{no_space_name}/i]
           sleep 0.5
-          company_numbers = company_numbers + retrieve_company_numbers_by_name_with_rows(name, 100, company_numbers, items.last.company_name.gsub('&','AND'))
-          logger.info "numbers #{company_numbers.size} for #{last_name}"
+          numbers_and_names = numbers_and_names + retrieve_company_numbers_and_names(name, 100, numbers_and_names, items.last.company_name.gsub('&','AND'))
+          logger.info "numbers #{numbers_and_names.size} for #{last_name}"
         else
           logger.info "no more matches: #{items.last.company_name}"
         end
 
         matches = items.select{|item| item.company_name[/#{name}/i] || numberfy(item.company_name)[/#{alt_name}/i]}
-        company_numbers = (matches.collect(&:company_number) + company_numbers).uniq
+        matches = matches.collect {|match| [match.company_number.strip, match.company_name.strip] }
+        numbers_and_names = (matches + numbers_and_names).uniq
       end
-      company_numbers.compact.uniq
+      numbers_and_names.compact.uniq
+    end
+
+    def find_from_company_number(number)
+      company = find_by_company_number(number)
+      if company && company.missing_attributes?
+        attributes = attributes_for_number(number)
+        company.update_attributes(attributes) if attributes
+      end
+      company
     end
 
     def retrieve_by_number number
+      logger.info "retrieving #{number}"
       number = number.strip
-      company = find_by_company_number(number)
+      company = find_from_company_number(number)
       unless company
-        details = CompaniesHouse.company_details(number) # doesn't work between 12am-7am, but number_search does
-        sleep 0.5
-        if details && details.respond_to?(:company_name)
-          company_number = details.company_number.strip
-          if number == company_number
-            company = Company.create({:name => details.company_name,
-                :company_number => company_number,
-                :address => details.respond_to?(:reg_address) ? ( details.reg_address.respond_to?(:address_lines) ? details.reg_address.address_lines.join("\n") : nil ) : nil,
-                :company_status => details.company_status,
-                :company_category => details.company_category,
-                :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
-                :country_code => 'uk'
-            })
-          end
-        end
+        attributes = attributes_for_number(number)
+        company = Company.create(attributes) if attributes
       end
       company
     end
@@ -149,6 +129,34 @@ class Company < ActiveRecord::Base
       company
     end
 
+    private
+
+    def attributes_for_number number
+      details = CompaniesHouse.company_details(number)
+      if details_match?(details, number)
+        attributes_from_details(number, details)
+      else
+        nil
+      end
+    end
+
+    def details_match? details, number
+      details && details.respond_to?(:company_name) && (number == details.company_number.strip)
+    end
+
+    def attributes_from_details company_number, details
+      {:name => details.company_name,
+       :company_number => company_number,
+       :address => address_from_details(details),
+       :company_status => details.company_status,
+       :company_category => details.company_category,
+       :incorporation_date => details.respond_to?(:incorporation_date) ? details.incorporation_date : nil,
+       :country_code => 'uk'}
+    end
+
+    def address_from_details details
+      details.respond_to?(:reg_address) ? ( details.reg_address.respond_to?(:address_lines) ? details.reg_address.address_lines.join("\n") : nil ) : nil
+    end
   end
 
   def companies_house_url
@@ -187,6 +195,10 @@ class Company < ActiveRecord::Base
 
   def subject_indicator(host)
     "http://#{host}/#{country_code}/#{company_number}"
+  end
+
+  def missing_attributes?
+    company_category.blank?
   end
 
 end
