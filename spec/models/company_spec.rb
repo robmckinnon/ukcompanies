@@ -70,8 +70,10 @@ describe Company do
         Search.should_receive(:find_from_term).with(@q1).and_return @search
         Search.should_receive(:find_from_term).with("#{@q2} ").and_return @search2
 
+        Company.should_receive(:retrieve_company_numbers_and_names).with(@q0).and_return []
         @search.should_receive(:reconciliation_results).with(@q1, 2).and_return @results1
         @search2.should_receive(:reconciliation_results).with("#{@q2} ", 2).and_return @results2
+
         results = Company.multiple_query(@hash)
         results.should have_key('q0')
         results.should have_key('q1')

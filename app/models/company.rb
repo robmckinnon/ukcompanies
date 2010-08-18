@@ -17,6 +17,14 @@ class Company < ActiveRecord::Base
 
   class << self
 
+    def sort_name name
+      compare_name(name).sub(/^THE /,'').sub(/\s(\(?HOLDINGS\)?\s)?(\(?G\.?B\.?\)?\s)?(\(?U\.?K\.?\)?\s)?(COMPANY\s)?(GROUP\s)?(LIMITED|LTD|PLC|LLP)\.?$/,'').gsub(/\s(COMPANY|CORPORATION)\s?$/,'').gsub('&','AND').gsub(' - ',' ').tr('"','').tr('-',' ')
+    end
+
+    def compare_name name
+      name.tr('(','').tr(')','')
+    end
+
     # returns array of [company, score, match] elements
     def single_query term, limit=nil
       term = Search.normalize_term(term)
@@ -213,11 +221,11 @@ class Company < ActiveRecord::Base
   end
 
   def sort_name
-    @sort_name ||=  compare_name.sub(/^THE /,'').sub(/(\(?G\.?B\.?\)?)?(\(?U\.?K\.?\)?)?\s(\(?HOLDINGS\)?\s(COMPANY\s)?)?(GROUP\s)?(LIMITED|LTD|PLC|LLP)\.?$/,'').gsub(/\s(COMPANY|CORPORATION)\s?$/,'').gsub('&','AND').gsub(' - ',' ').tr('"','').tr('-',' ')
+    @sort_name ||= Company.sort_name(name)
   end
 
   def compare_name
-    @compare_name ||= name.tr('(','').tr(')','')
+    @compare_name ||= Company.compare_name(name)
   end
 
 end

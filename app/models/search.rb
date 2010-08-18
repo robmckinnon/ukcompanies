@@ -14,7 +14,7 @@ class Search < ActiveRecord::Base
     end
 
     def find_from_term term
-      search = find_by_term(term, :include => :companies)
+      search = find_by_term(term, :include =>  {:companies => :slugs})
       if search && search.term == term
         search
       else
@@ -23,19 +23,30 @@ class Search < ActiveRecord::Base
     end
 
     def create_from_term term, company_numbers_and_names
+      companies = create_companies(term, company_numbers_and_names)
+      create_from_companies(term, companies)
+    end
+
+    def create_from_companies term, companies
       search = Search.new :term => term
-      if company_numbers_and_names.size == 1
-        company_number = company_numbers_and_names.first.first
-        company = Company.retrieve_by_number(company_number)
+      companies.each do |company|
         search.search_results.build(:company_id => company.id) if company
-      else
-        company_numbers_and_names.each do |company_number, name|
-          company = Company.find_or_create_by_company_number_and_name_and_country_code(company_number, name, 'uk')
-          search.search_results.build(:company_id => company.id) if company
-        end
       end
       search.save
       search
+    end
+
+    def create_companies term, company_numbers_and_names
+      if company_numbers_and_names.size == 1
+        company_number = company_numbers_and_names.first.first
+        [Company.retrieve_by_number(company_number)]
+      else
+        companies = company_numbers_and_names.collect do |company_number, name|
+          if term.strip.size > 5 || Company.sort_name(name)[/^#{term.strip}$/i] || Company.sort_name(name)[/^#{term.strip} /i]
+            Company.find_or_create_by_company_number_and_name_and_country_code(company_number, name, 'uk')
+          end
+        end.compact
+      end
     end
   end
 
