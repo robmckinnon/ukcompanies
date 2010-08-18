@@ -7,7 +7,7 @@ describe Company do
     company = Company.create :name => name, :company_number => '123', :country_code => 'uk'
     hash = company.to_gridworks_hash
     hash[:name].should == name
-    hash[:id].should == 'http://localhost/uk/123'
+    hash[:id].should == '/uk/123'
     hash[:type].first[:id].should == '/organization/organization'
     hash[:type].first[:name].should == 'Organization'
 
@@ -45,7 +45,7 @@ describe Company do
       end
 
       it 'should look for matching results' do
-        Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
+        Search.should_receive(:find_from_term).with(@q1).and_return @search
         @search.should_receive(:reconciliation_results).with(@q1, nil).and_return @results
 
         results = Company.single_query(@q1)
@@ -66,12 +66,12 @@ describe Company do
       end
 
       it 'should look for existing search results' do
-        Search.should_receive(:find_by_term).with(@q0, :include => :companies).and_return nil
-        Search.should_receive(:find_by_term).with(@q1, :include => :companies).and_return @search
-        Search.should_receive(:find_by_term).with(@q2, :include => :companies).and_return @search2
+        Search.should_receive(:find_from_term).with(@q0).and_return nil
+        Search.should_receive(:find_from_term).with(@q1).and_return @search
+        Search.should_receive(:find_from_term).with("#{@q2} ").and_return @search2
 
         @search.should_receive(:reconciliation_results).with(@q1, 2).and_return @results1
-        @search2.should_receive(:reconciliation_results).with(@q2, 2).and_return @results2
+        @search2.should_receive(:reconciliation_results).with("#{@q2} ", 2).and_return @results2
         results = Company.multiple_query(@hash)
         results.should have_key('q0')
         results.should have_key('q1')

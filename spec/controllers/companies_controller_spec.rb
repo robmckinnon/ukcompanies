@@ -41,6 +41,7 @@ describe CompaniesController do
 
   describe 'asked for company by number' do
     it 'should find company' do
+      @company.should_receive(:missing_attributes?).and_return false
       Company.should_receive(:find_by_company_number).and_return @company
       get :show_by_number, :country_code => 'uk', :number => '02158715'
     end
@@ -67,7 +68,7 @@ describe CompaniesController do
         @controller.should_receive(:stop_timer).and_return 1001
         Company.should_receive(:single_query).with(@hash).and_return @results
         post :reconcile, :country_code => 'uk', :query => @json
-        response.body.should == '{"result":[{"id":"http://test.host/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}],"duration":1001}'
+        response.body.should == '{"result":[{"id":"/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}],"duration":1001}'
       end
     end
 
@@ -89,7 +90,7 @@ describe CompaniesController do
         @controller.should_receive(:stop_timer).and_return 1001
         Company.should_receive(:multiple_query).with(@hash).and_return @results
         post :reconcile, :country_code => 'uk', :queries => @json
-        response.body.should == '{"q1":{"result":[{"id":"http://test.host/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"http://test.host/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}]},"q2":{"result":[]},"duration":1001,"q0":{"result":[]}}'
+        response.body.should == '{"q1":{"result":[{"id":"/uk/1","name":"British Retail Consortium Associated","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"/uk/2","name":"British Retail Consortium Ltd","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false},{"id":"/uk/3","name":"British Retail Consortium Plc","type":[{"name":"Organization","id":"/organization/organization"}],"score":33.3,"match":false}]},"q2":{"result":[]},"duration":1001,"q0":{"result":[]}}'
       end
     end
   end
@@ -100,6 +101,14 @@ describe CompaniesController do
   "name":"CompaniesOpen.org UK Reconciliation Service",
   "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
   "schemaSpace":"http://rdf.freebase.com/ns/type.object.id",
+  "view":{
+    "url":"http://localhost:3000{{id}}"
+  },
+  "preview":{
+    "url":"http://localhost:3000{{id}}",
+    "width":430,
+    "height":300
+  },
   "defaultTypes":[{
       "id":"/organization/organization",
       "name":"Organization"

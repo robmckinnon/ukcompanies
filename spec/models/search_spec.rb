@@ -49,4 +49,54 @@ describe Search do
       Search.find_from_term(@term).should be_nil
     end
   end
+
+  describe 'when asked for sorted companies' do
+    before do
+      @names = [
+        'SHELL COMPANY LIMITED',
+        'SHELL COMPANY UK LIMITED',
+        'SHELL CORPORATION LIMITED',
+        'SHELL GROUP LIMITED',
+        'SHELL HOLDINGS COMPANY LIMITED',
+        'SHELL (HOLDINGS) LIMITED',
+        'SHELL LIMITED',
+        'SHELL LLP',
+        'SHELL LTD',
+        'SHELL LTD.',
+        'SHELL PLC',
+        'SHELL (G.B.) LIMITED',
+        'SHELL G.B. LIMITED',
+        'SHELL (GB) LIMITED',
+        'SHELL GB LIMITED',
+        'SHELL (U.K.) LIMITED',
+        'SHELL U.K. LIMITED',
+        'SHELL (UK) LIMITED',
+        'SHELL UK LIMITED',
+        'SHELL AND BP SCOTLAND LIMITED',
+        'SHELL & BP SERVICES LIMITED',
+        '"SHELL BAY" SERVICES LIMITED',
+        'SHELL BAY SERVICES LIMITED',
+        'SHELL - CAST SYSTEMS LIMITED',
+        'SHELL-CAST SYSTEMS LIMITED',
+        'THE SHELL COMPANY OF NIGERIA LIMITED',
+        'SHELL (PLASTERING) LIMITED',
+        'THE SHELLARS LTD',
+        'SHELLBAY SOLUTIONS LTD',
+        'ANOTHER SHELL LIMITED'
+      ] # sorted
+      @companies = (@names.reverse.last(@names.size - 5) + @names.reverse.first(5)) .inject([]) do |list, name|
+        list << Company.new(:name => name)
+      end
+      @search = Search.new
+    end
+
+    it 'should sort correctly' do
+      @search.term = 'Shell'
+      @search.should_receive(:companies).and_return @companies
+      names = @search.sorted_companies.map(&:name)
+      @names.each_with_index do |name, index|
+        names[index].should == name
+      end
+    end
+  end
 end

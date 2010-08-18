@@ -35,6 +35,9 @@ class CompaniesController < ApplicationController
       exception = nil
       begin
         @companies = Company.retrieve_by_name(@query)
+      rescue Timeout::Error => e
+        exception = e
+        @companies = []
       rescue CompaniesHouse::Exception => e
         exception = e
         @companies = []
@@ -140,7 +143,7 @@ class CompaniesController < ApplicationController
 
     def gridworks_hash companies
       companies.map do |x|
-        hash = x[0].to_gridworks_hash(request.host)
+        hash = x[0].to_gridworks_hash
         hash[:score] = x[1]
         hash[:match] = x[2]
         hash
@@ -152,6 +155,14 @@ class CompaniesController < ApplicationController
   "name":"CompaniesOpen.org UK Reconciliation Service",
   "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
   "schemaSpace":"http://rdf.freebase.com/ns/type.object.id",
+  "view":{
+    "url":"http://localhost:3000{{id}}"
+  },
+  "preview":{
+    "url":"http://localhost:3000{{id}}",
+    "width":430,
+    "height":300
+  },
   "defaultTypes":[{
       "id":"/organization/organization",
       "name":"Organization"

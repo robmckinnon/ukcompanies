@@ -59,7 +59,32 @@ class Search < ActiveRecord::Base
     end
   end
 
+  def sorted_companies
+    companies.sort do |a,b|
+      a_name = a.sort_name
+      b_name = b.sort_name
+      if a_name[/^#{term}/i] && !b_name[/^#{term}/i]
+        -1
+      elsif !a_name[/^#{term}/i] && b_name[/^#{term}/i]
+        1
+      else
+        comparison = a_name <=> b_name
+        if comparison == 0
+          comparison = a.compare_name <=> b.compare_name
+          if comparison == 0
+            a.name <=> b.name
+          else
+            comparison
+          end
+        else
+          comparison
+        end
+      end
+    end
+  end
+
   private
+
     def accuracy_score numerator, denominator
       (( (numerator * 100.0) / denominator) * 100 ).to_i / 100.0
     end

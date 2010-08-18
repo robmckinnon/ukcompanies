@@ -13,16 +13,23 @@ class Company < ActiveRecord::Base
 
   validates_uniqueness_of :company_number
 
-  NUMBER_PATTERN = /([A-Z][A-Z])?(\d)?(\d)?(\d)?\d\d\d\d\d([A-Z])?/
+  NUMBER_PATTERN = /([A-Z][A-Z])?\d\d\d\d(\d)?(\d)?(\d)?(\d)?([A-Z])?([A-Z])?/
 
   class << self
 
     # returns array of [company, score, match] elements
     def single_query term, limit=nil
-      if search = Search.find_by_term(term, :include => :companies)
+      term = Search.normalize_term(term)
+      if search = Search.find_from_term(term)
         search.reconciliation_results(term, limit)
       else
-        []
+        numbers_and_names = retrieve_company_numbers_and_names(term)
+        if numbers_and_names.empty?
+          []
+        else
+          search = Search.create_from_term(term, numbers_and_names)
+          search.reconciliation_results(term, limit)
+        end
       end
     end
 
@@ -53,7 +60,7 @@ class Company < ActiveRecord::Base
         end
       end
 
-      search ? search.companies : []
+      search ? search.sorted_companies : []
     end
 
     def numberfy text
@@ -185,20 +192,32 @@ class Company < ActiveRecord::Base
     end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
   end
 
-  def to_gridworks_hash(host='localhost')
+  def to_gridworks_hash
     hash = ActiveSupport::OrderedHash.new
-    hash[:id] = subject_indicator(host)
+    hash[:id] = subject_id
     hash[:name] = name
     hash[:type] = [{ :id => '/organization/organization', :name => 'Organization' }]
     hash
   end
 
   def subject_indicator(host)
-    "http://#{host}/#{country_code}/#{company_number}"
+    "http://#{host}#{subject_id}"
+  end
+
+  def subject_id
+    "/#{country_code}/#{company_number}"
   end
 
   def missing_attributes?
     company_category.blank?
+  end
+
+  def sort_name
+    @sort_name ||=  compare_name.sub(/^THE /,'').sub(/(\(?G\.?B\.?\)?)?(\(?U\.?K\.?\)?)?\s(\(?HOLDINGS\)?\s(COMPANY\s)?)?(GROUP\s)?(LIMITED|LTD|PLC|LLP)\.?$/,'').gsub(/\s(COMPANY|CORPORATION)\s?$/,'').gsub('&','AND').gsub(' - ',' ').tr('"','').tr('-',' ')
+  end
+
+  def compare_name
+    @compare_name ||= name.tr('(','').tr(')','')
   end
 
 end
