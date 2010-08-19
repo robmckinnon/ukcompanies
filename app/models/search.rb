@@ -9,6 +9,7 @@ class Search < ActiveRecord::Base
   class << self
     def normalize_term term
       term = term.squeeze(' ')
+      term.gsub!(' & ',' AND ')
       term = "#{term} " if term.size < 4 && !term.ends_with?(' ')
       term
     end

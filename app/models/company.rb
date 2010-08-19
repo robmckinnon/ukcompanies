@@ -75,7 +75,17 @@ class Company < ActiveRecord::Base
     end
 
     def numberfy text
-      text = text.gsub('1','one').gsub('2','two').gsub('3','three').gsub('4','four').gsub('5','five').gsub('6','six').gsub('7','seven').gsub('8','eight').gsub('9','nine').gsub('0','o')
+      text = text.gsub('1','one')
+      text.gsub!('2','two')
+      text.gsub!('3','three')
+      text.gsub!('4','four')
+      text.gsub!('5','five')
+      text.gsub!('6','six')
+      text.gsub!('7','seven')
+      text.gsub!('8','eight')
+      text.gsub!('9','nine')
+      text.gsub!('0','o')
+      text.gsub!(' & ',' AND ')
       if text[/^(.*) (group|limited|llp|ltd|plc)\.?$/i]
         text = $1
       end
@@ -87,21 +97,24 @@ class Company < ActiveRecord::Base
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
 
       no_space_name = numberfy(name.tr('- .',''))
-      alt_name = numberfy(name).gsub(' ','[^A-Z]')
+      name_regexp = numberfy(name).gsub(' ','[^A-Z]').gsub('(','\(').gsub(')','\)').gsub('[','\[').gsub(']','\]').gsub('?','\?').gsub('*','\*')
 
       if results && results.respond_to?(:co_search_items)
         items = results.co_search_items
-        logger.info items.size
+        logger.info 'items.size ' + items.size.to_s
 
         if numberfy(items.last.company_name).tr('- .','')[/#{no_space_name}/i]
           sleep 0.5
-          numbers_and_names = numbers_and_names + retrieve_company_numbers_and_names(name, 100, numbers_and_names, items.last.company_name.gsub('&','AND'))
+          numbers_and_names = numbers_and_names + retrieve_company_numbers_and_names(name, 100, numbers_and_names, items.last.company_name.gsub(' & ',' AND '))
           logger.info "numbers #{numbers_and_names.size} for #{last_name}"
         else
           logger.info "no more matches: #{items.last.company_name}"
         end
 
-        matches = items.select{|item| item.company_name[/#{name}/i] || numberfy(item.company_name)[/#{alt_name}/i]}
+        matches = items.select do |item|
+          item.company_name[/#{name}/i] || numberfy(item.company_name)[/#{name_regexp}/i]
+        end
+        logger.info 'matches.size ' + matches.size.to_s
         matches = matches.collect {|match| [match.company_number.strip, match.company_name.strip] }
         numbers_and_names = (matches + numbers_and_names).uniq
       end
@@ -194,13 +207,18 @@ class Company < ActiveRecord::Base
   end
 
   def to_more_xml(host='localhost')
-    to_xml(:except=>[:id,:created_at,:updated_at]) do |xml|
-      xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
-      xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
+    to_xml(:except=>[:id,:created_at,:updated_at,:address]) do |xml|
+      # xml.ogc_supplier(ogc_suppliers.empty? ? 'no' : 'yes')
+      # xml.lobbyist_client(lobbyist_clients.empty? ? 'unknown' : 'yes')
+      if address.blank?
+        xml.address
+      else
+        xml.address("<address-line>#{address.split("\n").join('</address-line><address-line>')}</address-line>")
+      end
       xml.id(subject_indicator(host))
       xml.long_url("#{subject_indicator(host)}/#{friendly_id}")
       xml.xml_url("#{subject_indicator(host)}.xml")
-    end.gsub('ogc_supplier','ogc-supplier').gsub('lobbyist_client','lobbyist-client').gsub('short_id','short-id')
+    end.gsub('&lt;address-line&gt;','<address-line>').gsub('&lt;/address-line&gt;','</address-line>')
   end
 
   def to_gridworks_hash

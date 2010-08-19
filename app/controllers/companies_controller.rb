@@ -59,7 +59,7 @@ class CompaniesController < ApplicationController
         elsif @companies.size == 1
           xml = @companies.first.to_more_xml
         else
-          xml = @companies.collect(&:to_more_xml).join("\n")
+          xml = @companies.collect{|x| x.to_more_xml(request.host) }.join("\n")
         end
         xml = xml.gsub('<?xml version="1.0" encoding="UTF-8"?>','')
         error = exception ? %Q| error="#{exception.to_s}"| : ''
