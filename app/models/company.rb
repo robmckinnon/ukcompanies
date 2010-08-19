@@ -97,7 +97,7 @@ class Company < ActiveRecord::Base
       results = CompaniesHouse.name_search(last_name, :search_rows => rows)
 
       no_space_name = numberfy(name.tr('- .',''))
-      name_regexp = numberfy(name).gsub(' ','[^A-Z]').gsub('(','\(').gsub(')','\)').gsub('[','\[').gsub(']','\]').gsub('?','\?').gsub('*','\*')
+      name_regexp = numberfy(name).gsub('(','\(').gsub(')','\)').gsub('[','\[').gsub(']','\]').gsub('?','\?').gsub('*','\*').gsub(' ','[^A-Z]')
 
       if results && results.respond_to?(:co_search_items)
         items = results.co_search_items
