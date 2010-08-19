@@ -7,7 +7,7 @@
   <%= logo_image(@company) %>
 <div class="panel">
   <p class="address">
-    <%= @company.address.gsub(/,|\n/,'<br />')%>
+    <%= @company.address ? @company.address.gsub(/,|\n/,'<br />') : '' %>
   </p>
   <p class="number">
     Company No. <%= @company.company_number %>

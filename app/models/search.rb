@@ -50,6 +50,10 @@ class Search < ActiveRecord::Base
     end
   end
 
+  def age_in_days
+    (Time.now - updated_at).to_f / 1.day.seconds
+  end
+
   def reconciliation_results(term, limit)
     results = limit ? companies.first(limit.to_i) : companies
 

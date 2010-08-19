@@ -47,6 +47,7 @@ describe Company do
       it 'should look for matching results' do
         Search.should_receive(:find_from_term).with(@q1).and_return @search
         @search.should_receive(:reconciliation_results).with(@q1, nil).and_return @results
+        @search.should_receive(:age_in_days).and_return 0.1
 
         results = Company.single_query(@q1)
 
@@ -73,6 +74,9 @@ describe Company do
         Company.should_receive(:retrieve_company_numbers_and_names).with(@q0).and_return []
         @search.should_receive(:reconciliation_results).with(@q1, 2).and_return @results1
         @search2.should_receive(:reconciliation_results).with("#{@q2} ", 2).and_return @results2
+
+        @search.should_receive(:age_in_days).and_return 0.1
+        @search2.should_receive(:age_in_days).and_return 0.1
 
         results = Company.multiple_query(@hash)
         results.should have_key('q0')

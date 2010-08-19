@@ -28,17 +28,20 @@ class Company < ActiveRecord::Base
     # returns array of [company, score, match] elements
     def single_query term, limit=nil
       term = Search.normalize_term(term)
-      if search = Search.find_from_term(term)
-        search.reconciliation_results(term, limit)
-      else
-        numbers_and_names = retrieve_company_numbers_and_names(term)
-        if numbers_and_names.empty?
-          []
-        else
-          search = Search.create_from_term(term, numbers_and_names)
-          search.reconciliation_results(term, limit)
-        end
+      search = Search.find_from_term(term)
+
+      if search && search.age_in_days > 2
+        search.destroy
+        search = nil
       end
+
+      unless search
+        numbers_and_names = retrieve_company_numbers_and_names(term)
+        search = Search.create_from_term(term, numbers_and_names)
+      end
+
+      results = search.reconciliation_results(term, limit)
+      results
     end
 
     # returns hash of keys to array of [company, score, match] elements
