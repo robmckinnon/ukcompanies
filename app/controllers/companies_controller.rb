@@ -108,6 +108,64 @@ class CompaniesController < ApplicationController
     end
   end
 
+  def preview
+    country_code = params[:country_code]
+    number = params[:number]
+    company = Company.find_from_company_number(number, country_code)
+    render :text => company.to_flyout
+  end
+
+  def flyout
+    puts params.inspect
+    if callback = params[:callback]
+      hash = {}
+      subject_id = params[:id]
+      parts = subject_id.split('/')
+      country_code = parts[1]
+      company_number = parts[2]
+      company = Company.find_from_company_number(company_number, country_code)
+
+      hash = { :id => subject_id, :html => company.to_flyout }
+      render :json => hash.to_json, :callback => callback
+    else
+      render :text => ''
+    end
+  end
+
+  def suggest
+    if callback = params[:callback]
+      puts params.inspect
+      start_timer
+      duration = stop_timer
+      term = params[:prefix]
+      start = params[:start] ? params[:start].to_i : 0
+
+      limit = start + 10
+      results = Company.single_query(term, limit)
+      remaining = results.size - start
+      results = if remaining > 0
+        results.last(remaining)
+      else
+        []
+      end
+      result = results.collect do |company, score, is_match|
+        company.to_gridworks_suggest_hash(score)
+      end
+      hash = {
+          :code => '/api/status/ok',
+          :cost => "#{duration} msec",
+          :prefix => term,
+          :result => result,
+          :start => limit,
+          :status => '200 OK',
+          :transaction_id => "cache;cache04.p01.sjc1:8101;2010-08-21T15:40:59Z;0048"
+      }
+      render :json => hash.to_json, :callback => callback
+    else
+      logger.info "'ERE"
+    end
+  end
+
   def reconcile
     start_timer
     if callback = params[:callback]
@@ -159,15 +217,23 @@ class CompaniesController < ApplicationController
     "url":"http://localhost:3000{{id}}"
   },
   "preview":{
-    "url":"http://localhost:3000{{id}}",
+    "url":"http://localhost:3000{{id}}/preview",
     "width":430,
     "height":300
+  },
+  "suggest" : {
+    "entity" : {
+      "service_url" : "http://localhost:3000/uk",
+      "service_path" : "/suggest",
+      "flyout_service_path" : "/flyout"
+    }
   },
   "defaultTypes":[{
       "id":"/organization/organization",
       "name":"Organization"
     }
   ]
+
 }|
     end
 

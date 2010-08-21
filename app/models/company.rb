@@ -121,8 +121,8 @@ class Company < ActiveRecord::Base
       numbers_and_names.compact.uniq
     end
 
-    def find_from_company_number(number)
-      company = find_by_company_number(number)
+    def find_from_company_number(number, country_code='uk')
+      company = find_by_company_number_and_country_code(number, country_code)
       if company && company.missing_attributes?
         attributes = attributes_for_number(number)
         company.update_attributes(attributes) if attributes
@@ -227,6 +227,32 @@ class Company < ActiveRecord::Base
     hash[:name] = name
     hash[:type] = [{ :id => '/organization/organization', :name => 'Organization' }]
     hash
+  end
+
+  def to_gridworks_suggest_hash score
+    {
+      :quid => id,
+      :id => subject_id,
+      'n:type' => { :id => '/organization/organization', :name => 'Organisation'},
+      :name => name,
+      'r:score' => score,
+      :type => [ company_category ]
+    }
+  end
+
+  def to_flyout
+#   <img id="fbs-topic-image" class="fbs-flyout-image-true" src="http://img.freebase.com/api/trans/image_thumb/en/best_defense?errorid=%2Ffreebase%2Fno_image_png&amp;mode=fit&amp;maxwidth=75" />
+%Q|<div id="fbs-topic-flyout" class="fbs-flyout-content">
+  <h1 id="fbs-flyout-title" class="fbs-flyout-image-false">#{name}</h1>
+  <h3 class="fbs-topic-properties fbs-flyout-image-false"><strong>Status:</strong> #{company_status}</h3>
+  <h3 class="fbs-topic-properties fbs-flyout-image-false"><strong>Company No:</strong> #{company_number}</h3>
+  <h3 class="fbs-topic-properties fbs-flyout-image-false"><strong>Incorporation:</strong> #{incorporation_date.to_s}</h3>
+  <p class="fbs-topic-article fbs-flyout-image-false">#{address.split("\n").join('<br />')}</p>
+</div>
+
+<div class="fbs-attribution">
+  <span class="fbs-flyout-types">#{company_category}</span>
+</div>|
   end
 
   def subject_indicator(host)

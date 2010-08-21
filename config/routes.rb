@@ -8,6 +8,9 @@ ActionController::Routing::Routes.draw do |map|
 
   with_controller :companies, map do |companies|
     companies.reconcile '/:country_code/reconcile', :action => 'reconcile'
+    companies.suggest '/:country_code/suggest', :action => 'suggest'
+    companies.flyout '/:country_code/flyout', :action => 'flyout'
+    companies.view '/:country_code/:number/preview', :action => 'preview'
 
     companies.with_options(number_requirements) do |number|
       number.show_by_number '/:country_code/:number', :action=>'show_by_number'
