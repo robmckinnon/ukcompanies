@@ -209,21 +209,26 @@ class CompaniesController < ApplicationController
     end
 
     def service_metadata
+      host = if RAILS_ENV == 'development'
+        'localhost:3000'
+      else
+        'companiesopen.org'
+      end
       %Q|{
   "name":"CompaniesOpen.org UK Reconciliation Service",
   "identifierSpace":"http://rdf.freebase.com/ns/type.object.id",
   "schemaSpace":"http://rdf.freebase.com/ns/type.object.id",
   "view":{
-    "url":"http://localhost:3000{{id}}"
+    "url":"http://#{host}{{id}}"
   },
   "preview":{
-    "url":"http://localhost:3000{{id}}/preview",
+    "url":"http://#{host}{{id}}/preview",
     "width":430,
     "height":300
   },
   "suggest" : {
     "entity" : {
-      "service_url" : "http://localhost:3000/uk",
+      "service_url" : "http://#{host}/uk",
       "service_path" : "/suggest",
       "flyout_service_path" : "/flyout"
     }
