@@ -16,7 +16,7 @@ class Search < ActiveRecord::Base
 
     def find_from_term term
       search = find_by_term(term, :include =>  {:companies => :slugs})
-      if search && search.term == term
+      if search && search.term[/#{term}/i]
         search
       else
         nil
