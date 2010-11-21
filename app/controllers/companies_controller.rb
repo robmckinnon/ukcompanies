@@ -27,6 +27,8 @@ class CompaniesController < ApplicationController
   end
 
   def search
+    redirect_to :controller => 'home', :action => 'index'
+=begin
     if params[:commit]
       params.delete(:commit)
       redirect_to params
@@ -75,6 +77,7 @@ class CompaniesController < ApplicationController
     else
       @companies = []
     end
+=end
   end
 
   def show
@@ -139,18 +142,23 @@ class CompaniesController < ApplicationController
       duration = stop_timer
       term = params[:prefix]
       start = params[:start] ? params[:start].to_i : 0
-
       limit = start + 10
-      results = Company.single_query(term, limit)
-      remaining = results.size - start
-      results = if remaining > 0
-        results.last(remaining)
+
+      result = if term && term.size > 2
+        results = Company.single_query(term, limit)
+        remaining = results.size - start
+        results = if remaining > 0
+          results.last(remaining)
+        else
+          []
+        end
+        results.collect do |company, score, is_match|
+          company.to_gridworks_suggest_hash(score)
+        end
       else
         []
       end
-      result = results.collect do |company, score, is_match|
-        company.to_gridworks_suggest_hash(score)
-      end
+
       hash = {
           :code => '/api/status/ok',
           :cost => "#{duration} msec",
@@ -210,7 +218,7 @@ class CompaniesController < ApplicationController
 
     def service_metadata
       host = if RAILS_ENV == 'development'
-        'localhost:3000'
+        'localhost:3003'
       else
         'companiesopen.org'
       end
