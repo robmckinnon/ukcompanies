@@ -1,36 +1,15 @@
 <% content_for :head do %>
 <link rel="alternate" type="application/rdf+xml" href="<%= show_it_formatted_path(:country_code=>@company.country_code, :number=>@company.company_number, :format => 'rdf') %>" />
 <% end %>
-<% @title= "#{@company.name} | Company No. #{@company.company_number} " %>
+<% @title= "#{@company.name} | #{@company.company_number} " %>
 <div id="profile">
-<h1><%= @company.name %></h1>
-  <%= logo_image(@company) %>
+<br />
+<h1><%= link_to @company.name, "http://opencorporates.com/companies/uk/#{@company.company_number}", :title=>"Information on #{@company.name} at OpenCorporates" %></h1>
 <div class="panel">
-  <p class="address">
-    <%= @company.address ? @company.address.gsub(/,|\n/,'<br />') : '' %>
-  </p>
-  <p class="number">
-    Company No. <%= @company.company_number %>
-  </p>
-  <p class="type">
-    Type: <%= @company.company_category %>
-  </p>
-  <p class="incorporation">
-    Incorporation: <%= @company.incorporation_date.to_s %>
-  </p>
-  <p class="incorporation">
-    Status: <%= @company.company_status %>
-  </p>
-  <p class="companies-direct-link">Companies House Direct link: <%= link_to @company.name, companies_house_url(:country_code=>@company.country_code, :number => @company.company_number) %></p>
-  <p class="number">
-    <% short_url = show_it_url(:id => @company.company_number) %>
-    Short URL: <%= link_to h(short_url), short_url %>
-  </p>
-  <p class="number">
-    <% xml_url = show_by_number_url(:country_code=>@company.country_code, :number => @company.company_number)+'.xml' %>
-    XML URL: <%= link_to h(xml_url), xml_url %>
-    <span style="font-size: 0.8em">(xml subject to change)</span>
-  </p>
+  <p class="number">Company No. <%= @company.company_number %></p>
+  <p style='font-size: 1.8em'>This Companies Open House service has closed.</p>
+  <p style='font-size: 1.8em'>Visit <%= link_to "OpenCorporates", "http://opencorporates.com/", :title=>"OpenCorporates :: The Open Database Of The Corporate World" %> for information on <%= link_to @company.name, "http://opencorporates.com/companies/uk/#{@company.company_number}", :title=>"Information on #{@company.name} at OpenCorporates" %></p>
+
 </div>
 <br style="clear: both" />
 </div>
