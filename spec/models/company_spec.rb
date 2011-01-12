@@ -2,16 +2,18 @@ require File.dirname(__FILE__) + '/../spec_helper'
 
 describe Company do
 
-  describe 'to gridworks hash' do
-    name = 'Canonical Limited'
-    company = Company.create :name => name, :company_number => '123', :country_code => 'uk'
-    hash = company.to_gridworks_hash
-    hash[:name].should == name
-    hash[:id].should == '/uk/123'
-    hash[:type].first[:id].should == '/organization/organization'
-    hash[:type].first[:name].should == 'Organization'
+  describe 'when asked for gridworks hash' do
+    it 'should create gridworks hash correctly' do
+      name = 'Canonical Limited'
+      company = Company.create :name => name, :company_number => '123', :country_code => 'uk'
+      hash = company.to_gridworks_hash
+      hash[:name].should == name
+      hash[:id].should == '/uk/123'
+      hash[:type].first[:id].should == '/organization/organization'
+      hash[:type].first[:name].should == 'Organization'
 
-    Company.delete_all
+      Company.delete_all
+    end
   end
 
   describe 'when creating friendly id' do

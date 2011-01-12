@@ -55,10 +55,21 @@ class Search < ActiveRecord::Base
     (Time.now - updated_at).to_f / 1.day.seconds
   end
 
+  def suggest_results(term, limit)
+    if exact_match = companies.detect {|company| Search.normalize_term(company.name) == term }
+      make_reconciliation_results term, [exact_match]
+    else
+      reconciliation_results(term, limit)
+    end
+  end
+
   def reconciliation_results(term, limit)
     results = limit ? companies.first(limit.to_i) : companies
+    make_reconciliation_results term, results
+  end
 
-    results.collect do |company|
+  def make_reconciliation_results term, companies
+    companies.collect do |company|
       is_match = false
       score = if term.size < company.name.size
         accuracy_score(term.size, company.name.size)

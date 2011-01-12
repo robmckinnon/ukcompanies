@@ -40,8 +40,25 @@ class Company < ActiveRecord::Base
         search = Search.create_from_term(term, numbers_and_names)
       end
 
-      results = search.reconciliation_results(term, limit)
-      results
+      search.reconciliation_results(term, limit)
+    end
+
+    # returns array of [company, score, match] elements
+    def suggest_query term, limit=nil
+      term = Search.normalize_term(term)
+      search = Search.find_from_term(term)
+
+      if search && search.age_in_days > 2
+        search.destroy
+        search = nil
+      end
+
+      unless search
+        numbers_and_names = retrieve_company_numbers_and_names(term)
+        search = Search.create_from_term(term, numbers_and_names)
+      end
+
+      search.suggest_results(term, limit)
     end
 
     # returns hash of keys to array of [company, score, match] elements
